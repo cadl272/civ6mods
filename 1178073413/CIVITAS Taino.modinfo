@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e6175fc8-e018-4d21-b52a-f6d5aeb292a5" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GOVERNMENT] Taíno</Name>
+    <Description>Adds the Taíno as a new civilization in Civilization VI.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds the Taíno as a new civilization in Civilization VI.</Teaser>
+    <Authors>ChimpanG</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6" title="CIVITAS City-States Expanded" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="Anacaona" />
+    <Criteria id="XP1">
+      <RuleSetInUse>
+        <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+      </RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Taino_Setup_Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Taino_Setup_Icons">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_Government] Taino.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Taino_Setup_Colors">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Taino_DB">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Civilization.sql</File>
+      <File>Core/Taino_UA.sql</File>
+      <File>Core/Taino_UI.sql</File>
+      <File>Core/Taino_UU.sql</File>
+      <File>Core/Taino_UP.sql</File>
+      <File>Core/Taino_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Taino_Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Taino_Icons">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_Government] Taino.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="Taino_Scripts">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Scripts.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="Taino_Colors">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Taino_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Assets/DIS_CVS_BATEY_Base_01.ast</File>
+    <File>Assets/DIS_CVS_BATEY_Base_02.ast</File>
+    <File>Assets/DIS_CVS_BATEY_Base_03.ast</File>
+    <File>Assets/DIS_CVS_BATEY_Base_04.ast</File>
+    <File>CIVITAS [ICON_Government] Taino.dep</File>
+    <File>Core/Taino_Civilization.sql</File>
+    <File>Core/Taino_Colors.sql</File>
+    <File>Core/Taino_Icons.sql</File>
+    <File>Core/Taino_Localisation.sql</File>
+    <File>Core/Taino_ModSupport.sql</File>
+    <File>Core/Taino_Scripts.lua</File>
+    <File>Core/Taino_UA.sql</File>
+    <File>Core/Taino_UI.sql</File>
+    <File>Core/Taino_UP.sql</File>
+    <File>Core/Taino_UU.sql</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/LensAssets.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_TAINO_OVERLAY</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_TAINO_PRESSURE_2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_districts.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LensAssets.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_TAINO_OVERLAY</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_CIVILIZATION_CVS_TAINO_PRESSURE_2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_districts.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LensAssets.xlp</File>
+    <File>XLPs/StrategicView_Districts.xlp</File>
+    <File>XLPs/Tilebases.xlp</File>
+  </Files>
+</Mod>

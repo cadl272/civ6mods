@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	181250544	Play_Rhapsody			\Default Work Unit\Play_Rhapsody	
+	381598925	Play_MapleLeaf			\Default Work Unit\Play_MapleLeaf	
+	621364171	Play_Ipanema			\Default Work Unit\Play_Ipanema	
+	648112088	Play_American			\Default Work Unit\Play_American	
+	764278924	Play_RiteofSpring			\Default Work Unit\Play_RiteofSpring	
+	808525906	Play_Hounddog			\Default Work Unit\Play_Hounddog	
+	981700089	Play_Entertainer			\Default Work Unit\Play_Entertainer	
+	1308864126	Play_Baba			\Default Work Unit\Play_Baba	
+	1397496720	Play_PeopleAretheHeroes			\Default Work Unit\Play_PeopleAretheHeroes	
+	1915486639	Play_StarWars			\Default Work Unit\Play_StarWars	
+	2043945311	Stop_Magnum_Opus_1			\Default Work Unit\Stop_Magnum_Opus_1	
+	2866408836	Play_Chega			\Default Work Unit\Play_Chega	
+	2892864121	Play_Lux			\Default Work Unit\Play_Lux	
+	3246236687	Play_ShakerLoops			\Default Work Unit\Play_ShakerLoops	
+	3291071886	Play_Sogno			\Default Work Unit\Play_Sogno	
+	3488850057	Play_Atmospheres			\Default Work Unit\Play_Atmospheres	
+	3701343554	Play_HarryPotter			\Default Work Unit\Play_HarryPotter	
+	3878082243	Play_ATrain			\Default Work Unit\Play_ATrain	
+	3936891815	Play_Firebird			\Default Work Unit\Play_Firebird	
+	4013338492	Play_Caravan			\Default Work Unit\Play_Caravan	
+	4208691806	Play_Jailhouse			\Default Work Unit\Play_Jailhouse	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	35099563	HarryPotter	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\HarryPotter_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HarryPotter		2326760
+	62233276	Atmospheres	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Atmospheres_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres		2554388
+	231901994	Hounddog	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Hounddog_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hounddog		2997032
+	279482991	Chega	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Chega_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chega		2159992
+	338287154	AmericanInParis	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\AmericanInParis_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmericanInParis		1780560
+	419608099	Ipanema	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Ipanema_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ipanema		2567376
+	502047498	Jailhouse	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Jailhouse_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jailhouse		4113760
+	505937426	Firebird	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Firebird_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Firebird		1999804
+	573287273	Rhapsody	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Rhapsody_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rhapsody		2993544
+	583459165	RiteofSpring	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\RiteofSpring_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\RiteofSpring		3361540
+	600606136	ATrain	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\ATrain_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ATrain		3067968
+	676896544	StarWars	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\StarWars_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\StarWars		3158276
+	712790622	MapleLeaf	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\MapleLeaf_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\MapleLeaf		3242400
+	718987781	Caravan	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Caravan_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Caravan		2470280
+	723063291	ShakerLoops	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\ShakerLoops_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ShakerLoops		4204016
+	787992702	Sogno	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Sogno_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sogno		3101412
+	897780467	Baba	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Baba_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baba		3989884
+	920999698	Entertainer	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Entertainer_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Entertainer		3968312
+	995477723	PeopleAretheHeroes	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\PeopleAretheHeroes_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PeopleAretheHeroes		3067992
+	1029063026	Lux	C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\SFX\Lux_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lux		2652660
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CIVITAS_CORY_1"/>
+			<m_ObjectName text="CIVITAS_CORY_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVITAS_CORY_2"/>
+			<m_ObjectName text="CIVITAS_CORY_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIVITAS_CORY_4"/>
+			<m_ObjectName text="CIVITAS_CORY_4"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_256"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_32"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_45"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_50"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_55"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_64"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_CIVITAS_CORY_80"/>
+			<m_ObjectName text="ICON_LEADER_CIVITAS_CORY_80"/>
+		</Element>
+
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

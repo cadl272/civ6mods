@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CVS_Seljuq_AlpArslan_Config -->
+<!-- Author: thecrazyscotsman -->
+<!-- DateCreated: 1/22/2018 2:51:27 PM -->
+<GameInfo>
+	<Players>
+		<Row Domain="Players:Expansion1_Players"
+		CivilizationType="CVS_CIVILIZATION_SELJUQ"
+		CivilizationName="LOC_CVS_CIVILIZATION_SELJUQ_DESCRIPTION"
+		CivilizationIcon="ICON_CVS_SELJUQ_ALP_ARSLAN"
+		CivilizationAbilityName="LOC_CVS_TRAIT_CIVILIZATION_SIYASATNAMA_NAME"
+		CivilizationAbilityDescription="LOC_CVS_TRAIT_CIVILIZATION_SIYASATNAMA_DESCRIPTION"
+		CivilizationAbilityIcon="ICON_CVS_SELJUQ_ALP_ARSLAN"
+		LeaderType="CVS_LEADER_ALP_ARSLAN"
+		LeaderName="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_TITLE"
+		LeaderIcon="ICON_CVS_LEADER_ALP_ARSLAN"
+		LeaderAbilityName="LOC_CVS_TRAIT_LEADER_ORDER_OF_THE_REALM_NAME"
+		LeaderAbilityDescription="LOC_CVS_TRAIT_LEADER_ORDER_OF_THE_REALM_DESCRIPTION"
+		LeaderAbilityIcon="ICON_CVS_CIVILIZATION_SELJUQ_ALP_ARSLAN"
+		Portrait="LEADER_CVS_ALP_ARSLAN_NEUTRAL"
+		PortraitBackground="CVS_LEADER_ALP_ARSLAN_BACKGROUND"/>
+	</Players>
+	<PlayerItems>
+		<Row Domain="Players:Expansion1_Players"
+		CivilizationType="CVS_CIVILIZATION_SELJUQ"
+		LeaderType="CVS_LEADER_ALP_ARSLAN"
+		Type="CVS_UNIT_SARBAZ"
+		Icon="ICON_CVS_UNIT_SARBAZ"
+		Name="LOC_CVS_UNIT_SARBAZ_NAME"
+		Description="LOC_CVS_UNIT_SARBAZ_DESCRIPTION"
+		SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players"
+		CivilizationType="CVS_CIVILIZATION_SELJUQ"
+		LeaderType="CVS_LEADER_ALP_ARSLAN"
+		Type="CVS_IMPROVEMENT_CARAVANSERAI"
+		Icon="ICON_CVS_IMPROVEMENT_CARAVANSERAI"
+		Name="LOC_CVS_IMPROVEMENT_CARAVANSERAI_NAME"
+		Description="LOC_CVS_IMPROVEMENT_CARAVANSERAI_DESCRIPTION"
+		SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players"
+		CivilizationType="CVS_CIVILIZATION_SELJUQ"
+		LeaderType="CVS_LEADER_ALP_ARSLAN"
+		Type="CVS_UNIT_VIZIER"
+		Icon="ICON_CVS_UNIT_VIZIER"
+		Name="LOC_CVS_UNIT_VIZIER_NAME"
+		Description="LOC_CVS_UNIT_VIZIER_DESCRIPTION"
+		SortIndex="30"/>
+	</PlayerItems>
+</GameInfo>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\User\Documents\WwiseProjects\Darius_Audio\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\User\Documents\WwiseProjects\Darius_Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\User\Documents\WwiseProjects\Darius_Audio\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="385815481" Language="SFX">
+			<ShortName>Darius_SoundBank2</ShortName>
+			<Path>Darius_SoundBank2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3480576144" Name="DariusAttacked"/>
+				<Event Id="163832339" Name="DariusDeclareWar"/>
+				<Event Id="2699270129" Name="DariusDefeated"/>
+				<Event Id="3892016373" Name="DariusHateHello"/>
+				<Event Id="2159853983" Name="DariusIntro"/>
+				<Event Id="844238044" Name="DariusPeaceful"/>
+				<Event Id="715590555" Name="DariusStop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="35356066" Language="SFX">
+					<ShortName>DariusGreeting.wav</ShortName>
+					<Path>SFX\DariusGreeting_9E69E797.wem</Path>
+				</File>
+				<File Id="148514346" Language="SFX">
+					<ShortName>DariusPeaceful.wav</ShortName>
+					<Path>SFX\DariusPeaceful_9E69E797.wem</Path>
+				</File>
+				<File Id="460350882" Language="SFX">
+					<ShortName>DariusAttacked.wav</ShortName>
+					<Path>SFX\DariusAttacked_9E69E797.wem</Path>
+				</File>
+				<File Id="715528096" Language="SFX">
+					<ShortName>DariusDeclareWar.wav</ShortName>
+					<Path>SFX\DariusDeclareWar_9E69E797.wem</Path>
+				</File>
+				<File Id="746994460" Language="SFX">
+					<ShortName>DariusDefeated.wav</ShortName>
+					<Path>SFX\DariusDefeated_9E69E797.wem</Path>
+				</File>
+				<File Id="748359685" Language="SFX">
+					<ShortName>DariusHateHello.wav</ShortName>
+					<Path>SFX\DariusHateHello_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

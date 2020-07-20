@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_CIVITAS_CORY_NAME" Language="en_US">
+			<Text>Corazon Aquino</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_QUOTE" Language="en_US">
+			<Text>I would rather die a meaningful death than to live a meaningless life.</Text>
+		</Row>
+		<!-- Dedications to Eucleia -->
+		<Row Tag="LOC_AGENDA_CIVITAS_CORY_PEOPLE_POWER_NAME" Language="en_US">
+			<Text>People Power President</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_CIVITAS_CORY_PEOPLE_POWER_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that keep their people happy. Dislikes civilizations with unhappy citizens and also those with other governments.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_CIVITAS_CORY_PEOPLE_POWER_HAPPY_PEOPLE" Language="en_US">
+			<Text>(Your citizens are happy.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CIVITAS_CORY_REASON_HAPPY_PEOPLE" Language="en_US">
+			<Text>Corazon Aquino is pleased that your people are happy and thriving.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_CIVITAS_CORY_PEOPLE_POWER_SAD_PEOPLE" Language="en_US">
+			<Text>(Your citizens are unhappy.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CIVITAS_CORY_REASON_SAD_PEOPLE" Language="en_US">
+			<Text>Corazon Aquino sees that your people are unhappy under your rule.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_CIVITAS_CORY_PEOPLE_POWER_DIFF_GOV" Language="en_US">
+			<Text>(You follow a different government.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CIVITAS_CORY_REASON_DIFF_GOV" Language="en_US">
+			<Text>Corazon Aquino believes you to be a tyrant.</Text>
+		</Row>
+		<!-- DOM -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_CIVITAS_CORY" Language="en_US">
+			<Text>Greetings, Corazon Aquino: Mother of Asian Democracy. From a plain housewife to the first female President of the Philippines, you have made great strides in your struggle against tryanny. Now, let your people reap the riches of the Philippines and fling open the doors to visitors, that they may sample a taste of these Fiesta Islands. The people look to you to guide them, for you have shown them the power that they possess. You have brought peaceful revolution to the Philippines - what will you do now?</Text>
+		</Row>
+		<!-- Traits -->
+		<Row Tag="LOC_TRAIT_LEADER_CIVITAS_CORY_INA_ING_DEMOKRASYA_NAME" Language="en_US">
+			<Text>Ina ng Demokrasya</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CIVITAS_CORY_INA_ING_DEMOKRASYA_DESCRIPTION" Language="en_US">
+			<Text>One Military policy slot in the current government slot is converted to a Wildcard policy slot. Great Works of Music produce 3 times the normal amount of [ICON_Tourism] Tourism, and cities with a National Park produce 15% more Gold [ICON_Gold].</Text>
+		</Row>
+
+		<!-- Civiliopedia -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_TITLE" Language="en_US">
+			<Text>Corazon Aquino</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_SUBTITLE" Language="en_US">
+			<Text>President of the Philippines</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Eurydice I was the wife of King Amyntas III. She is believed to have been of Lyncestian ancestry, although writers such as Plutarch hold that she was Illyrian. Eurydice, with Amynatas, had three sons - Alexander II, Perdiccas III, and Philip II - all of whom would become King of Macedon. She was also the grandmother of Alexander the Great.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Eurydice was born between 410 and 404 BCE to a noble named Sirras. She married Amyntas in her 20s, probably as a diplomatic attempt to secure peace between Macedon and her people. Amyntas's rule was tumultous; Greek Chalcidians took a large portion of the kingdom, including Pella, until Sparta intervened. Nevertheless, Eurydice was able to supplant Amyntas's primary wife Gygaea to assume the title of Queen. Amyntas III died c. 370 BCE and the kingdom soon began to experience grave troubles. Eurydice's first son, Alexander II took the throne but was killed 2 years later by Ptolemy of Aloros; an agreement worked out by Theban statesman Pelopidas preserved some Macedonian sovereignty, as Ptolemy became regent for Eurydice's two other sons. To protect them, Eurydice married Ptolemy. During Ptolemy's regency for Perdiccas, a noble named Pausanias attempted to usurp the throne. Eurydice asked for help from the Athenian general Iphicrates, who succeeded in driving out Pausanias. Eurydice's bold action likely saved the kingdom and was an extraordinary act for a woman at this time. For this and other reasons, Eurydice's reign is often believed to have marked a turning point in the role of women in Macedon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Eurydice was very much involved in the affairs of state and the culture of Macedon. She is believed to have funded the construction of a temple dedicated to Eucleia, the female spirit of glory, at Vergina. She is also believed to have learned to read and write late in her life - a talent she believed was a gift of the Muses. The date of her death is unknown, but it is believed to have been between 365 and 359 BCE, meaning that she probably died before seeing her youngest son, Philip II, assume the throne. Philip and his descendants did not forget about Eurydice, however; her portrait-statue was included as part of the Philippeion at Olympia, built to commemorate Philip's victory at the Battle of Chaeronea in 338 BCE. Though little is solidly known about the life of Eurydice, her valor and bravery outlived her. Aeschines considered her to be a loyal defender of her sons, and Plutarch wrote that she was a model to emulate when educating children.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Eurydice's greatest strengths lie in her relationships with her allies. If you can isolate her diplomatically, her advantages will crumble. Be wary, however, for though she may seem to be more oriented towards defense, Macedonian troops can still pack quite the punch!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CIVITAS_CORY_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>As Eurydice, your greatest advantage is unlocked midway through civics tree at Civil Service, which unlocks alliances; unlocking this civic should be a priority for you. Before reaching the medieval era, try to cultivate friendships with nearby civs that you can then elevate into alliances. Also feel free to try and pursue a religion in the early game; with the bonus science from Holy Site buildings, focusing on early religion won't be as punishing for you as it might be for other leaders.</Text>
+		</Row>
+		<!-- Diplomacy -->
+		<!--FIRST MEET-->
+		<!--First AI line-->		
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Kumusta - I am Corazon Aquino, President of the Philippines. What brings you here to our island country?</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Would you care to visit one of the Fiesta Islands' many splendors?</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>How delightful - I look foward to visiting your country.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Let us exchange information about our capitals - to work together requires we know where the other one is, no?</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Hello again.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>I am most grateful for your generosity.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>I'm afraid I must turn your gifts away at this time.</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Please accept these tokens of my esteem: fresh coconuts, a stylish Barong Tagalog, and samples of some of my favorite Original Pilipino music!</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>A country must be open if it is to be free - I accept.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Ha! So that you can make yourself at home at Subic Bay? I swear that you shall not enter this country.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>The path to peace and democracy is a global one - may we enter your lands in pursuit of that goal?</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Of course! We, the Filipinos, thank you for what you do.</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Impossible.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Do you consider yourself a friend of freedom - Would you proclaim to be a friend of the Philippines?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Outstanding.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>A disappointing decision.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Will you stand with me? The People Power Revolution is not something for only the Philippines; others around the world must know the sweet taste of freedom.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->	
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>You understand that freedom is essential, and your people relish their liberties.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>You crush your people under the weight of your tyranny. Can't you see the harm you are doing?</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>The sovereignty of the Philippines must be respected. Remove your troops at once.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>A fair exchange for both our nations - I accept.</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>I cannot accept this.</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>Your disregard for the rights of your citizens has become too much for me to bear. The Philippines hereby denounces your crimes to the world.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>You crush the spirit of freedom; you seek to break it by indignities and terror. I cannot abide by that (Denounces You).</Text>
+		</Row>	
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>You may think me but a humble housewife, but I will fight for my country until the very end. I shall not submit.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>You have gone too far - the spirit of democracy that inheres in our race and animates my actions can not be allowed to die.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>I agree - now is the time for peace.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>No, the score is not yet settled.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>I come to you to ask for a cessation of hostilities. What do you say?</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>And so it seems I must lay to rest this restless dream of Philippine freedom.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CIVITAS_CORY_ANY" Language="en_US">
+			<Text>And so it seems I must lay to rest this restless dream of Philippine freedom.</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>

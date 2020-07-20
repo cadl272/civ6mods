@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_Building_1"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_Building_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_Building_2"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_Building_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_Building_3"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_Building_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_Building_4"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_Building_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_BuildingMain_1"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_BuildingMain_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_BuildingMain_2"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_BuildingMain_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_BuildingMain_3"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_BuildingMain_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_Building_Palace"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_Building_Palace"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_SWITZERLAND_UI_Base"/>
+			<m_ObjectName text="CVS_SWITZERLAND_UI_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_COM_Kantonsparlament"/>
+			<m_ObjectName text="DIS_COM_Kantonsparlament"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

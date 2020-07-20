@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="841a5377-42a7-412e-bf15-d382e72bda4a" version="1">
+  <Properties>
+    <Name>CIVITAS - Corazon Aquino</Name>
+    <Description>Adds Corazon Aquino as an alternate leader for the Filipino civilization.</Description>
+    <Teaser>Adds Corazon Aquino as an alternate leader for the Filipino civilization.</Teaser>
+    <Authors>SeelingCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="46a14591-6338-4567-ad3e-8c18f135ca09" title="CIVITAS [ICON_Government] [COLOR_FLOAT_CULTURE]Philippines" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Cory_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Core/CoryText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Core/CoryIcons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>CIVITAS - Corazon Aquino.dep</File>
+    </UpdateArt>
+    <UpdateColors id="UpdateColors">
+      <File>Core/CoryColors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Cory_GameDefines.sql</File>
+      <File>ModSupport/CoryModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Core/CoryText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Core/CoryIcons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>CIVITAS - Corazon Aquino.dep</File>
+    </UpdateArt>
+    <UpdateColors id="UpdateColors">
+      <File>Core/CoryColors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS - Corazon Aquino.dep</File>
+    <File>Core/CoryColors.sql</File>
+    <File>Core/CoryIcons.xml</File>
+    <File>Core/CoryText.xml</File>
+    <File>Core/Cory_Config.sql</File>
+    <File>Core/Cory_GameDefines.sql</File>
+    <File>ModSupport/CoryModSupport.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/CIVITAS_CORY_1.dds</File>
+    <File>Textures/CIVITAS_CORY_1.tex</File>
+    <File>Textures/CIVITAS_CORY_2.dds</File>
+    <File>Textures/CIVITAS_CORY_2.tex</File>
+    <File>Textures/CIVITAS_CORY_4.dds</File>
+    <File>Textures/CIVITAS_CORY_4.tex</File>
+    <File>Textures/FALLBACK_NEUTRAL_CIVITAS_CORY.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_CIVITAS_CORY.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_256.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_256.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_32.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_32.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_45.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_45.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_50.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_50.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_55.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_55.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_64.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_64.tex</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_80.dds</File>
+    <File>Textures/ICON_LEADER_CIVITAS_CORY_80.tex</File>
+    <File>Textures/LEADER_CIVITAS_CORY_NEUTRAL.dds</File>
+    <File>Textures/LEADER_CIVITAS_CORY_NEUTRAL.tex</File>
+    <File>XLPs/UIIcons.xlp</File>
+  </Files>
+</Mod>

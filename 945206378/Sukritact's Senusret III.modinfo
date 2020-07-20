@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="df005ad9-29da-4646-8066-34886b3185d2" version="1">
+  <Properties>
+    <Name>Sukritact's Senusret III (Egypt)</Name>
+    <Description>Adds Senusret III to the game as an alternate leader for Egypt.</Description>
+    <Teaser>Adds Senusret III to the game as an alternate leader for Egypt.</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" title="Tomatekh's Historical Religions" />
+    <Mod id="650ff782-47b4-4b46-93fb-00bef8da8b8e" title="JFD's Rule with Faith" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" title="Yet (not) Another Maps Pack" />
+    <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="Moar Units" />
+  </References>
+  <FrontEndActions>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Sukritact's Senusret III.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="UpdateColors">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/GameDefines.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Sukritact's Senusret III.dep</File>
+    </UpdateArt>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Icons.sql</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <File>Lua/Suk_Senusret_III_CoreFunctions.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="UpdateColors">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>Core/Colors.sql</File>
+    <File>Core/Config.sql</File>
+    <File>Core/GameDefines.sql</File>
+    <File>Core/Icons.sql</File>
+    <File>Core/Localisation.sql</File>
+    <File>Lua/Suk_Senusret_III_CoreFunctions.lua</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact's Senusret III.dep</File>
+    <File>Textures/LEADER_SUK_SENUSRET_III_NEUTRAL.dds</File>
+    <File>Textures/Suk_Senusret_III_Atlas_256.dds</File>
+    <File>Textures/Suk_Senusret_III_Atlas_Civ_45.dds</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UITextures.xlp</File>
+  </Files>
+</Mod>

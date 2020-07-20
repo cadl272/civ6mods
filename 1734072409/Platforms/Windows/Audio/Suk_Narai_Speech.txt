@@ -1,0 +1,38 @@
+Event	ID	Name			Wwise Object Path	Notes
+	128742432	Play_Suk_Narai_First_Meet			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_First_Meet	
+	1305080459	Play_Suk_Narai_Kudo			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_Kudo	
+	1581117225	Play_Suk_Narai_Metal_Creak_02			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_Metal_Creak_02	
+	2024220036	Play_Suk_Narai_Metal_Creak			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_Metal_Creak	
+	3052046201	Play_Suk_Narai_Declare_War			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_Declare_War	
+	3138954600	Stop_Speech_Suk_Narai			\Speech\Leaders\Suk_Narai\Stop_Speech_Suk_Narai	
+	3629307256	Play_Suk_Narai_Warning			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_Warning	
+	3978994971	Play_Suk_Narai_Attacked			\Speech\Leaders\Suk_Narai\Play_Suk_Narai_Attacked	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3441926412	Game_Views			\Default Work Unit\Game_Views	
+
+State	ID	Name	State Group			Notes
+	138330285	Lens	Game_Views			
+	319258907	Paused	Game_Views			
+	706390200	Normal_View	Game_Views			
+	748895195	None	Game_Views			
+	2005704188	Main_Menu	Game_Views			
+	2664707777	Leader_Screen	Game_Views			
+	4264815106	Endgame	Game_Views			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	43208154	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai		
+	70357325	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai		
+	857707260	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai		
+	859377526	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai		
+	883841661	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	48016771	Suk_Narai_Declare_War_Modulated	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_Declare_War_Modulated_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai\Suk_Narai_Declare_War_Modulated		53578
+	120220273	Suk_Narai_Warning_Modulated	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_Warning_Modulated_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai\Suk_Narai_Warning_Modulated		68256
+	351973911	Suk_Narai_MetalCreak	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_MetalCreak_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Cues\Leader SFX\Leader_SFX\Suk_Narai\Suk_Narai_MetalCreak		5823
+	415854847	Suk_Narai_MetalCreak_2	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_MetalCreak_2_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Game_Cues\Leader SFX\Leader_SFX\Suk_Narai\Suk_Narai_MetalCreak_2		1973
+	566034379	Suk_Narai_Intro_Modulated	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_Intro_Modulated_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai\Suk_Narai_Intro_Modulated		61213
+	742182162	Suk_Narai_Attacked_Modulated	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_Attacked_Modulated_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai\Suk_Narai_Attacked_Modulated		93152
+	1025657446	Suk_Narai_Kudo_Modulated	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\SFX\Suk_Narai_Kudo_Modulated_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Suk_Narai\Suk_Narai_Kudo_Modulated		50288
+

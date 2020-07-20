@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CVS_SELJUQ_Text -->
+<!-- Author: thecrazyscotsman -->
+<!-- DateCreated: 8/30/2017 1:40:51 PM -->
+<GameData>
+	<LocalizedText>
+		<!--CIVILIZATION-->
+		<Replace Tag="LOC_CVS_CIVILIZATION_SELJUQ_NAME" Language="en_US">
+			<Text>Seljuq</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_CIVILIZATION_SELJUQ_DESCRIPTION" Language="en_US">
+			<Text>Seljuq</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_CIVILIZATION_SELJUQ_ADJECTIVE" Language="en_US">
+			<Text>Seljuq</Text>
+		</Replace>
+
+		<!--CIVILIZATION INFO-->
+		<Replace Tag="LOC_CIVINFO_CVS_SELJUQ_LOCATION" Language="en_US">
+			<Text>Centered in Iran, stretching west into Palestine and Anatolia and east into central Asia</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_CVS_SELJUQ_SIZE" Language="en_US">
+			<Text>3,900,000 square km at greatest extent</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_CVS_SELJUQ_POPULATION" Language="en_US">
+			<Text>Demographic data is not available, but estimates range from 5 - 10 million</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_CVS_SELJUQ_CAPITAL" Language="en_US">
+			<Text>Isfahan</Text>
+		</Replace>
+
+		<!--CIVILOPEDIA-->
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_CVS_IMPROVEMENT_CARAVANSERAI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A caravanserai was a roadside inn where travelers (caravaners) could rest and recover from the day's journey. Caravanserais supported the flow of commerce, information and people across the network of trade routes covering Asia, North Africa and Southeast Europe, especially along the Silk Road.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_CVS_IMPROVEMENT_CARAVANSERAI_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Most typically a caravanserai was a building with a square or rectangular walled exterior, with a single portal wide enough to permit large or heavily laden beasts such as camels to enter. The courtyard was almost always open to the sky, and the inside walls of the enclosure were outfitted with a number of identical animal stalls, bays, niches or chambers to accommodate merchants and their servants, animals, and merchandise.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_CVS_IMPROVEMENT_CARAVANSERAI_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Caravanserais provided water for human and animal consumption, washing and ritual purification such as wudu and ghusl. Sometimes they had elaborate baths. They also kept fodder for animals and had shops for travellers where they could acquire new supplies. In addition, some shops bought goods from the travelling merchants.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_SARBAZ_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>While the Seljuqs themselves preferred to fight primarily on horseback, befitting their steppe nomadic origins, they were supported by levies of footsoldiers taken from the lands they ruled over. These levies supported the cavalry forces and were also used for constabulary and border guard duties. Relatively lightly armed, they had greater mobility and flexibility than the heavier armored troops of their usual adversaries.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Seljuk empire was founded by Tughril Beg (1016–63) in 1037. Tughril was raised by his grandfather, Seljuk-Beg, who was in a high position in the Oghuz Yabgu State. Seljuk gave his name to both the Seljuk empire and the Seljuk dynasty. The Seljuks united the fractured political scene of the eastern Islamic world and played a key role in the first and second crusades. Highly Persianized in culture and language, the Seljuks also played an important role in the development of the Turko-Persian tradition, even exporting Persian culture to Anatolia. The settlement of Turkic tribes in the northwestern peripheral parts of the empire, for the strategic military purpose of fending off invasions from neighboring states, led to the progressive Turkicization of those areas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Tughril was the grandson of Seljuq and brother of Chaghri, under whom the Seljuks wrested an empire from the Ghaznavids. Initially the Seljuqs were repulsed by Mahmud and retired to Khwarezm, but Tughril and Chaghri led them to capture Merv and Nishapur (1037). Later they repeatedly raided and traded territory with his successors across Khorasan and Balkh and even sacked Ghazni in 1037. In 1040 at the Battle of Dandanaqan, they decisively defeated Mas'ud I of the Ghaznavids, forcing him to abandon most of his western territories to the Seljuqs. In 1055, Tughril captured Baghdad from the Shi'a Buyids under a commission from the Abbasids.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Alp Arslan, the son of Chaghri Beg, expanded significantly upon Tughril's holdings by adding Armenia and Georgia in 1064 and invading the Byzantine Empire in 1068, from which he annexed almost all of Anatolia. Arslan's decisive victory at the Battle of Manzikert in 1071 effectively neutralized the Byzantine resistance to the Turkish invasion of Anatolia. He authorized his Turkmen generals to carve their own principalities out of formerly Byzantine Anatolia, as atabegs loyal to him. Within two years the Turkmens had established control as far as the Aegean Sea under numerous beghliks (modern Turkish beyliks): the Saltukids in Northeastern Anatolia, the Shah-Armens and the Mengujekids in Eastern Anatolia, Artuqids in Southeastern Anatolia, Danishmendis in Central Anatolia, Rum Seljuqs (Beghlik of Suleyman, which later moved to Central Anatolia) in Western Anatolia, and the Beylik of Tzachas of Smyrna in İzmir (Smyrna).</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Under Alp Arslan's successor, Malik Shah, and his two Persian viziers, Nizām al-Mulk and Tāj al-Mulk, the Seljuq state expanded in various directions, to the former Iranian border of the days before the Arab invasion, so that it soon bordered China in the east and the Byzantines in the west. Malikshāh moved the capital from Rey to Isfahan and it was during his reign that the Great Seljuk Empire reached its zenith. The Iqta military system and the Nizāmīyyah University at Baghdad were established by Nizām al-Mulk, and the reign of Malikshāh was reckoned the golden age of "Great Seljuq". The Abbasid Caliph titled him "The Sultan of the East and West" in 1087. The Assassins (Hashshashin) of Hassan-i Sabāh started to become a force during his era, however, and they assassinated many leading figures in his administration; according to many sources these victims included Nizām al-Mulk.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>The Seljuq power was at its zenith under Malikshāh I, and both the Qarakhanids and Ghaznavids had to acknowledge the overlordship of the Seljuqs. The Seljuq dominion was established over the ancient Sasanian domains, in Iran and Iraq, and included Anatolia as well as parts of Central Asia and modern Afghanistan. The Seljuk rule was modelled after the tribal organization common in Turkic and Mongol nomads and resembled a 'family federation' or 'appanage state'. Under this organization, the leading member of the paramount family assigned family members portions of his domains as autonomous appanages.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>When Malikshāh I died in 1092, the empire split as his brother and four sons quarrelled over the apportioning of the empire among themselves. Malikshāh I was succeeded in Anatolia by Kilij Arslan I, who founded the Sultanate of Rum, and in Syria by his brother Tutush I. In Persia he was succeeded by his son Mahmud I, whose reign was contested by his other three brothers Barkiyaruq in Iraq, Muhammad I in Baghdad, and Ahmad Sanjar in Khorasan. When Tutush I died, his sons Radwan and Duqaq inherited Aleppo and Damascus respectively and contested with each other as well, further dividing Syria amongst emirs antagonistic towards each other.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>In 1118, the third son Ahmad Sanjar took over the empire. His nephew, the son of Muhammad I, did not recognize his claim to the throne, and Mahmud II proclaimed himself Sultan and established a capital in Baghdad, until 1131 when he was finally officially deposed by Ahmad Sanjar.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>During the First Crusade, the fractured states of the Seljuqs were generally more concerned with consolidating their own territories and gaining control of their neighbours than with cooperating against the crusaders. The Seljuqs easily defeated the People's Crusade arriving in 1096, but they could not stop the progress of the army of the subsequent Princes' Crusade, which took important cities such as Nicaea (İznik), Iconium (Konya), Caesarea Mazaca (Kayseri), and Antioch (Antakya) on its march to Jerusalem (Al-Quds). In 1099 the crusaders finally captured the Holy Land and set up the first Crusader states. The Seljuqs had already lost Palestine to the Fatimids, who had recaptured it just before its capture by the crusaders.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>During this time conflict with the Crusader states was also intermittent, and after the First Crusade increasingly independent atabegs would frequently ally with the Crusader states against other atabegs as they vied with each other for territory. At Mosul, Zengi succeeded Kerbogha as atabeg and successfully began the process of consolidating the atabegs of Syria. In 1144 Zengi captured Edessa, as the County of Edessa had allied itself with the Artuqids against him. This event triggered the launch of the Second Crusade. Nur ad-Din, one of Zengi's sons who succeeded him as atabeg of Aleppo, created an alliance in the region to oppose the Second Crusade, which landed in 1147.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CVS_CIVILIZATION_SELJUQ_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>As the dynasty declined in the middle of the thirteenth century, the Mongols invaded Anatolia in the 1260s and divided it into small emirates called the Anatolian beyliks. Eventually one of these, the Ottoman, would rise to power and conquer the rest.</Text>	
+		</Replace>
+		
+		<!--TRAITS-->
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_SIYASATNAMA_NAME" Language="en_US">
+			<Text>Siyasatnama</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_SIYASATNAMA_DESCRIPTION" Language="en_US">
+			<Text>Gain [ICON_Culture] Culture equal to 10% of your [ICON_Gold] Gold Per Turn. Entering [ICON_GLORY_GOLDEN_AGE] Golden or [ICON_GLORY_SUPER_GOLDEN_AGE] Heroic Ages awards +1 [ICON_Governor] Governor Title.</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_IMPROVEMENT_CARAVANSERAI_NAME" Language="en_US">
+			<Text>Caravanserai</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_IMPROVEMENT_CARAVANSERAI_DESCRIPTION" Language="en_US">
+			<Text>Seljuq unique improvement: Caravanserai</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_UNIT_SARBAZ_NAME" Language="en_US">
+			<Text>Sarbaz</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_TRAIT_CIVILIZATION_UNIT_SARBAZ_DESCRIPTION" Language="en_US">
+			<Text>Seljuq unique unit: Sarbaz</Text>
+		</Replace>
+		
+		<!--IMPROVEMENTS-->
+		<Replace Tag="LOC_CVS_IMPROVEMENT_CARAVANSERAI_NAME" Language="en_US">
+			<Text>Caravanserai</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_IMPROVEMENT_CARAVANSERAI_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from every adjacent Resource, and an additional +2 [ICON_Gold] Gold when next to an Oasis or River. Grants +5 [ICON_Gold] Gold when a Trader is on a tile with a Caravanserai.[NEWLINE][NEWLINE]Cannot be built next to another Caravanserai.</Text>
+		</Replace>
+
+		<!--UNITS-->
+		<Replace Tag="LOC_CVS_UNIT_SARBAZ_NAME" Language="en_US">
+			<Text>Sarbaz</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_UNIT_SARBAZ_DESCRIPTION" Language="en_US">
+			<Text>Replaces Pikeman. Has reduced [ICON_Gold] Maintenance, additional [ICON_Movement] Movement, and ignores Zone of Control. Suffers no [ICON_Strength] Strength penalties against melee units.</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_ABILITY_SARBAZ_NO_MELEE_WEAKNESS_NAME" Language="en_US">
+			<Text>Sarbaz</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_ABILITY_SARBAZ_NO_MELEE_WEAKNESS_DESCRIPTION" Language="en_US">
+			<Text>No weakness vs. melee units</Text>
+		</Replace>
+
+		<!--CITIES-->
+		<Replace Tag="LOC_CITY_NAME_SC_ISFAHAN" Language="en_US">
+            <Text>Isfahan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_NISHAPUR" Language="en_US">
+            <Text>Nishapur</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_MERV" Language="en_US">
+            <Text>Merv</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_HAMADAN" Language="en_US">
+            <Text>Hamadan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_REY" Language="en_US">
+            <Text>Rey</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_BAGHDAD" Language="en_US">
+            <Text>Baghdad</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_URGENCH" Language="en_US">
+            <Text>Urgench</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_BALKH" Language="en_US">
+            <Text>Balkh</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KHIVA" Language="en_US">
+            <Text>Khiva</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_HERAT" Language="en_US">
+            <Text>Herat</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_NUSAYBIN" Language="en_US">
+            <Text>Nusaybin</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_TUS" Language="en_US">
+            <Text>Tus</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_YAZD" Language="en_US">
+            <Text>Yazd</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_SHIRAZ" Language="en_US">
+            <Text>Shiraz</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_BASRA" Language="en_US">
+            <Text>Basra</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KERMANSHAH" Language="en_US">
+            <Text>Kermanshah</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KERMAN" Language="en_US">
+            <Text>Kerman</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KASHAN" Language="en_US">
+            <Text>Kashan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_DAMASCUS" Language="en_US">
+            <Text>Damascus</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_TERMEZ" Language="en_US">
+            <Text>Termez</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_AMOL" Language="en_US">
+            <Text>Amol</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_JAND" Language="en_US">
+            <Text>Jand</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_VAN" Language="en_US">
+            <Text>Van</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_ALEPPO" Language="en_US">
+            <Text>Aleppo</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KATH" Language="en_US">
+            <Text>Kath</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_TUN" Language="en_US">
+            <Text>Tun</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_URMIYE" Language="en_US">
+            <Text>Urmiye</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_HOMS" Language="en_US">
+            <Text>Homs</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_QAZVIN" Language="en_US">
+            <Text>Qazvin</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_MOSUL" Language="en_US">
+            <Text>Mosul</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_BORUJERD" Language="en_US">
+            <Text>Borujerd</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_QOM" Language="en_US">
+            <Text>Qom</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_HAZORASP" Language="en_US">
+            <Text>Hazorasp</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_ERBIL" Language="en_US">
+            <Text>Erbil</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_AHLAT" Language="en_US">
+            <Text>Ahlat</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_AL_RAHBA" Language="en_US">
+            <Text>Al Rahba</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_MARDIN" Language="en_US">
+            <Text>Mardin</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_DAMGHAN" Language="en_US">
+            <Text>Damghan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_RASHT" Language="en_US">
+            <Text>Rasht</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_DIYAR_BAKR" Language="en_US">
+            <Text>Diyar Bakr</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KIRKUK" Language="en_US">
+            <Text>Kirkuk</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_GORGAN" Language="en_US">
+            <Text>Gorgan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_BEYHAGH" Language="en_US">
+            <Text>Beyhagh</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_KUFA" Language="en_US">
+            <Text>Kufa</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_SARAKHS" Language="en_US">
+            <Text>Sarakhs</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_PUSHANG" Language="en_US">
+            <Text>Pushang</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_NAJAF" Language="en_US">
+            <Text>Najaf</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_BAQUBAH" Language="en_US">
+            <Text>Baqubah</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_SARI" Language="en_US">
+            <Text>Sari</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_PALMYRA" Language="en_US">
+            <Text>Palmyra</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_HAMA" Language="en_US">
+            <Text>Hama</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_SC_MASYAF" Language="en_US">
+            <Text>Masyaf</Text>
+        </Replace>
+		
+		<!--CITIZEN NAMES-->
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_1" Language="en_US">
+			<Text>Altan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_2" Language="en_US">
+			<Text>Ataman</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_3" Language="en_US">
+			<Text>Bengü</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_4" Language="en_US">
+			<Text>Kürsat</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_5" Language="en_US">
+			<Text>Mahmud</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_6" Language="en_US">
+			<Text>Ümran</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_7" Language="en_US">
+			<Text>Dawud</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_8" Language="en_US">
+			<Text>Hussain</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_9" Language="en_US">
+			<Text>Jalal</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MALE_10" Language="en_US">
+			<Text>Tutush</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_1" Language="en_US">
+			<Text>Alara</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_2" Language="en_US">
+			<Text>Aka</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_3" Language="en_US">
+			<Text>Seyyedeh</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_4" Language="en_US">
+			<Text>Fatima</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_5" Language="en_US">
+			<Text>Zubayda</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_6" Language="en_US">
+			<Text>Safariyya</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_7" Language="en_US">
+			<Text>Terken</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_8" Language="en_US">
+			<Text>Rusudan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_9" Language="en_US">
+			<Text>Khwarazmi</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_FEMALE_10" Language="en_US">
+			<Text>Raziya</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_1" Language="en_US">
+			<Text>Turgay</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_2" Language="en_US">
+			<Text>Ayberk</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_3" Language="en_US">
+			<Text>Cebrail</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_4" Language="en_US">
+			<Text>Ekbar</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_5" Language="en_US">
+			<Text>Emre</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_6" Language="en_US">
+			<Text>Kadri</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_7" Language="en_US">
+			<Text>Mansur</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_8" Language="en_US">
+			<Text>Mehmet</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_9" Language="en_US">
+			<Text>Onur</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_MALE_10" Language="en_US">
+			<Text>Ulvi</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_1" Language="en_US">
+			<Text>Asuman</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_2" Language="en_US">
+			<Text>Beyza</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_3" Language="en_US">
+			<Text>Canan</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_4" Language="en_US">
+			<Text>Dilay</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_5" Language="en_US">
+			<Text>Ece</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_6" Language="en_US">
+			<Text>Fatma</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_7" Language="en_US">
+			<Text>Gülten</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_8" Language="en_US">
+			<Text>Hande</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_9" Language="en_US">
+			<Text>Sidika</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_CVS_SELJUQ_MODERN_FEMALE_10" Language="en_US">
+			<Text>Yildiz</Text>
+		</Replace>
+
+		<!--RWF Support-->
+		<Replace Tag="LOC_CVS_CIVILIZATION_SELJUQ_DESCRIPTION_JFD_CIVILIZATION" Language="en_US">
+			<Text>Seljuq Civilization</Text>
+		</Replace>
+		
+		<!--Compatibility-->
+		<Replace Tag="LOC_POLICY_CARAVANSARIES_NAME" Language="en_US">
+			<Text>Caravan Cities</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

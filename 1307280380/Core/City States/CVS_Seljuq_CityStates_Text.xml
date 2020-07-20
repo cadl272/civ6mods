@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CVS_Seljuq_CityStates_Text -->
+<!-- Author: thecrazyscotsman -->
+<!-- DateCreated: 1/25/2018 11:31:50 AM -->
+<GameData>
+	<LocalizedText>
+		<!--ALAMUT-->-->
+		<Replace Tag="LOC_CVS_CIVILIZATION_ALAMUT_NAME" Language="en_US">
+			<Text>Alamut</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_CIVILIZATION_ALAMUT_DESCRIPTION" Language="en_US">
+			<Text>Alamut city-state</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_CIVILIZATION_ALAMUT_ADJECTIVE" Language="en_US">
+			<Text>Ismailite</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ALAMUT" Language="en_US">
+			<Text>Alamut</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_LEADER_TRAIT_ALAMUT_NAME" Language="en_US">
+			<Text>Alamut Suzerain Bonus</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_LEADER_TRAIT_ALAMUT_DESCRIPTION" Language="en_US">
+			<Text>Grants 2 [ICON_CVS_RESOURCE_ALAMUT] Fida'in resources, which unlock the ability to purchase Hashashin and Assassin units in your [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CVS_CIVILIZATION_ALAMUT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Alamut (meaning "eagle's nest") was a mountain fortress located in Alamut region in the South Caspian province of Daylam near the Rudbar region in Persia, approximately 100 km (60 mi) from present-day Tehran. In 1090 AD, Alamut Castle was seized as a mountain fortress, and until 1256, under the leadership of Hasan-i Sabbah, Alamut became the site of intense activity for the Shi'a Nizari Ismai'lis, functioning as the headquarters of their state, which consisted of a series of unconnected strategic strongholds scattered throughout Persia and Syria, surrounded by the Seljuq Empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CVS_CIVILIZATION_ALAMUT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>In 1256, Ruknu-d-Dīn Khurshāh surrendered the fortress to the invading Mongols, and its famous library holdings were destroyed. Sources on the history and thought of the Ismailis in this period are therefore lacking and the majority extant are written by their detractors. After the Mongol destruction, the castle was of only regional significance, passing through the hands of various local powers. Today, it lies in ruins, but because of its historical significance, it is being developed by the Iranian government as a tourist destination.</Text>
+		</Replace>
+		
+		<!--URGENCH-->
+		<Replace Tag="LOC_CVS_CIVILIZATION_URGENCH_NAME" Language="en_US">
+			<Text>Urgench</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_CIVILIZATION_URGENCH_DESCRIPTION" Language="en_US">
+			<Text>Urgench city-state</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_CIVILIZATION_URGENCH_ADJECTIVE" Language="en_US">
+			<Text>Urgenchian</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_URGENCH" Language="en_US">
+			<Text>Urgench</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_LEADER_TRAIT_URGENCH_NAME" Language="en_US">
+			<Text>Urgench Suzerain Bonus</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_LEADER_TRAIT_URGENCH_DESCRIPTION" Language="en_US">
+			<Text>Your cities founded on desert tiles provide +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CVS_CIVILIZATION_URGENCH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The exact dates when Kunya-Urgench was founded remain uncertain, but archaeological finds at the Kyrkmolla Hill (one of the main fortresses at the site) reveal that the town already had a strong structure in the 5th and 4th centuries BC. Some of the earliest records show that Khwarezm was conquered by the Arabs in 712, and Kunya-Urgench was given the Arabic name "Gurgandj". The city rose to prominence between the 10th and 14th centuries as the Khwarezmian capital, and as an important trading centre, competing in fame and population with many other Central Asian cities, such as Bukhara. It had become highly prosperous due to its strategic location on the main trade routes from the south to the north, and the west to the east, vastly contributing to the development of science and culture in Central Asia.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CVS_CIVILIZATION_URGENCH_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>In 1221, Genghis Khan destroyed the city in the Mongol invasion of Central Asia, in what is considered to be one of the bloodiest massacres in human history. Despite the devastating effects of the invasion, the city was revived and it regained its previous status. It was described by the 14th-century Arabic traveller Ibn Battuta as "the largest, greatest, most beautiful and most important city of the Turks. It has fine bazaars and broad streets, a great number of buildings and abundance of commodities".</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CVS_CIVILIZATION_URGENCH_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>In 1373, Timur attacked Khwarezm, and its ruler Yusef Sufi of the Sufi Dynasty surrendered to Timur. In 1379, Yusef Sufi rebelled against Timur, who sacked Urgench, and Yusef Sufi was killed. In 1388, the Sufi dynasty of Urgench again revolted against Timur; this time Timur razed Urgench to the ground and massacred its population, destroyed the city's irrigation system, and had barley planted over the ground where the city had once stood, leaving only one mosque standing. This, coupled with the sudden change of the Amu-Darya River's course, constituted the beginning of Kunya-Urgench's decline until the 16th century, when it was replaced as a regional capital by Khiva and was ultimately abandoned.</Text>
+		</Replace>
+		
+		<!--RESOURCE-->
+		<Replace Tag="LOC_CVS_RESOURCE_ALAMUT_NAME" Language="en_US">
+			<Text>Fida'in</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_CVS_RESOURCE_ALAMUT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Hassan-i-Sabbah, who founded the Nizari Ismaili state in Persia and Syria, first coined the term to refer to the Hashshashins. fida'iyin is the plural of fida'i, which means "sacrifice." It is widely understood as "those willing to sacrifice themselves for God". The group carried out an armed struggle against enslavement.</Text>
+		</Replace>
+		
+		<!--UNITS-->
+		<Replace Tag="LOC_CVS_UNIT_HASHASHIN_NAME" Language="en_US">
+			<Text>Hashshashin</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_UNIT_HASHASHIN_DESCRIPTION" Language="en_US">
+			<Text>Unique unit available to Alamut and its Suzerain. Ignores zone of control and cannot be seen unless adjacent to it. Gains additional [ICON_Strength] Combat Strength in later eras.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_HASHASHIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The word assassin is often believed to derive from the word Hashshashin, and shares its etymological roots with hashish. It referred to a group of Nizari Shia Persians who worked against various Arab and Persian targets. Founded by the Persian Hassan-i Sabbah, the Assassins were active in the fortress of Alamut in Iran from the 8th to the 14th centuries, and also controlled the castle of Masyaf in Syria. The group killed members of the Persian, Abbasid, Seljuq, and Christian Crusader elite for political and religious reasons.</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_UNIT_ASSASSIN_NAME" Language="en_US">
+			<Text>Assassin</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_UNIT_ASSASSIN_DESCRIPTION" Language="en_US">
+			<Text>Unique unit available to Alamut and its Suzerain. Ignores zone of control and cannot be seen unless adjacent to it. Gains additional [ICON_Strength] Combat Strength in later eras.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_ASSASSIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>With the advent of effective ranged weaponry, and later firearms, the position of an assassination target was more precarious. Bodyguards were no longer enough to hold back determined killers, who no longer needed to directly engage or even subvert the guard to kill the leader in question. Moreover, the engagement of targets at greater distance dramatically increased the chances of an assassin's survival.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_CVS_HASHASHIN_ERA_NAME" Language="en_US">
+			<Text>Hashashin Training</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_HASHASHIN_ERA_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength when attacking and +5 [ICON_Strength] Combat Strength when defending after reaching the Medieval Era.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_ASSASSIN_ERA_NAME" Language="en_US">
+			<Text>Assassin Training</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_ASSASSIN_ERA_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength when attacking and +5 [ICON_Strength] Combat Strength when defending after reaching the Information Era.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_HASHASHIN_MEDIEVAL_ATTACK_BOOST_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength when attacking.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_HASHASHIN_MEDIEVAL_DEFENSE_BOOST_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when defending.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_ASSASSIN_INFORMATION_ATTACK_BOOST_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength when attacking.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CVS_ASSASSIN_INFORMATION_DEFENSE_BOOST_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when defending.</Text>
+		</Replace>
+		
+		<!--PROMOTIONS-->
+		<Replace Tag="LOC_PROMOTION_CLASS_CVS_ALAMUT_NAME" Language="en_US">
+			<Text>Executioner</Text>
+		</Replace>
+		<!--Tier 1-->
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_FLEET_FOOTED_NAME" Language="en_US">
+			<Text>Fleet-Footed</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_FLEET_FOOTED_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_FLEET_FOOTED_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Speed is a crucial skill for assassins, one which should be cultivated unceasingly. The ability to outrun enemy forces provides tactical flexibility and allows the assassin to reach well-protected targets.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_TENACIOUS_NAME" Language="en_US">
+			<Text>Tenacious</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_TENACIOUS_DESCRIPTION" Language="en_US">
+			<Text>No [ICON_Strength] Combat Strength reduction when wounded.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_TENACIOUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A tenacious assassin is one to be feared, as he will not give up. In fact, he may be more dangerous when cornered or wounded, as he will have nothing to lose and has complete dedication towards completing his mission.</Text>
+		</Replace>
+		<!--Tier 2-->
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_ENDURANCE_NAME" Language="en_US">
+			<Text>Endurance</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_ENDURANCE_DESCRIPTION" Language="en_US">
+			<Text>Heal every turn, even after moving or combat.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_ENDURANCE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The ability to live off the land, and find healing herbs and sustenance wherever the mission takes an assassin means that the target is never truly safe. The assassin can merely wait until the opportune moment, however long that takes.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_SNARE_NAME" Language="en_US">
+			<Text>Snare</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_SNARE_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength in Forest, Jungle, Marsh, and Cliff terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_SNARE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Every rock outcropping, muddy pond, or thicket of trees is a potential trap. The skilful assassin will make use of rough terrain to cripple his enemy.</Text>
+		</Replace>
+		<!--Tier 3-->
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_PREPARATION_NAME" Language="en_US">
+			<Text>Preparation</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_PREPARATION_DESCRIPTION" Language="en_US">
+			<Text>May move after attacking.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_PREPARATION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The assassin plans every angle of his mission, including his escape route.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_COUP_DE_GRACE_NAME" Language="en_US">
+			<Text>Coup De Grace</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_COUP_DE_GRACE_DESCRIPTION" Language="en_US">
+			<Text>+20 [ICON_Strength] Combat Strength vs. units with 75% or less health.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_COUP_DE_GRACE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Killing is an art, and is complete with the final stroke - the coup de grace. Every assassin has his own preferred way to end the mission.</Text>
+		</Replace>
+		<!--Tier 4-->
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_INSURRECTION_NAME" Language="en_US">
+			<Text>Insurrection</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_INSURRECTION_DESCRIPTION" Language="en_US">
+			<Text>Foreign cities within two tiles suffer -5 Loyalty per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_INSURRECTION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Assassins don't only carry out missions of death, but also spread terror among the general populace.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_INFILTRATION_NAME" Language="en_US">
+			<Text>Infiltration</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CVS_ALAMUT_INFILTRATION_DESCRIPTION" Language="en_US">
+			<Text>May enter foreign territory without open borders.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CVS_ALAMUT_INFILTRATION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The assassin is most at home operating behind enemy lines, whether the enemy is currently at war or may become a threat at some distant point. It is never too early to lay the groundwork for future conflicts, even with those who ostensibly are your friends now.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

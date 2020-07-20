@@ -1,0 +1,22 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MAPSIZE_MASSIVE_NAME" Language="en_US">
+			<Text>Massive</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPSIZE_MASSIVE_DESCRIPTION" Language="en_US">
+			<Text>A map larger than Huge.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPSIZE_GIGANTIC_NAME" Language="en_US">
+			<Text>Gigantic</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPSIZE_GIGANTIC_DESCRIPTION" Language="en_US">
+			<Text>A gigantic map for many players.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPSIZE_COLOSSAL_NAME" Language="en_US">
+			<Text>Colossal</Text>
+		</Replace>
+		<Replace Tag="LOC_MAPSIZE_COLOSSAL_DESCRIPTION" Language="en_US">
+			<Text>A colossal map that requires a strong computer.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

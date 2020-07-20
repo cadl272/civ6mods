@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="6926141" Language="SFX">
+			<ShortName>Suk_Siam_Lao_Duang_Duen.wav</ShortName>
+			<Path>SFX\Suk_Siam_Lao_Duang_Duen_EE79F7FB.wem</Path>
+		</File>
+		<File Id="27589787" Language="SFX">
+			<ShortName>Suk_Siam_Industrial.wav</ShortName>
+			<Path>SFX\Suk_Siam_Industrial_EE79F7FB.wem</Path>
+		</File>
+		<File Id="35637274" Language="SFX">
+			<ShortName>Suk_Siam_Khang_Khao_Kin_Kluay.wav</ShortName>
+			<Path>SFX\Suk_Siam_Khang_Khao_Kin_Kluay_EE79F7FB.wem</Path>
+		</File>
+		<File Id="91070514" Language="SFX">
+			<ShortName>Suk_Siam_Atomic.wav</ShortName>
+			<Path>SFX\Suk_Siam_Atomic_EE79F7FB.wem</Path>
+		</File>
+		<File Id="157220861" Language="SFX">
+			<ShortName>Suk_Siam_Ancient_Theme.wav</ShortName>
+			<Path>SFX\Suk_Siam_Ancient_Theme_EE79F7FB.wem</Path>
+		</File>
+		<File Id="198866960" Language="SFX">
+			<ShortName>Suk_Siam_Kham_Wan.wav</ShortName>
+			<Path>SFX\Suk_Siam_Kham_Wan_EE79F7FB.wem</Path>
+		</File>
+		<File Id="229298248" Language="SFX">
+			<ShortName>Suk_Siam_Labum_Lopburi.wav</ShortName>
+			<Path>SFX\Suk_Siam_Labum_Lopburi_EE79F7FB.wem</Path>
+		</File>
+		<File Id="306432110" Language="SFX">
+			<ShortName>Suk_Siam_Medieval.wav</ShortName>
+			<Path>SFX\Suk_Siam_Medieval_EE79F7FB.wem</Path>
+		</File>
+		<File Id="389013171" Language="SFX">
+			<ShortName>Suk_Siam_Kratai_Den.wav</ShortName>
+			<Path>SFX\Suk_Siam_Kratai_Den_EE79F7FB.wem</Path>
+		</File>
+		<File Id="672788202" Language="SFX">
+			<ShortName>Suk_Siam_Lao_Damnuen_Sai.wav</ShortName>
+			<Path>SFX\Suk_Siam_Lao_Damnuen_Sai_EE79F7FB.wem</Path>
+		</File>
+		<File Id="790961335" Language="SFX">
+			<ShortName>Suk_Siam_Khang_Khao_Kin_Kluay_Khim.wav</ShortName>
+			<Path>SFX\Suk_Siam_Khang_Khao_Kin_Kluay_Khim_EE79F7FB.wem</Path>
+		</File>
+		<File Id="930074569" Language="SFX">
+			<ShortName>Suk_Siam__Lao_Duang_Duen_Khim.wav</ShortName>
+			<Path>SFX\Suk_Siam__Lao_Duang_Duen_Khim_EE79F7FB.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3170886374" Language="SFX">
+			<ShortName>Suk_Siam_Music_Bank</ShortName>
+			<Path>Suk_Siam_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="919689242" Name="Pause_Leader_Music_Suk_Siam"/>
+				<Event Id="97828616" Name="Pause_Music_Suk_Siam"/>
+				<Event Id="1973585548" Name="Play_Leader_Music_Suk_Siam"/>
+				<Event Id="362956910" Name="Play_Music_Suk_Siam"/>
+				<Event Id="3567077557" Name="Play_Suk_Ramkhamhaeng_First_Meet"/>
+				<Event Id="3958021491" Name="Resume_Leader_Music_Suk_Siam"/>
+				<Event Id="2469441119" Name="Resume_Music_Suk_Siam"/>
+				<Event Id="2272610774" Name="Start_Music_Suk_Siam"/>
+				<Event Id="286158546" Name="Stop_Leader_Music_Suk_Siam"/>
+				<Event Id="1498246832" Name="Stop_Music_Suk_Siam"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="6926141"/>
+				<File Id="27589787"/>
+				<File Id="35637274"/>
+				<File Id="91070514"/>
+				<File Id="157220861"/>
+				<File Id="198866960"/>
+				<File Id="229298248"/>
+				<File Id="306432110"/>
+				<File Id="389013171"/>
+				<File Id="672788202"/>
+				<File Id="790961335"/>
+				<File Id="930074569"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="400245416" Language="SFX">
+					<ShortName>Suk_Ramkhamhaeng_Intro_Condensed.wav</ShortName>
+					<Path>SFX\Suk_Ramkhamhaeng_Intro_Condensed_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

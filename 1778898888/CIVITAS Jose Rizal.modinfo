@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d4e960c4-2dc7-4156-81f0-2d51486f36ac" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Jose Rizal</Name>
+    <Description>Adds Jose Rizal as a leader for CIVITAS [ICON_GOVERNMENT] Philippines.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Jose Rizal as a leader for CIVITAS Philippines.</Teaser>
+    <Authors>ChimpanG</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="46a14591-6338-4567-ad3e-8c18f135ca09" title="CIVITAS [ICON_Government] Philippines" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="XP1" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameModeInUse>
+        <GameCoreInUse>Expansion2</GameCoreInUse>
+      </GameModeInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Rizal_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Rizal_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Rizal_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GreatPerson] Jose Rizal.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Rizal_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Rizal_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Leader.sql</File>
+      <File>Core/Rizal_UA.sql</File>
+      <File>Core/Rizal_Agenda.sql</File>
+      <File>Core/Rizal_Strategy.sql</File>
+      <File>Core/Rizal_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Rizal_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Rizal_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GreatPerson] Jose Rizal.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Rizal_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rizal_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallbacks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GreatPerson] Jose Rizal.dep</File>
+    <File>Core/Rizal_Agenda.sql</File>
+    <File>Core/Rizal_Colors.sql</File>
+    <File>Core/Rizal_Config.sql</File>
+    <File>Core/Rizal_Icons.sql</File>
+    <File>Core/Rizal_Leader.sql</File>
+    <File>Core/Rizal_Localisation.sql</File>
+    <File>Core/Rizal_ModSupport.sql</File>
+    <File>Core/Rizal_Strategy.sql</File>
+    <File>Core/Rizal_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>

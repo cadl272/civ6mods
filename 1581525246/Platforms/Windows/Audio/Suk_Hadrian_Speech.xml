@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1655733797" Language="SFX">
+			<ShortName>Suk_Hadrian_Speech</ShortName>
+			<Path>Suk_Hadrian_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3966306083" Name="Play_Suk_Hadrian_Attacked"/>
+				<Event Id="1515177313" Name="Play_Suk_Hadrian_Declare_War"/>
+				<Event Id="1144147773" Name="Play_Suk_Hadrian_Defeat"/>
+				<Event Id="2011037000" Name="Play_Suk_Hadrian_First_Meet"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="295788928" Language="SFX">
+					<ShortName>SUK_HADRIAN_DECLARE_WAR.wav</ShortName>
+					<Path>SFX\SUK_HADRIAN_DECLARE_WAR_E843A46D.wem</Path>
+				</File>
+				<File Id="413359081" Language="SFX">
+					<ShortName>SUK_HADRIAN_DEFEAT.wav</ShortName>
+					<Path>SFX\SUK_HADRIAN_DEFEAT_E843A46D.wem</Path>
+				</File>
+				<File Id="542460414" Language="SFX">
+					<ShortName>SUK_HADRIAN_FIRST_MEET.wav</ShortName>
+					<Path>SFX\SUK_HADRIAN_FIRST_MEET_E843A46D.wem</Path>
+				</File>
+				<File Id="836792834" Language="SFX">
+					<ShortName>SUK_HADRIAN_ATTACKED.wav</ShortName>
+					<Path>SFX\SUK_HADRIAN_ATTACKED_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

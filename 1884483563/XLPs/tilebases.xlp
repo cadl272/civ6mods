@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>260</build>
+		<revision>754</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<!--Amargar-->
+		<Element>
+			<m_EntryID text="DIS_COM_CVS_Amargar"/>
+			<m_ObjectName text="DIS_COM_CVS_Amargar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_COM_CVS_Amargar_dist"/>
+			<m_ObjectName text="DIS_COM_CVS_Amargar_dist"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN_Farm_Transition_01"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN_Farm_Transition_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN_Farm_Square_01"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN_Farm_Square_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN_Farm_Wheat"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN_Farm_Wheat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN_Wine_A"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN_Wine_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN_Wine_B"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN_Wine_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_AMARGARESTAN_Wine_C"/>
+			<m_ObjectName text="IMP_CVS_AMARGARESTAN_Wine_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_DIZ_POMEGRANATE"/>
+			<m_ObjectName text="CVS_DIZ_POMEGRANATE"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

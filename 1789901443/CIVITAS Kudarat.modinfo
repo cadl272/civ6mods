@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0fa4e0a7-001c-4366-a526-0d931e7b3bb9" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Kudarat</Name>
+    <Description>Adds Kudarat as a leader for CIVITAS [ICON_GOVERNMENT] Philippines.</Description>
+    <Teaser>Adds Kudarat as a leader for CIVITAS Philippines.</Teaser>
+    <Authors>SeelingCat, Sailor Cat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="46a14591-6338-4567-ad3e-8c18f135ca09" title="CIVITAS [ICON_GOVERNMENT] Philippines" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS_Kudarat.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Kudarat_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Kudarat_Icon">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Kudarat_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="Kudarat_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Color.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>CIVITAS_Kudarat.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Kudarat_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Leader.sql</File>
+      <File>Core/Kudarat_UA.sql</File>
+      <File>Core/Kudarat_Agenda.sql</File>
+      <File>Core/Kudarat_Strategy.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Kudarat_Icon">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File></File>
+      <File>Core/Kudarat_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Kudarat_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="Kudarat_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Kudarat_Color.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS_Kudarat.dep</File>
+    <File>Core/Kudarat_Agenda.sql</File>
+    <File>Core/Kudarat_Color.sql</File>
+    <File>Core/Kudarat_Config.sql</File>
+    <File>Core/Kudarat_Icons.sql</File>
+    <File>Core/Kudarat_Leader.sql</File>
+    <File>Core/Kudarat_Localisation.sql</File>
+    <File>Core/Kudarat_ModSupport.sql</File>
+    <File>Core/Kudarat_Strategy.sql</File>
+    <File>Core/Kudarat_UA.sql</File>
+    <File>Core/Kudarat_UI.sql</File>
+    <File>Core/Kudarat_XP1.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>

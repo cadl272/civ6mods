@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3e43d019-c7e2-4cfd-8694-e18caa0a2018" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Vlad III</Name>
+    <Description>Adds Vlad IIII as an alternative leader for CIVITAS [ICON_GOVERNMENT] Romania.</Description>
+    <Teaser>Adds Vlad  III  as an alternative leader for CIVITAS Romania.</Teaser>
+    <Authors>ChimpanG, SeelingCat, Deliverator, Digihuman, p0kiehl, Chrisy15, thecrazyscotsman, Sailor Cat</Authors>
+    <SpecialThanks>Belle, Alin Bul</SpecialThanks>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="b77c610e-e9f8-4373-8e54-16db48639ae4" title="CIVITAS [ICON_GOVERNMENT] Romania" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Vlad III.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Vlad_III_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Vlad_III_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Vlad_III_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="Vlad_III_Colors">
+      <File>Core/Vlad_III_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Vlad III.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Vlad_III_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Leader.sql</File>
+      <File>Core/Vlad_III_UA.sql</File>
+      <File>Core/Vlad_III_UU.sql</File>
+      <File>Core/Vlad_III_Agenda.sql</File>
+      <File>Core/Vlad_III_Strategy.sql</File>
+      <File>Core/Vlad_III_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Vlad_III_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Vlad_III_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Localisation.sql</File>
+    </UpdateText>
+    <AddGameplayScripts id="Vlad_III_Scripts">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Vlad_III_Scripts.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="Vlad_III_Colors">
+      <File>Core/Vlad_III_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Vlad III.dep</File>
+    <File>Core/Vlad_III_Agenda.sql</File>
+    <File>Core/Vlad_III_Colors.sql</File>
+    <File>Core/Vlad_III_Config.sql</File>
+    <File>Core/Vlad_III_Icons.sql</File>
+    <File>Core/Vlad_III_Leader.sql</File>
+    <File>Core/Vlad_III_Localisation.sql</File>
+    <File>Core/Vlad_III_ModSupport.sql</File>
+    <File>Core/Vlad_III_Scripts.lua</File>
+    <File>Core/Vlad_III_Strategy.sql</File>
+    <File>Core/Vlad_III_UA.sql</File>
+    <File>Core/Vlad_III_UU.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_SakaHorseArcher_RunFwdB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_AttackLeftA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_AttackRightA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_BraceA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_DefendFrontA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_IdleC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_RunStopC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Saka_Horse_ArcherAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cossack_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cossack_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cossack_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cossack_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Cossack_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Calarasi_Armor_A_b_Calarasi_Armor_A_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Calarasi_HorseArmor_A_b_Calarasi_HorseArmor_A_t</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_HorseA_a_Horse_tA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horse_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horse_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horse_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horse_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Horse_n1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_ao</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_g</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_m</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n1</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/units/units.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_SpawnA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Cavalry_Victory</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_JoustDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnLeftA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Horse_TurnRightA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_CombatIdleA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Knight_JoustDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_SakaHorseArcher_RunFwdB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_AttackLeftA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_AttackRightA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_BraceA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_DefendFrontA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_IdleC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_ReactA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_HorseArcher_RunStopC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_Saka_Horse_ArcherAttackA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_MountedTurnLeftA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_BreathingA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_CombatIdleA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_IdleC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_MountedDeathD</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunFwdB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitHorse_RunStopC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathB</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UnitMedium_MountedDeathC</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/ANIMATION_UniyHeavy_MountedTurnRightA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cossack_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cossack_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cossack_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cossack_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Cossack_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Calarasi_Armor_A_b_Calarasi_Armor_A_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Calarasi_HorseArmor_A_b_Calarasi_HorseArmor_A_t</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_HorseA_a_Horse_tA</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horse_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horse_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horse_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horse_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Horse_n1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_ao</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_g</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_m</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Saka_HorseArcher_n1</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/units/units.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallback.xlp</File>
+    <File>XLPs/Units.xlp</File>
+  </Files>
+</Mod>

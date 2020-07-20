@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/katipunero"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Katipunero"/>
+			<m_ObjectName text="Katipunero"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Katipunero_Hat"/>
+			<m_ObjectName text="Katipunero_Hat"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

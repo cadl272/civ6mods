@@ -1,0 +1,216 @@
+-- Suk_SwahiliSwahili_Expansion1
+-- Author: Sukrit
+-- DateCreated: 2/13/2018 8:53:59 PM
+--==========================================================================================================================
+											-- NAMED PLACES --
+--==========================================================================================================================
+-- Types
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO Types
+		(Type,										Kind)
+VALUES	("NAMED_RIVER_TEKEZE",						"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_OMO",							"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_BARO",						"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_AWASH",						"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_SHEBELLE",					"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_ANGEREB",						"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_GANALE_DORIA",				"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_ABAY",						"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_LESSER_ABAY",					"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_DAWA",						"KIND_NAMED_RIVER"),
+		("NAMED_RIVER_WEYIB",						"KIND_NAMED_RIVER"),
+		("NAMED_MOUNTAIN_ETHIOPIAN_HIGHLANDS",		"KIND_NAMED_MOUNTAIN"),
+		("NAMED_MOUNTAIN_SEMIEN‎",					"KIND_NAMED_MOUNTAIN"),
+		("NAMED_MOUNTAIN_BALE‎",					"KIND_NAMED_MOUNTAIN"),
+		("NAMED_MOUNTAIN_AHMAR",					"KIND_NAMED_MOUNTAIN"),
+		("NAMED_MOUNTAIN_AMARO",					"KIND_NAMED_MOUNTAIN"),
+		("NAMED_MOUNTAIN_ENTOTO",					"KIND_NAMED_MOUNTAIN"),
+		("NAMED_MOUNTAIN_DANAKIL_ALPS",				"KIND_NAMED_MOUNTAIN"),
+		("NAMED_VOLCANO_FENTALE",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_DABBAHU",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_ALE_BAGU",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_AFDERA",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_ALAYTA",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_AYALU",						"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_GADA_ALE",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_BORALE_ALE",				"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_ASAVYO",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_BORAWLI",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_ADWA",						"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_TAT_ALI",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_HAYLI_GUBBI",				"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_ASAVYO",					"KIND_NAMED_VOLCANO"),
+		("NAMED_VOLCANO_WONCHI",					"KIND_NAMED_VOLCANO"),
+		("NAMED_LAKE_ABAYA",						"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_ZWAY",							"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_CHEW_BAHIR",					"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_SHALA",						"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_ABBE",							"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_CHAMO",						"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_LANGANO",						"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_ABIJATTA",						"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_HASHENGE",						"KIND_NAMED_LAKE"),
+		("NAMED_LAKE_HAYQ",							"KIND_NAMED_LAKE"),
+		("NAMED_SEA_GULF_OF_ZULA",					"KIND_NAMED_SEA"),
+		("NAMED_SEA_BAY_OF_BEYLUL",					"KIND_NAMED_SEA"),
+		("NAMED_SEA_BAY_OF_HAWAKIL",				"KIND_NAMED_SEA"),
+		("NAMED_SEA_BAY_OF_ANFILE",					"KIND_NAMED_SEA");
+--------------------------------------------------------------------
+-- NamedRivers
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedRivers
+		(NamedRiverType,				Name)
+VALUES	("NAMED_RIVER_TEKEZE",			"LOC_NAMED_RIVER_TEKEZE_NAME"),
+		("NAMED_RIVER_OMO",				"LOC_NAMED_RIVER_OMO_NAME"),
+		("NAMED_RIVER_BARO",			"LOC_NAMED_RIVER_BARO_NAME"),
+		("NAMED_RIVER_AWASH",			"LOC_NAMED_RIVER_AWASH_NAME"),
+		("NAMED_RIVER_SHEBELLE",		"LOC_NAMED_RIVER_SHEBELLE_NAME"),
+		("NAMED_RIVER_ANGEREB",			"LOC_NAMED_RIVER_ANGEREB_NAME"),
+		("NAMED_RIVER_GANALE_DORIA",	"LOC_NAMED_RIVER_GANALE_DORIA_NAME"),
+		("NAMED_RIVER_ABAY",			"LOC_NAMED_RIVER_ABAY_NAME"),
+		("NAMED_RIVER_LESSER_ABAY",		"LOC_NAMED_RIVER_LESSER_ABAY_NAME"),
+		("NAMED_RIVER_DAWA",			"LOC_NAMED_RIVER_DAWA_NAME"),
+		("NAMED_RIVER_WEYIB",			"LOC_NAMED_RIVER_WEYIB_NAME");
+--------------------------------------------------------------------
+-- NamedMountains
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedMountains
+		(NamedMountainType,							Name)
+VALUES	("NAMED_MOUNTAIN_ETHIOPIAN_HIGHLANDS",		"LOC_NAMED_MOUNTAIN_ETHIOPIAN_HIGHLANDS_NAME"),
+		("NAMED_MOUNTAIN_SEMIEN‎",					"LOC_NAMED_MOUNTAIN_SEMIEN‎_NAME"),
+		("NAMED_MOUNTAIN_BALE‎",					"LOC_NAMED_MOUNTAIN_BALE‎_NAME"),
+		("NAMED_MOUNTAIN_AHMAR",					"LOC_NAMED_MOUNTAIN_AHMAR_NAME"),
+		("NAMED_MOUNTAIN_AMARO",					"LOC_NAMED_MOUNTAIN_AMARO_NAME"),
+		("NAMED_MOUNTAIN_ENTOTO",					"LOC_NAMED_MOUNTAIN_ENTOTO_NAME"),
+		("NAMED_MOUNTAIN_DANAKIL_ALPS",				"LOC_NAMED_MOUNTAIN_DANAKIL_ALPS_NAME");
+--------------------------------------------------------------------
+-- NamedVolcanoes
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedVolcanoes
+		(NamedVolcanoType,					Name)
+VALUES	("NAMED_VOLCANO_FENTALE",			"LOC_NAMED_VOLCANO_FENTALE_NAME"),
+		("NAMED_VOLCANO_DABBAHU",			"LOC_NAMED_VOLCANO_DABBAHU_NAME"),
+		("NAMED_VOLCANO_ALE_BAGU",			"LOC_NAMED_VOLCANO_ALE_BAGU_NAME"),
+		("NAMED_VOLCANO_AFDERA",			"LOC_NAMED_VOLCANO_AFDERA_NAME"),
+		("NAMED_VOLCANO_ALAYTA",			"LOC_NAMED_VOLCANO_ALAYTA_NAME"),
+		("NAMED_VOLCANO_AYALU",				"LOC_NAMED_VOLCANO_AYALU_NAME"),
+		("NAMED_VOLCANO_GADA_ALE",			"LOC_NAMED_VOLCANO_GADA_ALE_NAME"),
+		("NAMED_VOLCANO_BORALE_ALE",		"LOC_NAMED_VOLCANO_BORALE_ALE_NAME"),
+		("NAMED_VOLCANO_ASAVYO",			"LOC_NAMED_VOLCANO_ASAVYO_NAME"),
+		("NAMED_VOLCANO_BORAWLI",			"LOC_NAMED_VOLCANO_BORAWLI_NAME"),
+		("NAMED_VOLCANO_ADWA",				"LOC_NAMED_VOLCANO_ADWA_NAME"),
+		("NAMED_VOLCANO_TAT_ALI",			"LOC_NAMED_VOLCANO_TAT_ALI_NAME"),
+		("NAMED_VOLCANO_HAYLI_GUBBI",		"LOC_NAMED_VOLCANO_HAYLI_GUBBI_NAME"),
+		("NAMED_VOLCANO_ASAVYO",			"LOC_NAMED_VOLCANO_ASAVYO_NAME"),
+		("NAMED_VOLCANO_WONCHI",			"LOC_NAMED_VOLCANO_WONCHI_NAME");
+--------------------------------------------------------------------
+-- NamedLakes
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedLakes
+		(NamedLakeType,					Name)
+VALUES	("NAMED_LAKE_ABAYA",			"LOC_NAMED_LAKE_ABAYA_NAME"),
+		("NAMED_LAKE_ZWAY",				"LOC_NAMED_LAKE_ZWAY_NAME"),
+		("NAMED_LAKE_CHEW_BAHIR",		"LOC_NAMED_LAKE_CHEW_BAHIR_NAME"),
+		("NAMED_LAKE_SHALA",			"LOC_NAMED_LAKE_SHALA_NAME"),
+		("NAMED_LAKE_ABBE",				"LOC_NAMED_LAKE_ABBE_NAME"),
+		("NAMED_LAKE_CHAMO",			"LOC_NAMED_LAKE_CHAMO_NAME"),
+		("NAMED_LAKE_LANGANO",			"LOC_NAMED_LAKE_LANGANO_NAME"),
+		("NAMED_LAKE_ABIJATTA",			"LOC_NAMED_LAKE_ABIJATTA_NAME"),
+		("NAMED_LAKE_HASHENGE",			"LOC_NAMED_LAKE_HASHENGE_NAME"),
+		("NAMED_LAKE_HAYQ",				"LOC_NAMED_LAKE_HAYQ_NAME");
+--------------------------------------------------------------------
+-- NamedSeas
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedSeas
+		(NamedSeaType,					Name)
+VALUES	("NAMED_SEA_GULF_OF_ZULA",		"LOC_NAMED_SEA_GULF_OF_ZULA_NAME"),
+		("NAMED_SEA_BAY_OF_BEYLUL",		"LOC_NAMED_SEA_BAY_OF_BEYLUL_NAME"),
+		("NAMED_SEA_BAY_OF_HAWAKIL",	"LOC_NAMED_SEA_BAY_OF_HAWAKIL_NAME"),
+		("NAMED_SEA_BAY_OF_ANFILE",		"LOC_NAMED_SEA_BAY_OF_ANFILE_NAME");
+--------------------------------------------------------------------
+-- NamedRiverCivilizations
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedRiverCivilizations
+		(NamedRiverType,					CivilizationType)
+VALUES	("NAMED_RIVER_NILE",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_ATBARAH_RIVER",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_MAREB_RIVER",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_TEKEZE",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_OMO",					"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_BARO",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_AWASH",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_SHEBELLE",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_ANGEREB",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_GANALE_DORIA",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_ABAY",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_LESSER_ABAY",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_DAWA",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_RIVER_WEYIB",				"CIVILIZATION_SUK_ETHIOPIA");
+--------------------------------------------------------------------
+-- NamedMountainCivilizations
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedMountainCivilizations
+		(NamedMountainType,							CivilizationType)
+VALUES	("NAMED_MOUNTAIN_ETHIOPIAN_HIGHLANDS",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_MOUNTAIN_SEMIEN‎",					"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_MOUNTAIN_BALE‎",					"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_MOUNTAIN_AHMAR",					"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_MOUNTAIN_AMARO",					"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_MOUNTAIN_ENTOTO",					"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_MOUNTAIN_DANAKIL_ALPS",				"CIVILIZATION_SUK_ETHIOPIA");
+--------------------------------------------------------------------
+-- NamedVolcanoCivilizations
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedVolcanoCivilizations
+		(NamedVolcanoType,					CivilizationType)
+VALUES	("NAMED_VOLCANO_ERTA_ALE",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_FENTALE",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_DABBAHU",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_ALE_BAGU",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_AFDERA",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_ALAYTA",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_AYALU",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_GADA_ALE",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_BORALE_ALE",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_ASAVYO",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_BORAWLI",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_ADWA",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_TAT_ALI",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_HAYLI_GUBBI",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_ASAVYO",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_VOLCANO_WONCHI",			"CIVILIZATION_SUK_ETHIOPIA");
+--------------------------------------------------------------------
+-- NamedDesertCivilizations
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedDesertCivilizations
+		(NamedDesertType,			CivilizationType)
+VALUES	("NAMED_DESERT_DANAKIL",	"CIVILIZATION_SUK_ETHIOPIA");
+--------------------------------------------------------------------
+-- NamedLakeCivilizations
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedLakeCivilizations
+		(NamedLakeType,					CivilizationType)
+VALUES	("NAMED_LAKE_LAKE_TANA",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_LAKE_TURKANA",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_ABAYA",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_ZWAY",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_CHEW_BAHIR",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_SHALA",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_ABBE",				"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_CHAMO",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_LANGANO",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_ABIJATTA",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_HASHENGE",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_LAKE_HAYQ",				"CIVILIZATION_SUK_ETHIOPIA");
+--------------------------------------------------------------------
+-- NamedSeaCivilizations
+--------------------------------------------------------------------
+INSERT OR REPLACE INTO NamedSeaCivilizations
+		(NamedSeaType,					CivilizationType)
+VALUES	("NAMED_SEA_RED_SEA",			"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_SEA_GULF_OF_ZULA",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_SEA_BAY_OF_BEYLUL",		"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_SEA_BAY_OF_HAWAKIL",	"CIVILIZATION_SUK_ETHIOPIA"),
+		("NAMED_SEA_BAY_OF_ANFILE",		"CIVILIZATION_SUK_ETHIOPIA");
+--==========================================================================================================================
+--==========================================================================================================================

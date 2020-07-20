@@ -1,0 +1,73 @@
+/*
+	Mod Support RwF
+	Authors: ChimpanG
+*/
+
+-----------------------------------------------
+--  City-States Expanded
+-----------------------------------------------
+
+DELETE FROM Types
+WHERE	Type IN ('CIVILIZATION_ANTIOCH')
+AND NOT EXISTS (SELECT * FROM ModValidation WHERE Version = 'CITY_STATES_EXPANDED');
+
+DELETE FROM TypeProperties
+WHERE	Type IN ('CIVILIZATION_ANTIOCH')
+AND NOT EXISTS (SELECT * FROM ModValidation WHERE Version = 'CITY_STATES_EXPANDED');
+
+DELETE FROM Civilizations
+WHERE	CivilizationType IN ('CIVILIZATION_ANTIOCH')
+AND NOT EXISTS (SELECT * FROM ModValidation WHERE Version = 'CITY_STATES_EXPANDED');
+
+DELETE FROM CivilizationLeaders
+WHERE	CivilizationType IN ('CIVILIZATION_ANTIOCH')
+AND NOT EXISTS (SELECT * FROM ModValidation WHERE Version = 'CITY_STATES_EXPANDED');
+
+DELETE FROM Leaders
+WHERE	LeaderType IN ('LEADER_MINOR_CIV_ANTIOCH')
+AND NOT EXISTS (SELECT * FROM ModValidation WHERE Version = 'CITY_STATES_EXPANDED');
+
+DELETE FROM LeaderTraits
+WHERE	LeaderType IN ('LEADER_MINOR_CIV_ANTIOCH')
+AND NOT EXISTS (SELECT * FROM ModValidation WHERE Version = 'CITY_STATES_EXPANDED');
+
+-----------------------------------------------
+--  RwF
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS 
+	Civilization_Titles (
+	CivilizationType  				text 		 		default null,
+	GovernmentType					text 	 			default null,
+	LeaderTitle						text				default null,
+	PolicyType  					text 		 		default null);
+
+CREATE TABLE IF NOT EXISTS 
+	Civilization_StartingGovernment (
+	CivilizationType  				text 		 		default null,
+	GovernmentType					text 				default null,
+	LeaderType						text				default null);	
+
+INSERT INTO Civilization_Titles
+		(CivilizationType, 				GovernmentType, 							LeaderTitle										)
+VALUES	('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_CHIEFDOM',						'LOC_CHIEFDOM_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_JFD_HORDE',						'LOC_HORDE_TITLE_CVS_SELEUCID'					),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_JFD_POLIS',						'LOC_POLIS_TITLE_CVS_SELEUCID'					),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_AUTOCRACY',						'LOC_AUTOCRACY_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_OLIGARCHY',						'LOC_OLIGARCHY_TITLE_CVS_SELEUCID'				), 
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_CLASSICAL_REPUBLIC',			'LOC_CLASSICAL_DEMOCRACY_TITLE_CVS_SELEUCID'	),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_MONARCHY',						'LOC_MONARCHY_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_MERCHANT_REPUBLIC',				'LOC_REPUBLIC_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_JFD_ABSOLUTE_MONARCHY',			'LOC_MONARCHY_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_JFD_CONSTITUTIONAL_MONARCHY',	'LOC_MONARCHY_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_JFD_NOBLE_REPUBLIC',			'LOC_REPUBLIC_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_DEMOCRACY',						'LOC_LIBERAL_DEMOCRACY_TITLE_CVS_SELEUCID'		),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_COMMUNISM',						'LOC_REPUBLIC_TITLE_CVS_SELEUCID'				),
+		('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_FASCISM',						'LOC_HORDE_TITLE_CVS_SELEUCID'					);
+
+DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_SELEUCID' AND GovernmentType IS NOT NULL AND GovernmentType NOT IN (SELECT GovernmentType FROM Governments);
+DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_SELEUCID' AND PolicyType IS NOT NULL AND PolicyType NOT IN (SELECT PolicyType FROM Policies);
+
+INSERT INTO	Civilization_StartingGovernment
+		(CivilizationType,				GovernmentType			)
+VALUES	('CIVILIZATION_CVS_SELEUCID',	'GOVERNMENT_JFD_POLIS'	);

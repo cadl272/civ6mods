@@ -1,0 +1,87 @@
+/*
+	Mod Support
+	Credits: ChimpanG
+*/
+
+-----------------------------------------------
+-- 40sw4rm's Old World
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS TSL 
+    (
+    MapType		TEXT	DEFAULT NULL,
+    Civ			TEXT	DEFAULT NULL,
+    LeaderType	TEXT	DEFAULT NULL,
+    X			INTEGER	DEFAULT	NULL,
+    Y			INTEGER	DEFAULT NULL
+    );
+
+INSERT INTO TSL
+		(MapType,		Civ,							LeaderType,					X,	Y	)
+VALUES	('40sw4rmOW',	'CIVILIZATION_CVS_SWITZERLAND',	'LEADER_CVS_ESCHER',		20,	56	);
+
+-----------------------------------------------
+-- GEDEMON'S YNAEMP
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS StartPosition (MapName TEXT, Civilization TEXT, Leader TEXT, X INT default 0, Y INT default 0);
+INSERT INTO StartPosition
+		(Civilization,						Leader,						MapName,				X,		Y	)
+VALUES	('CIVILIZATION_CVS_SWITZERLAND',	'LEADER_CVS_ESCHER',		'GiantEarth',			18,		64	),
+		('CIVILIZATION_CVS_SWITZERLAND',	'LEADER_CVS_ESCHER',		'GreatestEarthMap',		48,		48	), 
+		('CIVILIZATION_CVS_SWITZERLAND',	'LEADER_CVS_ESCHER',		'CordiformEarth',		37,		28	),
+		('CIVILIZATION_CVS_SWITZERLAND',    'LEADER_CVS_ESCHER',		'PlayEuropeAgain',		40,		47	),
+		('CIVILIZATION_CVS_SWITZERLAND',    'LEADER_CVS_ESCHER',		'LargeEurope',			32,		41	);
+
+-----------------------------------------------
+-- Historical Spawn Dates
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS HistoricalSpawnDates (Civilization TEXT NOT NULL UNIQUE,	StartYear INTEGER DEFAULT -10000);
+INSERT OR REPLACE INTO HistoricalSpawnDates
+		(Civilization,						StartYear	) 
+VALUES	('CIVILIZATION_CVS_SWITZERLAND',	1291		);
+
+-----------------------------------------------
+-- RwF
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS 
+	Civilization_Titles (
+	CivilizationType  				text 		 		default null,
+	GovernmentType					text 	 			default null,
+	LeaderTitle						text				default null,
+	PolicyType  					text 		 		default null);
+
+CREATE TABLE IF NOT EXISTS 
+	Civilization_StartingGovernment (
+	CivilizationType  				text 		 		default null,
+	GovernmentType					text 				default null,
+	LeaderType						text				default null);	
+	
+INSERT INTO Civilization_Titles
+		(CivilizationType, 					GovernmentType, 							LeaderTitle																)
+VALUES	('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_CHIEFDOM',						'LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_JFD_HORDE',						'LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_SWITZERLAND'					),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_JFD_POLIS',						'LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_SWITZERLAND'					),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_AUTOCRACY',						'LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_OLIGARCHY',						'LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_SWITZERLAND'				), 
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_CLASSICAL_REPUBLIC',			'LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_SWITZERLAND'	),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_MONARCHY',						'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_MERCHANT_REPUBLIC',				'LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_JFD_ABSOLUTE_MONARCHY',			'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_JFD_CONSTITUTIONAL_MONARCHY',	'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_JFD_NOBLE_REPUBLIC',			'LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_DEMOCRACY',						'LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_SWITZERLAND'		),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_COMMUNISM',						'LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_SWITZERLAND'				),
+		('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_FASCISM',						'LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_SWITZERLAND'					);
+
+DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_SWITZERLAND' AND GovernmentType IS NOT NULL AND GovernmentType NOT IN (SELECT GovernmentType FROM Governments);
+DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_SWITZERLAND' AND PolicyType IS NOT NULL AND PolicyType NOT IN (SELECT PolicyType FROM Policies);
+
+INSERT INTO	Civilization_StartingGovernment
+		(CivilizationType,					GovernmentType			)
+VALUES	('CIVILIZATION_CVS_SWITZERLAND',	'GOVERNMENT_JFD_POLIS'	);
+
+
+

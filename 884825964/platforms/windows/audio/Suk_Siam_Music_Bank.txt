@@ -1,0 +1,51 @@
+Event	ID	Name			Wwise Object Path	Notes
+	97828616	Pause_Music_Suk_Siam			\Music\Music\Pause_Music_Suk_Siam	
+	286158546	Stop_Leader_Music_Suk_Siam			\Music\Music\Stop_Leader_Music_Suk_Siam	
+	362956910	Play_Music_Suk_Siam			\Music\Music\Play_Music_Suk_Siam	
+	919689242	Pause_Leader_Music_Suk_Siam			\Music\Music\Pause_Leader_Music_Suk_Siam	
+	1498246832	Stop_Music_Suk_Siam			\Music\Music\Stop_Music_Suk_Siam	
+	1973585548	Play_Leader_Music_Suk_Siam			\Music\Music\Play_Leader_Music_Suk_Siam	
+	2272610774	Start_Music_Suk_Siam			\Music\Music\Start_Music_Suk_Siam	
+	2469441119	Resume_Music_Suk_Siam			\Music\Music\Resume_Music_Suk_Siam	
+	3567077557	Play_Suk_Ramkhamhaeng_First_Meet			\Speech\Leaders\Suk_Ramkhamhaeng\Play_Suk_Ramkhamhaeng_First_Meet	
+	3958021491	Resume_Leader_Music_Suk_Siam			\Music\Music\Resume_Leader_Music_Suk_Siam	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3441926412	Game_Views			\Default Work Unit\Game_Views	
+
+State	ID	Name	State Group			Notes
+	138330285	LENS	Game_Views			
+	319258907	PAUSED	Game_Views			
+	706390200	NORMAL_VIEW	Game_Views			
+	748895195	None	Game_Views			
+	2005704188	MAIN_MENU	Game_Views			
+	2664707777	LEADER_SCREEN	Game_Views			
+	4264815106	ENDGAME	Game_Views			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	302785445	MAIN_MENU	Game_Views	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music		
+	378097811	MAIN_MENU	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\Leaders\LeaderSpeech\Suk_Ramkhamhaeng\Suk_Ramkhamhaeng_First_Meet		
+	523831457	NORMAL_VIEW	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\Leaders\LeaderSpeech\Suk_Ramkhamhaeng\Suk_Ramkhamhaeng_First_Meet		
+	567498062	LEADER_SCREEN	Game_Views	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music		
+	629757084	ENDGAME	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\Leaders\LeaderSpeech\Suk_Ramkhamhaeng\Suk_Ramkhamhaeng_First_Meet		
+	749111532	PAUSED	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\Leaders\LeaderSpeech\Suk_Ramkhamhaeng\Suk_Ramkhamhaeng_First_Meet		
+	780082195	ENDGAME	Game_Views	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music		
+	866976935	LENS	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\Leaders\LeaderSpeech\Suk_Ramkhamhaeng\Suk_Ramkhamhaeng_First_Meet		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	400245416	Suk_Ramkhamhaeng_First_Meet	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Ramkhamhaeng_Intro_Condensed_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\Leaders\LeaderSpeech\Suk_Ramkhamhaeng\Suk_Ramkhamhaeng_First_Meet		126412
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	6926141	Suk_Siam_Lao_Duang_Duen	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Lao_Duang_Duen_EE79F7FB.wem	6926141.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Lao_Duang_Duen\Suk_Siam_Lao_Duang_Duen	
+	27589787	Suk_Siam_Industrial	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Industrial_EE79F7FB.wem	27589787.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Suk_Siam_Theme\INDUSTRIAL_ERA\Suk_Siam_Industrial	
+	35637274	Suk_Siam_Khang_Khao_Kin_Kluay	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Khang_Khao_Kin_Kluay_EE79F7FB.wem	35637274.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Khang_Khao_Kin_Kluay\Suk_Siam_Khang_Khao_Kin_Kluay	
+	91070514	Suk_Siam_Atomic	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Atomic_EE79F7FB.wem	91070514.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Suk_Siam_Theme\MODERN_ERA\Suk_Siam_Atomic	
+	157220861	Suk_Siam_Ancient_Theme	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Ancient_Theme_EE79F7FB.wem	157220861.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Suk_Siam_Theme\ANCIENT_ERA\Suk_Siam_Ancient_Theme	
+	198866960	Suk_Siam_Kham_Wan	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Kham_Wan_EE79F7FB.wem	198866960.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Kham_Wan\Suk_Siam_Kham_Wan	
+	229298248	Suk_Siam_Labum_Lopburi	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Labum_Lopburi_EE79F7FB.wem	229298248.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Labum_Lopburi\Suk_Siam_Labum_Lopburi	
+	306432110	Suk_Siam_Medieval	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Medieval_EE79F7FB.wem	306432110.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Suk_Siam_Theme\MEDIEVAL_ERA\Suk_Siam_Medieval	
+	389013171	Suk_Siam_Kratai_Den	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Kratai_Den_EE79F7FB.wem	389013171.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Kratai_Den\Suk_Siam_Kratai_Den	
+	672788202	Suk_Siam_Lao_Damnuen_Sai	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Lao_Damnuen_Sai_EE79F7FB.wem	672788202.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Lao_Damnuen_Sai\Suk_Siam_Lao_Damnuen_Sai	
+	790961335	Suk_Siam_Khang_Khao_Kin_Kluay_Khim	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam_Khang_Khao_Kin_Kluay_Khim_EE79F7FB.wem	790961335.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Khang_Khao_Kin_Kluay_Khim\Suk_Siam_Khang_Khao_Kin_Kluay_Khim	
+	930074569	Suk_Siam__Lao_Duang_Duen_Khim	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Siam\.cache\Windows\SFX\Suk_Siam__Lao_Duang_Duen_Khim_EE79F7FB.wem	930074569.wem	\Interactive Music Hierarchy\PrototypeMusic\Game_Music_Master\Game_Music_Playlist\Suk_Siam\Suk_Siam_Music\Generic_Themes\Suk_Siam_Lao_Duang_Duen_Khim\Suk_Siam__Lao_Duang_Duen_Khim	
+

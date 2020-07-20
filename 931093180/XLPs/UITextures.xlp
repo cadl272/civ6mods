@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UITextures"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_SUK_CHULALONGKORN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SUK_CHULALONGKORN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SUK_CHULALONGKORN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SUK_CHULALONGKORN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_CHULALONGKORN_1"/>
+			<m_ObjectName text="SUK_CHULALONGKORN_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_CHULALONGKORN_2"/>
+			<m_ObjectName text="SUK_CHULALONGKORN_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_CHULALONGKORN_3"/>
+			<m_ObjectName text="SUK_CHULALONGKORN_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_CHULALONGKORN_4"/>
+			<m_ObjectName text="SUK_CHULALONGKORN_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_256"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_32"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_45"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_48"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_50"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_55"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_64"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_80"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Chulalongkorn_Civ_45"/>
+			<m_ObjectName text="Icon_Suk_Chulalongkorn_Civ_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_Governors64"/>
+			<m_ObjectName text="Suk_Damrong_Governors64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_GovernorsCityBannerFill32"/>
+			<m_ObjectName text="Suk_Damrong_GovernorsCityBannerFill32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_GovernorsCityBannerSlot32"/>
+			<m_ObjectName text="Suk_Damrong_GovernorsCityBannerSlot32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_Governors32"/>
+			<m_ObjectName text="Suk_Damrong_Governors32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_GovernorsCityBannerFill22"/>
+			<m_ObjectName text="Suk_Damrong_GovernorsCityBannerFill22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_GovernorsCityBannerSlot22"/>
+			<m_ObjectName text="Suk_Damrong_GovernorsCityBannerSlot22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Damrong_GovernorPromotions24"/>
+			<m_ObjectName text="Suk_Damrong_GovernorPromotions24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Suk_Damrong"/>
+			<m_ObjectName text="GovernorNormal_Suk_Damrong"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Suk_Damrong"/>
+			<m_ObjectName text="GovernorSelected_Suk_Damrong"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_PromoteGovernor_Suk_Damrong"/>
+			<m_ObjectName text="Moment_PromoteGovernor_Suk_Damrong"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/units"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_A"/>
+			<m_ObjectName text="Chevalier_Helmet_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_B"/>
+			<m_ObjectName text="Chevalier_Helmet_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_C"/>
+			<m_ObjectName text="Chevalier_Helmet_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_D"/>
+			<m_ObjectName text="Chevalier_Helmet_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_F"/>
+			<m_ObjectName text="Chevalier_Helmet_F"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_G"/>
+			<m_ObjectName text="Chevalier_Helmet_G"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chevalier_Helmet_E"/>
+			<m_ObjectName text="Chevalier_Helmet_E"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LongswordA"/>
+			<m_ObjectName text="LongswordA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Familia_Armor_A"/>
+			<m_ObjectName text="Familia_Armor_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Familia_Armor_B"/>
+			<m_ObjectName text="Familia_Armor_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Familia_Armor_C"/>
+			<m_ObjectName text="Familia_Armor_C"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

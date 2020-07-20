@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c9952976-07a3-4035-a902-b85cab20c60f" version="1">
+  <Properties>
+    <Name>Sukritact's Ngawang Lobsang Gyatso (Tibet)</Name>
+    <Description>Adds Ngawang Lobsang Gyatso as an alternate Leader for Tibet</Description>
+    <Teaser>Adds Ngawang Lobsang Gyatso as an alternate Leader for Tibet</Teaser>
+    <Authors>Sukritact</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="46861b79-4a6f-48cb-9df8-33b7eb4b760e" title="Sukritact's Trisong Detsen (Tibet)" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Sukritact's Ngawang Lobsang Gyatso (Tibet).dep</File>
+    </UpdateArt>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="UpdateColors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Color.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/GameDefines.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="UpdateArt">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Sukritact's Ngawang Lobsang Gyatso (Tibet).dep</File>
+    </UpdateArt>
+    <UpdateText id="UpdateText">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="UpdateIcons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Icons.sql</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="AddGameplayScripts">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Lua/Suk_Lobsang_Gyatso.lua</File>
+    </AddGameplayScripts>
+    <UpdateColors id="UpdateColors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Color.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>Core/Color.sql</File>
+    <File>Core/Config.sql</File>
+    <File>Core/GameDefines.sql</File>
+    <File>Core/Icons.sql</File>
+    <File>Core/Localisation.sql</File>
+    <File>Lua/Suk_Lobsang_Gyatso.lua</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact's Ngawang Lobsang Gyatso (Tibet).dep</File>
+  </Files>
+</Mod>

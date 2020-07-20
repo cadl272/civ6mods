@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+	
+		<!--MOD SUPPORT-->
+		
+		<!--JFD Rule with Faith-->
+		<Row Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Matran</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Sar</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Sheikh</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Ensi</Text>
+		</Row>	
+		<Row Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Vizier</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Vizier</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_ABSOLUTE_MONARCHY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_CONSTITUTIONAL_MONARCHY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_NOBLE_REPUBLIC_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Grand Vizier</Text>
+		</Row>		
+		<Row Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Overseer</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Overseer</Text>
+		</Row>		
+		<Row Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Supreme Leader</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_EMPIRE_LEADER_TITLE_CVS_ENHEDUANNA" Language="en_US">
+			<Text>Sar Sarrani</Text>
+		</Row>
+		<Replace>
+			<Tag>LOC_CIVILIZATION_CVS_AKKAD_DESCRIPTION_JFD_CIVILIZATION</Tag>
+			<Language>en_US</Language>
+			<Text>Akkadian Empire</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

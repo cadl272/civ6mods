@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0e755ff7-6e88-431f-a99a-5fe5e24cc857" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Anacaona</Name>
+    <Description>Adds Anacaona as a leader for CIVITAS [ICON_GOVERNMENT] Taino.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Anacaona as a leader for CIVITAS Taino.</Teaser>
+    <Authors>ChimpanG</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="e6175fc8-e018-4d21-b52a-f6d5aeb292a5" title="CIVITAS [ICON_GOVERNMENT] Taíno" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Anacaona.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Anacaona_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Anacaona_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Anacaona_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Anacaona_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Anacaona.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Anacaona_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Leader.sql</File>
+      <File>Core/Anacaona_UA.sql</File>
+      <File>Core/Anacaona_UI.sql</File>
+      <File>Core/Anacaona_Agenda.sql</File>
+      <File>Core/Anacaona_Strategy.sql</File>
+      <File>Core/Anacaona_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Anacaona_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Anacaona_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Localisation.sql</File>
+    </UpdateText>
+    <UpdateColors id="Anacaona_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Anacaona_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/LeaderFallbacks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Anacaona.dep</File>
+    <File>Core/Anacaona_Agenda.sql</File>
+    <File>Core/Anacaona_Colors.sql</File>
+    <File>Core/Anacaona_Config.sql</File>
+    <File>Core/Anacaona_Icons.sql</File>
+    <File>Core/Anacaona_Leader.sql</File>
+    <File>Core/Anacaona_Localisation.sql</File>
+    <File>Core/Anacaona_ModSupport.sql</File>
+    <File>Core/Anacaona_Strategy.sql</File>
+    <File>Core/Anacaona_UA.sql</File>
+    <File>Core/Anacaona_UI.sql</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/strategicview/strategicview_improvements.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_improvements.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>

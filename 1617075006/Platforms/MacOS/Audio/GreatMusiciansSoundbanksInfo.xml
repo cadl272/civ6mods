@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Chris\Documents\WwiseProjects\GreatPeopleMusicians\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1646233166" Language="SFX">
+			<ShortName>GreatMusicians</ShortName>
+			<Path>GreatMusicians.bnk</Path>
+			<IncludedEvents>
+				<Event Id="648112088" Name="Play_American"/>
+				<Event Id="3488850057" Name="Play_Atmospheres"/>
+				<Event Id="3878082243" Name="Play_ATrain"/>
+				<Event Id="1308864126" Name="Play_Baba"/>
+				<Event Id="4013338492" Name="Play_Caravan"/>
+				<Event Id="2866408836" Name="Play_Chega"/>
+				<Event Id="981700089" Name="Play_Entertainer"/>
+				<Event Id="3936891815" Name="Play_Firebird"/>
+				<Event Id="3701343554" Name="Play_HarryPotter"/>
+				<Event Id="808525906" Name="Play_Hounddog"/>
+				<Event Id="621364171" Name="Play_Ipanema"/>
+				<Event Id="4208691806" Name="Play_Jailhouse"/>
+				<Event Id="2892864121" Name="Play_Lux"/>
+				<Event Id="381598925" Name="Play_MapleLeaf"/>
+				<Event Id="1397496720" Name="Play_PeopleAretheHeroes"/>
+				<Event Id="181250544" Name="Play_Rhapsody"/>
+				<Event Id="764278924" Name="Play_RiteofSpring"/>
+				<Event Id="3246236687" Name="Play_ShakerLoops"/>
+				<Event Id="3291071886" Name="Play_Sogno"/>
+				<Event Id="1915486639" Name="Play_StarWars"/>
+				<Event Id="2043945311" Name="Stop_Magnum_Opus_1"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="35099563" Language="SFX">
+					<ShortName>HarryPotter.wav</ShortName>
+					<Path>SFX\HarryPotter_9E69E797.wem</Path>
+				</File>
+				<File Id="62233276" Language="SFX">
+					<ShortName>Atmospheres.wav</ShortName>
+					<Path>SFX\Atmospheres_9E69E797.wem</Path>
+				</File>
+				<File Id="231901994" Language="SFX">
+					<ShortName>Hounddog.wav</ShortName>
+					<Path>SFX\Hounddog_9E69E797.wem</Path>
+				</File>
+				<File Id="279482991" Language="SFX">
+					<ShortName>Chega.wav</ShortName>
+					<Path>SFX\Chega_9E69E797.wem</Path>
+				</File>
+				<File Id="338287154" Language="SFX">
+					<ShortName>AmericanInParis.wav</ShortName>
+					<Path>SFX\AmericanInParis_9E69E797.wem</Path>
+				</File>
+				<File Id="419608099" Language="SFX">
+					<ShortName>Ipanema.wav</ShortName>
+					<Path>SFX\Ipanema_9E69E797.wem</Path>
+				</File>
+				<File Id="502047498" Language="SFX">
+					<ShortName>Jailhouse.wav</ShortName>
+					<Path>SFX\Jailhouse_9E69E797.wem</Path>
+				</File>
+				<File Id="505937426" Language="SFX">
+					<ShortName>Firebird.wav</ShortName>
+					<Path>SFX\Firebird_9E69E797.wem</Path>
+				</File>
+				<File Id="573287273" Language="SFX">
+					<ShortName>Rhapsody.wav</ShortName>
+					<Path>SFX\Rhapsody_9E69E797.wem</Path>
+				</File>
+				<File Id="583459165" Language="SFX">
+					<ShortName>RiteofSpring.wav</ShortName>
+					<Path>SFX\RiteofSpring_9E69E797.wem</Path>
+				</File>
+				<File Id="600606136" Language="SFX">
+					<ShortName>ATrain.wav</ShortName>
+					<Path>SFX\ATrain_9E69E797.wem</Path>
+				</File>
+				<File Id="676896544" Language="SFX">
+					<ShortName>StarWars.wav</ShortName>
+					<Path>SFX\StarWars_9E69E797.wem</Path>
+				</File>
+				<File Id="712790622" Language="SFX">
+					<ShortName>MapleLeaf.wav</ShortName>
+					<Path>SFX\MapleLeaf_9E69E797.wem</Path>
+				</File>
+				<File Id="718987781" Language="SFX">
+					<ShortName>Caravan.wav</ShortName>
+					<Path>SFX\Caravan_9E69E797.wem</Path>
+				</File>
+				<File Id="723063291" Language="SFX">
+					<ShortName>ShakerLoops.wav</ShortName>
+					<Path>SFX\ShakerLoops_9E69E797.wem</Path>
+				</File>
+				<File Id="787992702" Language="SFX">
+					<ShortName>Sogno.wav</ShortName>
+					<Path>SFX\Sogno_9E69E797.wem</Path>
+				</File>
+				<File Id="897780467" Language="SFX">
+					<ShortName>Baba.wav</ShortName>
+					<Path>SFX\Baba_9E69E797.wem</Path>
+				</File>
+				<File Id="920999698" Language="SFX">
+					<ShortName>Entertainer.wav</ShortName>
+					<Path>SFX\Entertainer_9E69E797.wem</Path>
+				</File>
+				<File Id="995477723" Language="SFX">
+					<ShortName>PeopleAretheHeroes.wav</ShortName>
+					<Path>SFX\PeopleAretheHeroes_9E69E797.wem</Path>
+				</File>
+				<File Id="1029063026" Language="SFX">
+					<ShortName>Lux.wav</ShortName>
+					<Path>SFX\Lux_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

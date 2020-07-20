@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!--MOD SUPPORT-->
+
+		<!--JFD Rule with Faith-->
+		<Row Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Abgal</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Udul</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>En</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Ensi</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Nam</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Dikud</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_FEUDAL_MONARCHY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Sarru</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Damgargal</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_GOVERNMENT_THEOCRACY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Ezi</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Paqidu</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Ummia</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Sakkanak</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_AKKAD" Language="en_US">
+			<Text>Lugal</Text>
+		</Row>
+
+		<Row Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Amagal</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Udul</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>En</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Ensi</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Nam</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Dikud</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_FEUDAL_MONARCHY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Sarratu</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Damgargal</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_GOVERNMENT_THEOCRACY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Lukur</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Paqidu</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Ummia</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Sakkanak</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_AKKAD_FEMININE" Language="en_US">
+			<Text>Eres</Text>
+		</Row>
+		<Replace>
+			<Tag>LOC_CIVILIZATION_CVS_AKKAD_DESCRIPTION_JFD_CIVILIZATION</Tag>
+			<Language>en_US</Language>
+			<Text>Akkadian Empire</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

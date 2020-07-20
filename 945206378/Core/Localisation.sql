@@ -1,0 +1,150 @@
+--------------------------------------------------------------------------------------------------------------------------
+-- LocalizedText
+--------------------------------------------------------------------------------------------------------------------------
+INSERT OR REPLACE INTO LocalizedText
+		(Tag, 																								Language,					Text)
+VALUES  
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+		("LOC_LEADER_SUK_SENUSRET_III_NAME",  																						"en_US",
+		"Senusret III"																),
+--------------------------------------------------------------------------------------------------------------------------
+-- ULA
+--------------------------------------------------------------------------------------------------------------------------
+		("LOC_TRAIT_LEADER_SUK_FORTRESS_OF_BUHEN_NAME",  																				"en_US",
+		"Fortress of Buhen"															),
+		("LOC_TRAIT_LEADER_SUK_FORTRESS_OF_BUHEN_DESCRIPTION",  																		"en_US",
+		"The Encampment district and its buildings also provide [ICON_GreatMerchant] Great Merchant Points. When built next to a river, Encampment districts provide a free Melee or Ranged unit every 30 turns (on Standard)."  															),
+--------------------------------------------------------------------------------------------------------------------------
+-- Agenda
+--------------------------------------------------------------------------------------------------------------------------
+		("LOC_AGENDA_SUK_SOULS_OF_RE_NAME",  																								"en_US",
+		"Appearing like the Souls of Re"														),
+		("LOC_AGENDA_SUK_SOULS_OF_RE_DESCRIPTION",  																						"en_US",
+		"Likes civilizations with many wonders and a strong army. Dislikes decadent civilizations with many wonders but no army."															),
+
+		("LOC_DIPLO_KUDO_LEADER_SUK_SENUSRET_III_REASON_ANY",  																					"en_US",
+		"(You have many wonders and a strong army.)"															),
+		("LOC_DIPLO_MODIFIER_SUK_SOULS_OF_RE_KUDOS",  																					"en_US",
+		"Senusret likes civilizations with many wonders and a strong army"															),
+
+		("LOC_DIPLO_WARNING_LEADER_SUK_SENUSRET_III_REASON_ANY",  																				"en_US",
+		"(You are decadent, with many wonders but no army to defend them.)"															),
+		("LOC_DIPLO_MODIFIER_SUK_SOULS_OF_RE_WARNING",  																					"en_US",
+		"Senusret dislikes civilizations with many wonders but no army"															),
+--------------------------------------------------------------------	
+-- Cities	
+--------------------------------------------------------------------	
+		("LOC_CITY_NAME_SUK_EGYPT_ITJTAWY",	"en_US",
+		"Itjtawy"),	
+		("LOC_CITY_NAME_SUK_EGYPT_BUHEN",	"en_US",
+		"Buhen"),
+		("LOC_CITY_NAME_SUK_EGYPT_SEMNA",	"en_US",
+		"Semna"),
+		("LOC_CITY_NAME_SUK_EGYPT_KUMMA",	"en_US",
+		"Kumma"),				
+		("LOC_CITY_NAME_SUK_EGYPT_IKEN",	"en_US",
+		"Iken"),
+		("LOC_CITY_NAME_SUK_EGYPT_WAF_CHASTIU",	"en_US",
+		"Waf-Chastiu"),
+		("LOC_CITY_NAME_SUK_EGYPT_URONARTI",	"en_US",
+		"Uronarti"),
+		("LOC_CITY_NAME_SUK_EGYPT_DJER_SETIU",	"en_US",
+		"Djer-Setiu"),
+		("LOC_CITY_NAME_SUK_EGYPT_DABENARTI",	"en_US",
+		"Dabenarti"),
+--------------------------------------------------------------------------------------------------------------------------
+-- Diplo
+--------------------------------------------------------------------------------------------------------------------------
+		("LOC_LOADING_INFO_LEADER_SUK_SENUSRET_III",  																		"en_US",
+		"The enemies of Egypt are many, divine Khakaure Senusret III, but they will all tremble at the sight of your mighty war chariots. Channel Egypt's great architects towards the construction of citadels across the land, and the protection they provide will ensure trade flows through your mighty Empire. Be like the Soul of Re, King Senusret III, and Egypt will not fail."),
+		("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"Unfortunate."),
+		("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"Thank you, friend."),
+		("LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"Egypt would be your friend. Do you accept?"),
+		("LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"You are not yet worthy of our friendship."),
+		("LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"We are pleased to accept your offer of friendship."),
+		("LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"It is time I smote my enemies. Prepare for your end."),
+		("LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"Our arrows will blot out the sun. You have made a grave mistake!"),
+		("LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"I have lost? But they have yet to finish my pyramid!"),
+		("LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"I have lost? But they have yet to finish my pyramid!"),
+		("LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"We have sent you a delegation bearing gifts. Bows, swords and a golden knife like this one I'm holding."),
+		("LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"I think not."),
+		("LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"Your offerings have been received. Accept my gratitude in return."),
+		("LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"If I am Horus incarnate, you are Set incarnate! (Denounces You)."),
+		("LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"One day, the rage of Montu will fall upon you, and you will regret these words."),
+		("LOC_DIPLO_FIRST_MEET_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"I am Horus incarnate, protected by Amun. I am Senusret III, Lord of the Two Lands. Know I will protect my lands with force."),
+		("LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"We have a city nearby. Would you like to visit? I could take you on a hunt in the reeds."),
+		("LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"This is acceptable."),
+		("LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"All our cities are grand, but our capital is the grandest of them all."),
+		("LOC_DIPLO_GREETING_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"Welcome."),
+		("LOC_DIPLO_WARNING_EXIT_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"You grow arrogant and decadent. Must I send my army to put you in your place?"),
+		("LOC_DIPLO_KUDO_EXIT_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"Yours is an empire to rival ours. Well done."),
+		("LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"Would you like to form an alliance?"),
+		("LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SUK_SENUSRET_III_ANY}"),
+		("LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SUK_SENUSRET_III_ANY}"),
+		("LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"As Sekhmet becomes Hathor, so do we make peace."),
+		("LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"This quarrel is not settled."),
+		("LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"Men have fought, men have died. Let us end this."),
+		("LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"You may enter into Egypt. Stay clear of our necropoleis."),
+		("LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"I do not permit it. Horus does not permit it."),
+		("LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SUK_SENUSRET_III_ANY",                                     "en_US",
+		"My military would like permission to pass through your lands. Peacefully, of course."),
+		("LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SUK_SENUSRET_III_ANY",                                      "en_US",
+		"Your army tries my patience. Do not make me unleash my army's rage upon yours."),
+--------------------------------------------------------------------------------------------------------------------------
+-- Quote and Pedia
+--------------------------------------------------------------------------------------------------------------------------
+		("LOC_PEDIA_LEADERS_PAGE_SUK_SENUSRET_III_QUOTE",  																		"en_US",
+		"Now, as for every son of mine who shall maintain this boundary, which my majesty has made, he is my son, he is born to my majesty."  															),
+		
+		("LOC_PEDIA_LEADERS_PAGE_SUK_SENUSRET_III_TITLE",														"en_US",
+		"Senusret III"),
+		("LOC_PEDIA_LEADERS_PAGE_SUK_SENUSRET_III_SUBTITLE",													"en_US",
+		"Khakaure Senusret III"),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_CAPSULE_BODY",							"en_US",
+		"Egypt's bonuses make them a strong contenter in the wonder race, and with Senusret III's bonuses, any wonders he fails to grab, he can simply conquer."),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_DETAILED_BODY",							"en_US",
+		"Egypt starts right along a River where they get bonuses for building districts and wonders. Those wonders become especially valuable with Sphinxes nearby, allowing Egypt to get off to a speedy start in all areas of the game. Senusret's bonuses encourage getting up a few riverside Encampments early. You'll get a steady trickle of [ICON_GreatMerchant] Great Merchant points, and a couple of free units, freeing production towards focusing on Wonders. With boosts to culture and faith from Sphinxes, and a military and economic boost from Encampments, Senusret is set to push toward any victory type."),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_HISTORY_PARA_1",						"en_US",
+		"Senusret III (c. 1878-1860 BCE) was perhaps the most powerful king of the Egyptian Middle Kingdom whose reign was so prosperous he was deified in his lifetime. Senusret III is considered the model for the legend of Sesostris, the great Egyptian Pharaoh who, according to Herodotus, campaigned in and colonized Europe and, according to Diodorus Siculus, conquered the entire known world. Senusret III is the best candidate as basis for Sesostris as his reign is marked by military expansion into Nubia and an increase in wealth and power for Egypt. "),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_HISTORY_PARA_2",		"en_US",
+		"The prestige of the nomarchs declines during Senusret III's reign and the title vanishes from the official records suggesting the position was absorbed by the crown. This interpretation is supported by the institution of larger districts under the control of the central government. The individual families who had held the position do not seem to have lost their status, however, as the tombs at Beni Hassan mentioned earlier attest. Many of the biographies inscribed tell the story of a former nomarch who became a royal administrator devoted to the king."),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_HISTORY_PARA_3",		"en_US",
+		"Senusret III was the epitome of the warrior-king and embodied the Egyptian cultural value of military skill and decisive action. At the head of his army, he was considered invincible. His campaigns into Nubia expanded Egypt's boundaries and the fortifications he built along the border fostered trade. He also led an expedition into Palestine and afterwards increased trade relations with that region."),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_HISTORY_PARA_4",		"en_US",
+		"The plunder from the Nubian and Syrian campaigns was mostly directed towards the temples in Egypt, and their renewal. For example, at Abydos, an inscription by a local official named Ikhernofret states that the king commissioned him to refurbish Osiris's barge, shrine and chapels with gold, electrum, lapis lazuli, malachite and other costly stones. He also adorned the temple of Mentuhotep II at Deir el-Bahari (West Bank at Luxor) with a series of six life size granite standing statues of himself wearing the nemes headdress. They once lined the lower terrace."),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_HISTORY_PARA_5",		"en_US",
+		"Religiously, we are told in a graffiti that, even though his capital, burial ground and other interests were in Northern Egypt, he also helped maintain a large number of priests associated with the cult of Amun in Upper (southern) Egypt at Thebes. He also had built a large temple to the old Theban war god, Montu, just north of Karnak at Nag-el-Medamoud. While this temple was refurbished in the New Kingdom and again in the Greek and Roman period, nothing remains of it save two finely carved granite gateways that were discovered in 1920, along with some very splendid statues and a few inscriptions."),
+		("LOC_PEDIA_LEADERS_PAGE_LEADER_SUK_SENUSRET_III_CHAPTER_HISTORY_PARA_6",		"en_US",
+		"Sunusret III had his pyramid built at Dahshur, a mostly Middle Kingdom necropolis. It was the largest of the 12th Dynasty pyramids, but like the others with mudbrick cores, after the casing was removed it deteriorated badly. In the excavation season of 1894-1895, Jacques de Morgan also found the tombs of Queen Mereret and princess Sit-Hathor near the northern enclosure wall of Senusret III's pyramid complex. Also found with these tombs were some fine jewelry, missed by earlier robbers. However, some Egyptologists doubt that Senusret III was buried in this pyramid. He also had an elaborate tomb and complex built in South Abydos. This huge complex stretches over a kilometer between the edge of the Nile floodplain and the foot of the high desert cliffs that form the western boundary of the valley. This complex consists of an underground tomb which, at least at one time, was considered to be the largest in Egypt (that may have been eclipsed by the discovery of the Tomb of Ramesses II's Sons in the Valley of the Kings). Other components include a mortuary temple at the edge of the cultivated fields and a town south of the tomb that supported the complex. The name of this funerary complex was “Enduring are the Places of Khakaure Justified in Abydos”.");
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------

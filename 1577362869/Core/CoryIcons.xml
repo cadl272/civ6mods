@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADERS_CIVITAS_CORY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CIVITAS_CORY_256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+
+		<Row Name="ICON_LEADER_CIVITAS_CORY" Atlas="ICON_ATLAS_LEADERS_CIVITAS_CORY" Index="0"/>
+
+	</IconDefinitions>
+</GameData>

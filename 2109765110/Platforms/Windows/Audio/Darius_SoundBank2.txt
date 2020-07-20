@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	163832339	DariusDeclareWar			\Speech\Leaders\Darius\DariusDeclareWar	
+	715590555	DariusStop			\Speech\Leaders\Darius\DariusStop	
+	844238044	DariusPeaceful			\Speech\Leaders\Darius\DariusPeaceful	
+	2159853983	DariusIntro			\Speech\Leaders\Darius\DariusIntro	
+	2699270129	DariusDefeated			\Speech\Leaders\Darius\DariusDefeated	
+	3480576144	DariusAttacked			\Speech\Leaders\Darius\DariusAttacked	
+	3892016373	DariusHateHello			\Speech\Leaders\Darius\DariusHateHello	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	35356066	DariusGreeting	C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\SFX\DariusGreeting_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Darius\DariusGreeting		612928
+	148514346	DariusPeaceful	C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\SFX\DariusPeaceful_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Darius\DariusPeaceful		149824
+	460350882	DariusAttacked	C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\SFX\DariusAttacked_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Darius\DariusAttacked		306496
+	715528096	DariusDeclareWar	C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\SFX\DariusDeclareWar_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Darius\DariusDeclareWar		518464
+	746994460	DariusDefeated	C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\SFX\DariusDefeated_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Darius\DariusDefeated		460864
+	748359685	DariusHateHello	C:\Users\User\Documents\WwiseProjects\Darius_Audio\.cache\Windows\SFX\DariusHateHello_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Speech_Master\LeaderSpeech\Darius\DariusHateHello		265024
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/UI_GreatWorksArt"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="SC_PICASSO_1"/>
+			<m_ObjectName text="SC_PICASSO_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_PICASSO_2"/>
+			<m_ObjectName text="SC_PICASSO_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_PICASSO_3"/>
+			<m_ObjectName text="SC_PICASSO_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KAHLO_1"/>
+			<m_ObjectName text="SC_KAHLO_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KAHLO_2"/>
+			<m_ObjectName text="SC_KAHLO_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KAHLO_3"/>
+			<m_ObjectName text="SC_KAHLO_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_OKEEFFE_1"/>
+			<m_ObjectName text="SC_OKEEFFE_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_OKEEFFE_2"/>
+			<m_ObjectName text="SC_OKEEFFE_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_OKEEFFE_3"/>
+			<m_ObjectName text="SC_OKEEFFE_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_WARHOL_1"/>
+			<m_ObjectName text="SC_WARHOL_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_WARHOL_2"/>
+			<m_ObjectName text="SC_WARHOL_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_WARHOL_3"/>
+			<m_ObjectName text="SC_WARHOL_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_LICHTENSTEIN_1"/>
+			<m_ObjectName text="SC_LICHTENSTEIN_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_LICHTENSTEIN_2"/>
+			<m_ObjectName text="SC_LICHTENSTEIN_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_LICHTENSTEIN_3"/>
+			<m_ObjectName text="SC_LICHTENSTEIN_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_JOHNS_1"/>
+			<m_ObjectName text="SC_JOHNS_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_JOHNS_2"/>
+			<m_ObjectName text="SC_JOHNS_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_JOHNS_3"/>
+			<m_ObjectName text="SC_JOHNS_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KOGELNIK_1"/>
+			<m_ObjectName text="SC_KOGELNIK_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KOGELNIK_2"/>
+			<m_ObjectName text="SC_KOGELNIK_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KOGELNIK_3"/>
+			<m_ObjectName text="SC_KOGELNIK_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_MAGRITTE_1"/>
+			<m_ObjectName text="SC_MAGRITTE_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_MAGRITTE_2"/>
+			<m_ObjectName text="SC_MAGRITTE_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_MAGRITTE_3"/>
+			<m_ObjectName text="SC_MAGRITTE_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KUSAMA_1"/>
+			<m_ObjectName text="SC_KUSAMA_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KUSAMA_2"/>
+			<m_ObjectName text="SC_KUSAMA_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_KUSAMA_3"/>
+			<m_ObjectName text="SC_KUSAMA_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_BANKSY_1"/>
+			<m_ObjectName text="SC_BANKSY_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_BANKSY_2"/>
+			<m_ObjectName text="SC_BANKSY_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_BANKSY_3"/>
+			<m_ObjectName text="SC_BANKSY_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_HIRST_1"/>
+			<m_ObjectName text="SC_HIRST_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_HIRST_2"/>
+			<m_ObjectName text="SC_HIRST_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_HIRST_3"/>
+			<m_ObjectName text="SC_HIRST_TEXTURE_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_MURAKAMI_1"/>
+			<m_ObjectName text="SC_MURAKAMI_TEXTURE_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_MURAKAMI_2"/>
+			<m_ObjectName text="SC_MURAKAMI_TEXTURE_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SC_MURAKAMI_3"/>
+			<m_ObjectName text="SC_MURAKAMI_TEXTURE_3"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

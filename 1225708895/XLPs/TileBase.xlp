@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_BuildingA"/>
+			<m_ObjectName text="DIS_CVS_Agora_BuildingA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Classical_Base_01"/>
+			<m_ObjectName text="DIS_CVS_Agora_Classical_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Fountain"/>
+			<m_ObjectName text="DIS_CVS_Agora_Fountain"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Fountain_2"/>
+			<m_ObjectName text="DIS_CVS_Agora_Fountain_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_StatueHorse"/>
+			<m_ObjectName text="DIS_CVS_Agora_StatueHorse"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Brazier"/>
+			<m_ObjectName text="DIS_CVS_Agora_Brazier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Planter"/>
+			<m_ObjectName text="DIS_CVS_Agora_Planter"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Classical_Base_02"/>
+			<m_ObjectName text="DIS_CVS_Agora_Classical_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Classical_Base_03"/>
+			<m_ObjectName text="DIS_CVS_Agora_Classical_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Agora_Classical_Base_04"/>
+			<m_ObjectName text="DIS_CVS_Agora_Classical_Base_04"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

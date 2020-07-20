@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d2d63e78-9c11-4d82-a943-ac7c49dcc909" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Dihya</Name>
+    <Description>Adds Dihya as a leader for CIVITAS [ICON_GOVERNMENT] Berbers.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Dihya as a leader for CIVITAS Berbers.</Teaser>
+    <Authors>SeelingCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="ba7d3560-2e89-4f92-960a-b6171ce51926" title="CIVITAS [ICON_GOVERNMENT] Berbers" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Dihya.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Dihya_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Dihya_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Dihya_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Dihya_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Dihya.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Dihya_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Leader.sql</File>
+      <File>Core/Dihya_UA.sql</File>
+      <File>Core/Dihya_Agenda.sql</File>
+      <File>Core/Dihya_Strategy.sql</File>
+      <File>Core/Dihya_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Dihya_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Dihya_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Dihya_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Dihya_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Dihya.dep</File>
+    <File>Core/Dihya_Agenda.sql</File>
+    <File>Core/Dihya_Colors.sql</File>
+    <File>Core/Dihya_Config.sql</File>
+    <File>Core/Dihya_Icons.sql</File>
+    <File>Core/Dihya_Leader.sql</File>
+    <File>Core/Dihya_Localisation.sql</File>
+    <File>Core/Dihya_ModSupport.sql</File>
+    <File>Core/Dihya_Scripts.lua</File>
+    <File>Core/Dihya_Strategy.sql</File>
+    <File>Core/Dihya_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>

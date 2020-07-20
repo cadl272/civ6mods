@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3f642506-f163-4bc2-bc16-f3b5f4307043" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Iskandar</Name>
+    <Description>Adds Iskandar for CIVITAS [ICON_GOVERNMENT] Malaysia.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Iskandar for CIVITAS Malaysia.</Teaser>
+    <Authors>ChimpanG</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="f4959c6e-9181-4a16-aebc-20690fb07cb9" title="CIVITAS [ICON_GOVERNMENT] Malaysia" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Iskandar.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Iskandar_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Iskandar_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Iskandar_Setup_Icon">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Iskandar_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Iskandar.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Iskandar_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Leader.sql</File>
+      <File>Core/Iskandar_UA.sql</File>
+      <File>Core/Iskandar_Agenda.sql</File>
+      <File>Core/Iskandar_Strategy.sql</File>
+      <File>Core/Iskandar_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Iskandar_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Iskandar_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Iskandar_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Iskandar_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Iskandar.dep</File>
+    <File>Core/Iskandar_Agenda.sql</File>
+    <File>Core/Iskandar_Colors.sql</File>
+    <File>Core/Iskandar_Config.sql</File>
+    <File>Core/Iskandar_Icons.sql</File>
+    <File>Core/Iskandar_Leader.sql</File>
+    <File>Core/Iskandar_Localisation.sql</File>
+    <File>Core/Iskandar_ModSupport.sql</File>
+    <File>Core/Iskandar_Strategy.sql</File>
+    <File>Core/Iskandar_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+  </Files>
+</Mod>

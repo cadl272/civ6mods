@@ -1,0 +1,46 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1144147773	Play_Suk_Hadrian_Defeat			\Default Work Unit\Speech\Leaders\Suk_Hadrian\Play_Suk_Hadrian_Defeat	
+	1515177313	Play_Suk_Hadrian_Declare_War			\Default Work Unit\Speech\Leaders\Suk_Hadrian\Play_Suk_Hadrian_Declare_War	
+	2011037000	Play_Suk_Hadrian_First_Meet			\Default Work Unit\Speech\Leaders\Suk_Hadrian\Play_Suk_Hadrian_First_Meet	
+	3966306083	Play_Suk_Hadrian_Attacked			\Default Work Unit\Speech\Leaders\Suk_Hadrian\Play_Suk_Hadrian_Attacked	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3441926412	Game_Views			\Default Work Unit\Game_Views	
+
+State	ID	Name	State Group			Notes
+	138330285	Lens	Game_Views			
+	319258907	Paused	Game_Views			
+	706390200	Normal_View	Game_Views			
+	748895195	None	Game_Views			
+	2005704188	Main_Menu	Game_Views			
+	2664707777	Leader_Screen	Game_Views			
+	4264815106	Endgame	Game_Views			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	5198540	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DECLARE_WAR		
+	7763969	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_ATTACKED		
+	72365861	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_FIRST_MEET		
+	110090056	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DEFEAT		
+	122567138	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_ATTACKED		
+	224909028	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_FIRST_MEET		
+	335546560	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DEFEAT		
+	395475110	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DEFEAT		
+	473628131	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_FIRST_MEET		
+	496731918	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_ATTACKED		
+	569630790	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_ATTACKED		
+	608238238	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DECLARE_WAR		
+	733608336	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DECLARE_WAR		
+	780604766	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_FIRST_MEET		
+	781101649	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DEFEAT		
+	851733667	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_ATTACKED		
+	878209671	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DECLARE_WAR		
+	894295321	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DEFEAT		
+	915411603	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_FIRST_MEET		
+	965338657	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DECLARE_WAR		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	295788928	SUK_HADRIAN_DECLARE_WAR	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\.cache\Windows\SFX\SUK_HADRIAN_DECLARE_WAR_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DECLARE_WAR		65542
+	413359081	SUK_HADRIAN_DEFEAT	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\.cache\Windows\SFX\SUK_HADRIAN_DEFEAT_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_DEFEAT		95844
+	542460414	SUK_HADRIAN_FIRST_MEET	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\.cache\Windows\SFX\SUK_HADRIAN_FIRST_MEET_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_FIRST_MEET		123869
+	836792834	SUK_HADRIAN_ATTACKED	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Hadrian_Speech\.cache\Windows\SFX\SUK_HADRIAN_ATTACKED_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\Leaders\Suk_Hadrian\SUK_HADRIAN_ATTACKED		98839
+

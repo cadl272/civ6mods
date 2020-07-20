@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>260</build>
+		<revision>754</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_CTY_RSS_BERBER_PALACE"/>
+			<m_ObjectName text="DIS_CTY_RSS_BERBER_PALACE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_BERBER_UI"/>
+			<m_ObjectName text="CVS_BERBER_UI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CITY_BERBER_BUILDING_4"/>
+			<m_ObjectName text="DIS_CITY_BERBER_BUILDING_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CITY_BERBER_BUILDING_6"/>
+			<m_ObjectName text="DIS_CITY_BERBER_BUILDING_6"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CITY_BERBER_BUILDING_8"/>
+			<m_ObjectName text="DIS_CITY_BERBER_BUILDING_8"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CITY_BERBER_BUILDING_9"/>
+			<m_ObjectName text="DIS_CITY_BERBER_BUILDING_9"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CITY_BERBER_BUILDING_10"/>
+			<m_ObjectName text="DIS_CITY_BERBER_BUILDING_10"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

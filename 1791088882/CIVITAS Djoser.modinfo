@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8aa59e69-4ff0-4f7b-b2ec-f9eab2fbfc67" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Djoser</Name>
+    <Description>Adds Djoser as a leader for Egypt.</Description>
+    <Teaser>Adds Djoser as a leader for Egypt.</Teaser>
+    <Authors>ChimpanG, SeelingCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS_Djoser.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Djoser_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Djoser_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Djoser_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Djoser_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS_Djoser.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Djoser_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Leader.sql</File>
+      <File>Core/Djoser_UA.sql</File>
+      <File>Core/Djoser_UG.sql</File>
+      <File>Core/Djoser_Agenda.sql</File>
+      <File>Core/Djoser_Strategy.sql</File>
+      <File>Core/Djoser_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Djoser_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Djoser_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Djoser_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Djoser_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS_Djoser.dep</File>
+    <File>Core/Djoser_Agenda.sql</File>
+    <File>Core/Djoser_Colors.sql</File>
+    <File>Core/Djoser_Config.sql</File>
+    <File>Core/Djoser_Icons.sql</File>
+    <File>Core/Djoser_Leader.sql</File>
+    <File>Core/Djoser_Localisation.sql</File>
+    <File>Core/Djoser_ModSupport.sql</File>
+    <File>Core/Djoser_Strategy.sql</File>
+    <File>Core/Djoser_UA.sql</File>
+    <File>Core/Djoser_UG.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+  </Files>
+</Mod>

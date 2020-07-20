@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CVS_Seljuq_Icons -->
+<!-- Author: thecrazyscotsman -->
+<!-- DateCreated: 1/22/2018 2:03:23 PM -->
+<GameInfo>
+	<IconTextureAtlases>
+		<!--CIVILIZATIONS-->
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization30.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization36.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_AlpArslan_Color45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization44.dds"/><!-- city state ribbon -->
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization48.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization64.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Civilization256.dds"/>
+		
+		<!--LEADERS-->
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_45.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_48.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_55.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_64.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_LEADER_ALP_ARSLAN_PORTRAIT_256.dds"/>
+
+		<!--CITY-STATES-->
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="30" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates30.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="36" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates36.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="44" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates44.dds"/><!-- city state ribbon -->
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="48" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates48.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="50" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="64" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates64.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="CVS_Seljuq_CityStates256.dds"/>
+		
+		<!--IMPROVEMENTS-->
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_IMPROVEMENTS" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Improvements38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_IMPROVEMENTS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Improvements50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_IMPROVEMENTS" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Improvements80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_IMPROVEMENTS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Seljuq_Improvements256.dds"/>
+		
+		<!--RESOURCES-->
+		<Row Name="ICON_ATLAS_CVS_ALAMUT_RESOURCE" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Alamut_Resource38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ALAMUT_RESOURCE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Alamut_Resource50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ALAMUT_RESOURCE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Alamut_Resource64.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ALAMUT_RESOURCE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Alamut_Resource256.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ALAMUT_RESOURCE_FOW" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Alamut_Resource64.dds"/>
+		<Row Name="ICON_ATLAS_CVS_ALAMUT_RESOURCE_FONT_ICON" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CVS_Alamut_Resource_FontIcon.dds"/>
+		
+		<!--UNITS-->
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units256.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT" IconSize="80" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units80.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT" IconSize="22" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_FOW" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units32.dds"/>
+
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" IconSize="22" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units22.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_BLACK" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units32.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" IconSize="80" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_Units80.dds"/>
+
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_UnitPortraits38.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_UnitPortraits50.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_UnitPortraits70.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_UnitPortraits95.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_UnitPortraits200.dds"/>
+		<Row Name="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="CVS_Seljuq_UnitPortraits256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CVS_CIVILIZATION_SELJUQ" Atlas="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" Index="0"/>
+		<Row Name="ICON_CVS_SELJUQ_ALP_ARSLAN" Atlas="ICON_ATLAS_CVS_SELJUQ_ALP_ARSLAN" Index="0"/>
+		<Row Name="ICON_CVS_LEADER_ALP_ARSLAN" Atlas="ICON_ATLAS_CVS_LEADER_ALP_ARSLAN" Index="0"/>
+		
+		<Row Name="ICON_CVS_CIVILIZATION_ALAMUT" Atlas="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" Index="0"/>
+		<Row Name="ICON_CVS_CIVILIZATION_URGENCH" Atlas="ICON_ATLAS_CVS_CITYSTATES_SELJUQ" Index="1"/>
+
+		<Row Name="ICON_CVS_IMPROVEMENT_CARAVANSERAI" Atlas="ICON_ATLAS_CVS_SELJUQ_IMPROVEMENTS" Index="0"/>
+
+		<Row Name="ICON_CVS_RESOURCE_ALAMUT" Atlas="ICON_ATLAS_CVS_ALAMUT_RESOURCE" Index="0"/>
+		<Row Name="ICON_CVS_RESOURCE_ALAMUT_FOW" Atlas="ICON_ATLAS_CVS_ALAMUT_RESOURCE_FOW" Index="0"/>
+		<Row Name="CVS_RESOURCE_ALAMUT" Atlas="ICON_ATLAS_CVS_ALAMUT_RESOURCE_FONT_ICON" Index="0"/>
+
+		<Row Name="ICON_CVS_UNIT_SARBAZ" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT" Index="0"/>
+		<Row Name="ICON_CVS_UNIT_VIZIER" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT" Index="1"/>
+		<Row Name="ICON_CVS_UNIT_HASHASHIN" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT" Index="2"/>
+		<Row Name="ICON_CVS_UNIT_ASSASSIN" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT" Index="3"/>
+
+		<Row Name="ICON_CVS_UNIT_SARBAZ_FOW" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FOW" Index="0"/>
+		<Row Name="ICON_CVS_UNIT_VIZIER_FOW" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FOW" Index="1"/>
+		<Row Name="ICON_CVS_UNIT_HASHASHIN_FOW" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FOW" Index="2"/>
+		<Row Name="ICON_CVS_UNIT_ASSASSIN_FOW" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FOW" Index="3"/>
+
+		<Row Name="ICON_CVS_UNIT_SARBAZ_WHITE" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_CVS_UNIT_VIZIER_WHITE" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" Index="1"/>
+		<Row Name="ICON_CVS_UNIT_HASHASHIN_WHITE" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" Index="2"/>
+		<Row Name="ICON_CVS_UNIT_ASSASSIN_WHITE" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_WHITE" Index="3"/>
+
+		<Row Name="ICON_CVS_UNIT_SARBAZ_BLACK" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_CVS_UNIT_VIZIER_BLACK" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_BLACK" Index="1"/>
+		<Row Name="ICON_CVS_UNIT_HASHASHIN_BLACK" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_BLACK" Index="2"/>
+		<Row Name="ICON_CVS_UNIT_ASSASSIN_BLACK" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_FLAG_SYMBOLS_BLACK" Index="3"/>
+		
+		<Row Name="ICON_CVS_UNIT_SARBAZ_PORTRAIT" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" Index="1"/>
+		<Row Name="ICON_CVS_UNIT_VIZIER_PORTRAIT" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" Index="0"/>
+		<Row Name="ICON_CVS_UNIT_HASHASHIN_PORTRAIT" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" Index="2"/>
+		<Row Name="ICON_CVS_UNIT_ASSASSIN_PORTRAIT" Atlas="ICON_ATLAS_CVS_SELJUQ_UNIT_PORTRAITS" Index="3"/>
+	</IconDefinitions>
+</GameInfo>

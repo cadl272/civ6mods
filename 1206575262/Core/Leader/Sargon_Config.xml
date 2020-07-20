@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Players>
+		<Row>
+			<CivilizationType>CIVILIZATION_CVS_AKKAD</CivilizationType>
+			<LeaderType>LEADER_CVS_SARGON</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_CVS_AKKAD_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_CVS_AKKAD_SARGON</CivilizationIcon>
+			<LeaderName>LOC_LEADER_CVS_SARGON_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_CVS_SARGON</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CVS_AKKAD_UA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CVS_AKKAD_UA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_CVS_AKKAD_SARGON</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_CVS_SARGON_UA_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_CVS_SARGON_UA_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_CVS_SARGON</LeaderAbilityIcon>
+			<Portrait>LEADER_CVS_SARGON_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_CVS_SARGON_BACKGROUND.dds</PortraitBackground>
+		</Row>
+	</Players>
+
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_CVS_AKKAD" LeaderType="LEADER_CVS_SARGON" Type="UNIT_CVS_AKKAD_UU" Icon="ICON_UNIT_CVS_AKKAD_UU" Name="LOC_UNIT_CVS_AKKAD_UU_NAME" Description="LOC_UNIT_CVS_AKKAD_UU_DESCRIPTION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_CVS_AKKAD" LeaderType="LEADER_CVS_SARGON" Type="DISTRICT_CVS_AKKAD_UI" Icon="ICON_DISTRICT_CVS_AKKAD_UI" Name="LOC_DISTRICT_CVS_AKKAD_UI_NAME" Description="LOC_DISTRICT_CVS_AKKAD_UI_DESCRIPTION" SortIndex="20" />
+	</PlayerItems>
+
+	<Players>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_CVS_AKKAD</CivilizationType>
+			<LeaderType>LEADER_CVS_SARGON</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_CVS_AKKAD_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_CVS_AKKAD_SARGON</CivilizationIcon>
+			<LeaderName>LOC_LEADER_CVS_SARGON_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_CVS_SARGON</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CVS_AKKAD_UA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CVS_AKKAD_UA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_CVS_AKKAD_SARGON</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_CVS_SARGON_UA_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_CVS_SARGON_UA_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_CVS_SARGON</LeaderAbilityIcon>
+			<Portrait>LEADER_CVS_SARGON_NEUTRAL.dds</Portrait>
+			<PortraitBackground>LEADER_CVS_SARGON_BACKGROUND.dds</PortraitBackground>
+		</Row>
+	</Players>
+
+	<PlayerItems>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_CVS_AKKAD" LeaderType="LEADER_CVS_SARGON" Type="UNIT_CVS_AKKAD_UU" Icon="ICON_UNIT_CVS_AKKAD_UU" Name="LOC_UNIT_CVS_AKKAD_UU_NAME" Description="LOC_UNIT_CVS_AKKAD_UU_DESCRIPTION" SortIndex="10" />
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_CVS_AKKAD" LeaderType="LEADER_CVS_SARGON" Type="DISTRICT_CVS_AKKAD_UI" Icon="ICON_DISTRICT_CVS_AKKAD_UI" Name="LOC_DISTRICT_CVS_AKKAD_UI_NAME" Description="LOC_DISTRICT_CVS_AKKAD_UI_DESCRIPTION" SortIndex="20" />
+	</PlayerItems>
+
+</GameData>

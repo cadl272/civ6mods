@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Narai_Speech\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1218623105" Language="SFX">
+			<ShortName>Suk_Narai_Speech</ShortName>
+			<Path>Suk_Narai_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3978994971" Name="Play_Suk_Narai_Attacked"/>
+				<Event Id="3052046201" Name="Play_Suk_Narai_Declare_War"/>
+				<Event Id="128742432" Name="Play_Suk_Narai_First_Meet"/>
+				<Event Id="1305080459" Name="Play_Suk_Narai_Kudo"/>
+				<Event Id="2024220036" Name="Play_Suk_Narai_Metal_Creak"/>
+				<Event Id="1581117225" Name="Play_Suk_Narai_Metal_Creak_02"/>
+				<Event Id="3629307256" Name="Play_Suk_Narai_Warning"/>
+				<Event Id="3138954600" Name="Stop_Speech_Suk_Narai"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="48016771" Language="SFX">
+					<ShortName>Suk_Narai_Declare_War_Modulated.wav</ShortName>
+					<Path>SFX\Suk_Narai_Declare_War_Modulated_E843A46D.wem</Path>
+				</File>
+				<File Id="120220273" Language="SFX">
+					<ShortName>Suk_Narai_Warning_Modulated.wav</ShortName>
+					<Path>SFX\Suk_Narai_Warning_Modulated_E843A46D.wem</Path>
+				</File>
+				<File Id="351973911" Language="SFX">
+					<ShortName>Suk_Narai_MetalCreak.wav</ShortName>
+					<Path>SFX\Suk_Narai_MetalCreak_E843A46D.wem</Path>
+				</File>
+				<File Id="415854847" Language="SFX">
+					<ShortName>Suk_Narai_MetalCreak_2.wav</ShortName>
+					<Path>SFX\Suk_Narai_MetalCreak_2_E843A46D.wem</Path>
+				</File>
+				<File Id="566034379" Language="SFX">
+					<ShortName>Suk_Narai_Intro_Modulated.wav</ShortName>
+					<Path>SFX\Suk_Narai_Intro_Modulated_E843A46D.wem</Path>
+				</File>
+				<File Id="742182162" Language="SFX">
+					<ShortName>Suk_Narai_Attacked_Modulated.wav</ShortName>
+					<Path>SFX\Suk_Narai_Attacked_Modulated_E843A46D.wem</Path>
+				</File>
+				<File Id="1025657446" Language="SFX">
+					<ShortName>Suk_Narai_Kudo_Modulated.wav</ShortName>
+					<Path>SFX\Suk_Narai_Kudo_Modulated_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

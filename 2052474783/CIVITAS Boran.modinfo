@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="aa328530-b63c-4c88-b41c-51f9c6de52ed" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Boran</Name>
+    <Description>Adds Boran to the Sassanid civilization.[NEWLINE][NEWLINE]LEADER — BORAN[NEWLINE]TRAIT: Restorer of the Race of the Gods[NEWLINE]Receive double the Envoys for completing city-state quests. Your cities receive +2 City Defense Strength and City Ranged Strength per city-state of which you are suzerain.[NEWLINE][NEWLINE]IMPROVEMENT: Diz[NEWLINE]Fort that yields +1 Production and +1 Culture. Ranged units exert Zone of Control when stationed on a Diz. Unlocks with the Defensive Tactics civic, and cannot be built adjacent to another Diz.[NEWLINE][NEWLINE]AGENDA: Bānbišnān Bānbišn[NEWLINE]Boran despises those who compete with her for city-states, and befriends those who build walls. She will attempt to curry favor with city-states.</Description>
+    <Created>1586708398</Created>
+    <Teaser>Adds Boran to the Sassanid civilization.</Teaser>
+    <Authors>SailorCat, ChimpanG, Chrisy, p0kiehl, SeelingCat, TheCrazyScotsman, Digihuman</Authors>
+    <SpecialThanks>Pixie, Disco, Leugi</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="XP1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP1 or XP2">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Boran/CVS_Boran_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="ModArt">
+      <File>CIVITAS Boran.dep</File>
+    </UpdateArt>
+    <UpdateText id="Localization">
+      <File>Core/Leaders/Boran/CVS_Boran_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/CVS_Boran_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Colors">
+      <File>Core/Leaders/Boran/CVS_Boran_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Boran">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Boran/CVS_Boran_GameDefines.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_DynamicModifiers.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Traits_Vanilla.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_Agenda.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_UI.sql</File>
+      <File>Core/Leaders/Boran/CVS_Boran_AI.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Localization">
+      <File>Core/Leaders/Boran/CVS_Boran_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/CVS_Boran_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ModArt">
+      <File>CIVITAS Boran.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Expansions">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>Core/Leaders/Boran/CVS_Boran_Expacs.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="Colors">
+      <File>Core/Leaders/Boran/CVS_Boran_Colors.sql</File>
+    </UpdateColors>
+    <AddGameplayScripts id="Lua">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Boran/CVS_Boran_Script.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Artdefs/StrategicView.artdef</File>
+    <File>Assets/CVS_DIZ_Pomegranate.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_01.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_03.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_06.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_09.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_12.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_15.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_16.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_17.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_18.ast</File>
+    <File>Assets/DIS_CVS_Diz_Bld_19.ast</File>
+    <File>Assets/IMP_CVS_DIZ.ast</File>
+    <File>Assets/IMP_CVS_DIZ_2.ast</File>
+    <File>CIVITAS Boran.dep</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Agenda.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_AI.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Colors.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Config.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_DynamicModifiers.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Expacs.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_GameDefines.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Script.lua</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Text.xml</File>
+    <File>Core/Leaders/Boran/CVS_Boran_Traits_Vanilla.sql</File>
+    <File>Core/Leaders/Boran/CVS_Boran_UI.sql</File>
+    <File>Icons/CVS_Boran_Icons.xml</File>
+    <File>Materials/CVS_DIZ_Pomegranate_Material.mtl</File>
+    <File>Materials/DIS_CVS_Diz_Adobe_Alt.mtl</File>
+    <File>Materials/DIS_CVS_Diz_Adobe_Mat.mtl</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_DIZ_Pomegranate_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CTY_AB_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_CVS_Diz_Pomebase_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Citrus_B_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_AB_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Metalness_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Opacity_Map_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CVS_Diz_Opacity_Pot_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Textures/Moment_Infrastructure_CVS_Diz.dds</File>
+    <File>Textures/Moment_Infrastructure_CVS_Diz.tex</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/tilebases.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>

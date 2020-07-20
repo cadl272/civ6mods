@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="803d86d2-ccf4-4616-91a9-f25f06a6c7b2" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Rollo</Name>
+    <Description>Adds Rollo as a leader for CIVITAS [ICON_GOVERNMENT] Normandy.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Rollo as a leader for CIVITAS Normandy.</Teaser>
+    <Authors>ChimpanG</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="3e9790d7-30c0-42c9-b780-b663da7ae5af" title="CIVITAS [ICON_GOVERNMENT] Normandy" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Rollo.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Rollo_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Rollo_Setup_Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Rollo_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Rollo_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Rollo.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Rollo_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Leader.sql</File>
+      <File>Core/Rollo_UA.sql</File>
+      <File>Core/Rollo_Agenda.sql</File>
+      <File>Core/Rollo_Strategy.sql</File>
+      <File>Core/Rollo_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Rollo_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Rollo_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Rollo_Colours">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Colors.sql</File>
+    </UpdateColors>
+    <AddGameplayScripts id="Rollo_Scripts">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Rollo_Scripts.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallbacks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Rollo.dep</File>
+    <File>Core/Rollo_Agenda.sql</File>
+    <File>Core/Rollo_Colors.sql</File>
+    <File>Core/Rollo_Config.sql</File>
+    <File>Core/Rollo_Icons.sql</File>
+    <File>Core/Rollo_Leader.sql</File>
+    <File>Core/Rollo_Localisation.sql</File>
+    <File>Core/Rollo_ModSupport.sql</File>
+    <File>Core/Rollo_Scripts.lua</File>
+    <File>Core/Rollo_Strategy.sql</File>
+    <File>Core/Rollo_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallback.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallback.xlp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,86 @@
+/*
+	Mod Support
+	Credits: SeelingCat, Chrisy15 ChimpanG
+*/
+
+-----------------------------------------------
+-- Historical Spawn Dates
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS HistoricalSpawnDates (Civilization TEXT NOT NULL UNIQUE,	StartYear INTEGER DEFAULT -10000);
+INSERT OR REPLACE INTO HistoricalSpawnDates
+		(Civilization,					StartYear	) 
+VALUES	('CIVILIZATION_CVS_NORMANDY',	885			);
+
+-----------------------------------------------
+-- Colonial City Names
+-----------------------------------------------
+
+-- Include these at the start
+CREATE TABLE IF NOT EXISTS C15_ColonyCityNames (CivilizationType TEXT NOT NULL, LeaderType TEXT DEFAULT NULL, CityName TEXT NOT NULL, PRIMARY KEY (CivilizationType, LeaderType, CityName), FOREIGN KEY (CivilizationType) REFERENCES Civilizations(CivilizationType) ON DELETE CASCADE ON UPDATE CASCADE, FOREIGN KEY (LeaderType) REFERENCES Leaders(LeaderType) ON DELETE CASCADE ON UPDATE CASCADE);
+
+CREATE TRIGGER IF NOT EXISTS C15_ColonyCityNames_RemoveFromCityNames
+AFTER INSERT ON C15_ColonyCityNames
+BEGIN
+    DELETE FROM CityNames WHERE CityName = NEW.CityName AND (CivilizationType = NEW.CivilizationType OR LeaderType = NEW.LeaderType);
+END;
+
+CREATE TRIGGER IF NOT EXISTS C15_ColonyCityNames_DupeAddedToCityNames
+AFTER INSERT ON CityNames
+WHEN NEW.CityName IN (SELECT CityName FROM C15_ColonyCityNames WHERE CivilizationType = NEW.CivilizationType)
+BEGIN
+    DELETE FROM CityNames WHERE CityName = NEW.CityName AND CivilizationType = NEW.CivilizationType;
+END;
+
+-- Add city names
+INSERT OR REPLACE INTO C15_ColonyCityNames
+        (CivilizationType,				CityName)
+VALUES	('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_ANTIOCH'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_CAPUA'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_LATAKIA'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_MELFI'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_NAPLES'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_PALERMO'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_SALERNO'),
+		('CIVILIZATION_CVS_NORMANDY', 'LOC_CITY_NAME_TARANTO');
+
+-----------------------------------------------
+-- RwF
+-----------------------------------------------
+
+CREATE TABLE IF NOT EXISTS 
+	Civilization_Titles (
+	CivilizationType  				text 		 		default null,
+	GovernmentType					text 	 			default null,
+	LeaderTitle						text				default null,
+	PolicyType  					text 		 		default null);
+
+CREATE TABLE IF NOT EXISTS 
+	Civilization_StartingGovernment (
+	CivilizationType  				text 		 		default null,
+	GovernmentType					text 				default null,
+	LeaderType						text				default null);	
+	
+INSERT INTO Civilization_Titles
+		(CivilizationType, 				GovernmentType, 							LeaderTitle															)
+VALUES	('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_CHIEFDOM',						'LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_JFD_HORDE',						'LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_JFD_POLIS',						'LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_AUTOCRACY',						'LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_NORMANDY'			),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_OLIGARCHY',						'LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_NORMANDY'			), 
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_CLASSICAL_REPUBLIC',			'LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_NORMANDY'	),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_MONARCHY',						'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_MERCHANT_REPUBLIC',				'LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_JFD_ABSOLUTE_MONARCHY',			'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_JFD_CONSTITUTIONAL_MONARCHY',	'LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_JFD_NOBLE_REPUBLIC',			'LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_DEMOCRACY',						'LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_NORMANDY'	),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_COMMUNISM',						'LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_NORMANDY'				),
+		('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_FASCISM',						'LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_NORMANDY'				);
+
+DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_NORMANDY' AND GovernmentType IS NOT NULL AND GovernmentType NOT IN (SELECT GovernmentType FROM Governments);
+DELETE FROM Civilization_Titles WHERE CivilizationType = 'CIVILIZATION_CVS_NORMANDY' AND PolicyType IS NOT NULL AND PolicyType NOT IN (SELECT PolicyType FROM Policies);
+
+INSERT INTO	Civilization_StartingGovernment
+		(CivilizationType,				GovernmentType			)
+VALUES	('CIVILIZATION_CVS_NORMANDY',	'GOVERNMENT_JFD_HORDE'	);

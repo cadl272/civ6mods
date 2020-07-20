@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a3a3f7cb-c120-46cd-9769-b407fb0bf782" version="1">
+  <Properties>
+    <Name>Larger Map Sizes</Name>
+    <Description>Simple mod that adds three larger map sizes to the game.</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>Simple mod that adds three larger map sizes to the game.</Teaser>
+    <Authors>p0kiehl</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>	
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Maps_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>PMapsText.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties>
+        <LoadOrder>20</LoadOrder>
+      </Properties>
+      <File>Maps_Gameplay.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>PMapsText.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Maps_Config.sql</File>
+    <File>Maps_Gameplay.sql</File>
+    <File>PMapsText.xml</File>
+  </Files>
+</Mod>

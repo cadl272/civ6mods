@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="abad1465-366d-4c8c-9705-e9cfc6df720f" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Tigranes</Name>
+    <Description>Adds Tigranes as a leader for CIVITAS [ICON_GOVERNMENT] Armenia.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Tigranes as a leader for CIVITAS Armenia.</Teaser>
+    <Authors>ChimpanG, Sailor Cat</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="e60d9e7a-9ae9-4a43-8b00-8cfa98c997e2" title="CIVITAS [ICON_GOVERNMENT] Armenia" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Tigranes.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Tigranes_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Tigranes_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Tigranes_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Tigranes_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Tigranes.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Tigranes_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Leader.sql</File>
+      <File>Core/Tigranes_II_UA.sql</File>
+      <File>Core/Tigranes_II_Agenda.sql</File>
+      <File>Core/Tigranes_II_Strategy.sql</File>
+      <File>Core/Tigranes_II_ModSupport.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Tigranes_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Tigranes_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Tigranes_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Colors.sql</File>
+    </UpdateColors>
+    <AddGameplayScripts id="Tigranes_Scripts">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Tigranes_II_Scripts.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallback.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Tigranes.dep</File>
+    <File>Core/Tigranes_II_Agenda.sql</File>
+    <File>Core/Tigranes_II_Colors.sql</File>
+    <File>Core/Tigranes_II_Config.sql</File>
+    <File>Core/Tigranes_II_Icons.sql</File>
+    <File>Core/Tigranes_II_Leader.sql</File>
+    <File>Core/Tigranes_II_Localisation.sql</File>
+    <File>Core/Tigranes_II_ModSupport.sql</File>
+    <File>Core/Tigranes_II_Scripts.lua</File>
+    <File>Core/Tigranes_II_Strategy.sql</File>
+    <File>Core/Tigranes_II_UA.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallback.xlp</File>
+  </Files>
+</Mod>

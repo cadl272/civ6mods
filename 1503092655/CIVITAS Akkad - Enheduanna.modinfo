@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1982d3bf-3617-4ea0-9f5b-83fa64711e99" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GreatPerson] Enheduanna (Akkad)</Name>
+    <Description>Adds Enheduanna as an alternative leader for Akkad in Civilization VI</Description>
+    <Teaser>Adds Enheduanna as an alternative leader for Akkad in Civilization VI</Teaser>
+    <Authors>Chrisy15, ChimpanG, SeelingCat,SailorCat, p0kiehl, TheCrazyScotsman</Authors>
+  </Properties>
+  <Dependencies>
+    <Mod id="5fd81a48-54c6-4f25-b119-fc499a92cdf9" title="CIVITAS [ICON_Government] Akkad" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="Enheduanna_Setup_DB">
+      <Properties>
+        <LoadOrder>105</LoadOrder>
+      </Properties>
+      <File>Core/Leader/Enheduanna_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Enheduanna_Setup_Text">
+      <File>Core/Leader/Enheduanna_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Enheduanna_Setup_Icons">
+      <File>Core/Leader/Enheduanna_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GreatPerson] Enheduanna (Akkad).dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Enheduanna_DB">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leader/Enheduanna_Leader.sql</File>
+      <File>Core/Leader/Enheduanna_UA.sql</File>
+      <File>Core/Leader/Enheduanna_Agenda.sql</File>
+      <File>Core/Leader/Enheduanna_Strategy.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Enheduanna_Text">
+      <File>Core/Leader/Enheduanna_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Enheduanna_Icons">
+      <File>Core/Leader/Enheduanna_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GreatPerson] Enheduanna (Akkad).dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Enheduanna_ModSupport_DB">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+    </UpdateDatabase>
+    <UpdateText id="Enheduanna_ModSupport_Text" />
+    <AddGameplayScripts id="Enheduanna_Lua">
+      <File>Core/Scripts/CVS_Akkad_Enhaduanna_Lua.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallbacks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GreatPerson] Enheduanna (Akkad).dep</File>
+    <File>Core/Leader/Enheduanna_Agenda.sql</File>
+    <File>Core/Leader/Enheduanna_Config.xml</File>
+    <File>Core/Leader/Enheduanna_Icons.sql</File>
+    <File>Core/Leader/Enheduanna_Leader.sql</File>
+    <File>Core/Leader/Enheduanna_Localisation.sql</File>
+    <File>Core/Leader/Enheduanna_Strategy.sql</File>
+    <File>Core/Leader/Enheduanna_UA.sql</File>
+    <File>Core/ModSupport/Historical Religions/Historical Religions.sql</File>
+    <File>Core/ModSupport/RwF/RwF Text.xml</File>
+    <File>Core/ModSupport/RwF/RwF.sql</File>
+    <File>Core/ModSupport/YNAEMP/YNAEMP.sql</File>
+    <File>Core/Scripts/CVS_Akkad_Enhaduanna_Lua.lua</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>

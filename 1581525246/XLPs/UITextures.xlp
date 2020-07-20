@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UITextures"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_Civ_45"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_Civ_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SUK_HADRIAN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SUK_HADRIAN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_HADRIAN_1"/>
+			<m_ObjectName text="SUK_HADRIAN_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_HADRIAN_2"/>
+			<m_ObjectName text="SUK_HADRIAN_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_HADRIAN_3"/>
+			<m_ObjectName text="SUK_HADRIAN_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_HADRIAN_4"/>
+			<m_ObjectName text="SUK_HADRIAN_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SUK_HADRIAN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SUK_HADRIAN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_256"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_32"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_45"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_48"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_50"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_55"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_64"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_Suk_Hadrian_80"/>
+			<m_ObjectName text="Icon_Suk_Hadrian_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e74ef4d9-d12a-4d78-97ae-d9c13e765a59" version="1">
+  <Properties>
+    <Name>Prismatic - Color and Jersey Overhaul</Name>
+    <Description>Adds additional colors and jerseys to game.</Description>
+    <Teaser>Adds additional colors and jerseys to game.</Teaser>
+    <Authors>SeelingCat</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <FrontEndActions>
+    <UpdateColors id="UpFront">
+      <Properties>
+        <LoadOrder>1100</LoadOrder>
+      </Properties>
+      <File>Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="Database">
+      <Properties>
+        <LoadOrder>1100</LoadOrder>
+      </Properties>
+      <File>Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="UpdateTints">
+       <Properties>
+        <LoadOrder>1100</LoadOrder>
+      </Properties>
+      <File>Prismatic.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Colors.sql</File>
+    <File>ArtDefs/PrismaticTints.artdef</File>
+    <File>Prismatic.dep</File>
+  </Files>
+</Mod>

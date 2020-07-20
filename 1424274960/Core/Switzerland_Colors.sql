@@ -1,0 +1,19 @@
+/*
+	Colors
+	Authors: ChimpanG
+*/
+
+-----------------------------------------------
+-- Colors
+-----------------------------------------------
+
+INSERT INTO	Colors
+		(Type,									Color				)
+VALUES	('COLOR_CVS_SWITZERLAND_A_PRIMARY',		'231,66,63,255'		),
+		('COLOR_CVS_SWITZERLAND_A_SECONDARY',	'234,231,220,255'	),
+		('COLOR_CVS_SWITZERLAND_B_PRIMARY',		'234,231,220,255'	),
+		('COLOR_CVS_SWITZERLAND_B_SECONDARY',	'231,66,63,255'		),
+		('COLOR_CVS_SWITZERLAND_C_PRIMARY',		'36,139,204,255'	),
+		('COLOR_CVS_SWITZERLAND_C_SECONDARY',	'234,231,220,255'	),
+		('COLOR_CVS_SWITZERLAND_D_PRIMARY',		'22,167,78,255'		),
+		('COLOR_CVS_SWITZERLAND_D_SECONDARY',	'234,231,220,255'	);

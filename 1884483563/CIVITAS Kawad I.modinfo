@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3347e35e-5abc-4817-a949-35e6ad0b71f6" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Kawad I</Name>
+    <Description>Adds Kawad I to the Sassanid civilization.[NEWLINE][NEWLINE]LEADER — KAWAD I[NEWLINE]TRAIT: The Mazdakite Subterfuge[NEWLINE]GS, R&amp;F: Receive a spy after founding a Religion, and may purchase spies with Faith. Succeeding in an offensive spy mission earns +1 Era Score.[NEWLINE][NEWLINE]Vanilla: Receive a spy after founding a Religion. May purchase spies with faith.[NEWLINE][NEWLINE]IMPROVEMENT: Āmārgarestan[NEWLINE]Yields +2 Gold, and an additional +1 Food for each distinct adjacent improvement type. Unlocks with the Currency technology.[NEWLINE][NEWLINE]AGENDA: The Throne, By Any Means[NEWLINE]Favors espionage, and loathes it when directed at him. Looks favorably on those who exploit faith.</Description>
+    <Created>1587667414</Created>
+    <Teaser>Adds Kawad I to the Sassanid civilization.</Teaser>
+    <Authors>SailorCat, ChimpanG, Chrisy, p0kiehl, SeelingCat, TheCrazyScotsman, Digihuman, Pixie</Authors>
+    <SpecialThanks>Disco, Leugi</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="XP1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="XP1 or XP2" any="1">
+      <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="ModArt">
+      <File>CIVITAS Kawad I.dep</File>
+    </UpdateArt>
+    <UpdateText id="Localization">
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/CVS_Kawad_I_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="Colors">
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Kawad">
+      <Properties>
+        <LoadOrder>106</LoadOrder>
+      </Properties>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_GameDefines.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_DynamicModifiers.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Traits_Vanilla.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Agenda.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_UI.sql</File>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_AI.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Localization">
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Icons/CVS_Kawad_I_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ModArt">
+      <File>CIVITAS Kawad I.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Expansions">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+      <Criteria>XP1 or XP2</Criteria>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Expacs.sql</File>
+    </UpdateDatabase>
+    <UpdateColors id="Colors">
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Colors.sql</File>
+    </UpdateColors>
+    <UpdateDatabase id="Expansion1">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+      <Criteria>XP1</Criteria>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Expac1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Expansion2">
+      <Properties>
+        <LoadOrder>107</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Leaders/Kawad I/CVS_Kawad_I_Expac2.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Improvements.artdef</File>
+    <File>Artdefs/Landmarks.artdef</File>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Assets/CVS_DIZ_Pomegranate.ast</File>
+    <File>Assets/DIS_COM_CVS_Amargar.ast</File>
+    <File>Assets/DIS_COM_CVS_Amargar_dist.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Farm_Square_01.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Farm_Transition_01.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Farm_Wheat.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Wine_A.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Wine_B.ast</File>
+    <File>Assets/IMP_CVS_AMARGARESTAN_Wine_C.ast</File>
+    <File>CIVITAS Kawad I.dep</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Agenda.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_AI.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Colors.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Config.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_DynamicModifiers.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Expac1.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Expac2.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Expacs.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_GameDefines.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_HM.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Text.xml</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_Traits_Vanilla.sql</File>
+    <File>Core/Leaders/Kawad I/CVS_Kawad_I_UI.sql</File>
+    <File>Icons/CVS_Kawad_I_Icons.xml</File>
+    <File>Materials/CVS_DIZ_Pomegranate_Material.mtl</File>
+    <File>Materials/DIS_CVS_Dibirestan_Material.mtl</File>
+    <File>Materials/IMP_CVS_AMARGARESTAN_Mat.mtl</File>
+    <File>Materials/IMP_CVS_AMARGARESTAN_Pistachio_Mat.mtl</File>
+    <File>Materials/IMP_CVS_AMARGARESTAN_Wheat_Mat.mtl</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Ancient_PIL_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Classical_01_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Decals_Parts_Industrial_01_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_CVS_DIZ_Pomegranate_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Ancient_PIL_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Decals_Parts_Classical_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_COM_Base_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_AMARGARESTAN_Farm_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_AMARGARESTAN_Farm_Wheat_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_CVS_AMARGARESTAN_Pistachio_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Decals_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Decals_PIL_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Wheat_Decals_PIL_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Farm_Wheat_Decals_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Kawad_Amargar_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillage_Construction_01_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Citrus_B_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Wine_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Wine_B_Unworked_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Ruin_Debris_Decal_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_M</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_COM_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_E</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Base_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RM_Bld_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Ruin_Debris_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_AMARGARESTAN_Farm_B2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_AMARGARESTAN_Farm_Wheat_B2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_H_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Decals_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_H_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_PIL</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Farm_Wheat_Decals_Unworked</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Kawad_Amargar_Metalness</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillage_Construction_01_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Citrus_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Wine_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Ruin_Debris_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/tilebases.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>

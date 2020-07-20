@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="013de0f5-5bd7-43f7-b48b-30e72d0ddb4c" version="1">
+  <Properties>
+    <Name>CIVITAS [ICON_GREATPERSON] Alfred Escher</Name>
+    <Description>Adds Alfred Escher as a leader for CIVITAS [ICON_GOVERNMENT] Switzerland.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Teaser>Adds Alfred Escher as a leader for CIVITAS Switzerland.</Teaser>
+    <Authors>Digihuman, ChimpanG, SeelingCat</Authors>
+    <SpecialThanks>Dray, WeeklyMeat</SpecialThanks>
+  </Properties>
+  <Dependencies>
+    <Mod id="146e6097-1905-465e-9ad0-258b5024fc08" title="CIVITAS [ICON_GOVERNMENT] Switzerland" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="XP1">
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="XP2">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Alfred Escher.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Escher_Setup_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Escher_Setup_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Escher_Setup_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Escher_Setup_Colors">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Colors.sql</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="ArtDep">
+      <File>CIVITAS [ICON_GREATPERSON] Alfred Escher.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Escher_DB">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Leader.sql</File>
+      <File>Core/Escher_UA.sql</File>
+      <File>Core/Escher_Agenda.sql</File>
+      <File>Core/Escher_Strategy.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Escher_Text">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Escher_Icons">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateColors id="Escher_Colours">
+      <Properties>
+        <LoadOrder>110</LoadOrder>
+      </Properties>
+      <File>Core/Escher_Colors.sql</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/LeaderFallbacks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>CIVITAS [ICON_GREATPERSON] Alfred Escher.dep</File>
+    <File>Core/Escher_Agenda.sql</File>
+    <File>Core/Escher_Colors.sql</File>
+    <File>Core/Escher_Config.sql</File>
+    <File>Core/Escher_Icons.sql</File>
+    <File>Core/Escher_Leader.sql</File>
+    <File>Core/Escher_Localisation.sql</File>
+    <File>Core/Escher_Strategy.sql</File>
+    <File>Core/Escher_UA.sql</File>
+    <File>Core/Translation/Escher_Localisation_de_DE.sql</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Icons.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+  </Files>
+</Mod>

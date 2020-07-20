@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Caravanserai"/>
+			<m_ObjectName text="Caravanserai"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravanserai_B"/>
+			<m_ObjectName text="Caravanserai_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_IMP_CARAVANSERAI"/>
+			<m_ObjectName text="CVS_IMP_CARAVANSERAI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_IMP_CARAVANSERAI_B"/>
+			<m_ObjectName text="CVS_IMP_CARAVANSERAI_B"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,329 @@
+--==========================================================================================================================
+-- Great Person Adjustments
+-------------------------------------
+
+--- Admirals ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA' AND ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_SEA'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA' AND ModifierId = 'GREATPERSON_MOVEMENT_AOE_MODERN_SEA';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ' AND ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_MOVEMENT_AOE_MODERN_SEA'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ' AND ModifierId = 'GREATPERSON_MOVEMENT_AOE_ATOMIC_SEA';
+
+--- Artists ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_RENAISSANCE'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_REMBRANDT_VAN_RIJN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_RENAISSANCE'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_EL_GRECO';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_RENAISSANCE'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_QIU_YING';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_RENAISSANCE'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_TITIAN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JANG_SEUNG_EOP';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_RENAISSANCE'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_SOFONISBA_ANGUISSOLA';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ANGELICA_KAUFFMAN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_KATSUSHIKA_HOKUSAI';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_EDMONIA_LEWIS';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CLAUDE_MONET';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_GUSTAV_KLIMT';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MARIE_ANNE_COLLOT';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_VINCENT_VAN_GOGH';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_AMRITA_SHER_GIL';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_BORIS_ORLOVSKY';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MARY_CASSATT';
+
+--- Engineers ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO';
+
+UPDATE GreatPersonIndividuals
+SET ActionCharges = 2
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JOHN_ROEBLING';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON';
+
+UPDATE GreatPersonIndividualActionModifiers
+SET ModifierId = 'GREATPERSON_SC_SPACE_RACE_PRODUCTION_RATE_MEDIUM'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN';
+
+--- Generals ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_SAMORI_TURE';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_SAMORI_TURE' AND ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_SAMORI_TURE' AND ModifierId = 'GREATPERSON_MOVEMENT_AOE_MODERN_LAND';
+
+UPDATE ModifierStrings
+SET Text = 'LOC_GREATPERSON_SC_SAMORI_TURE_ACTIVE'
+WHERE ModifierId = 'GREATPERSON_SAMORI_TURE_ACTIVE';
+
+UPDATE ModifierArguments
+SET Value = 'UNIT_INFANTRY'
+WHERE ModifierId = 'GREATPERSON_SAMORI_TURE_ACTIVE' AND Name = 'UnitType';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD' AND ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD' AND ModifierId = 'GREATPERSON_MOVEMENT_AOE_INFORMATION_LAND';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE' AND ModifierId = 'GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND';
+
+UPDATE GreatPersonIndividualBirthModifiers
+SET ModifierId = 'GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE' AND ModifierId = 'GREATPERSON_MOVEMENT_AOE_INFORMATION_LAND';
+
+--- Merchants ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MARY_KATHERINE_GODDARD';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_HELENA_RUBINSTEIN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_LEVI_STRAUSS';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MELITTA_BENTZ';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ESTEE_LAUDER';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JAMSETJI_TATA';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MASARU_IBUKA';
+
+UPDATE ModifierArguments
+SET Value = 5
+WHERE ModifierId = 'GREATPERSON_CAMPUS_TOURISM';
+
+-- Musicians --
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_FRANZ_LISZT';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_PETER_ILYICH_TCHAIKOVSKY';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ANTONIO_CARLOS_GOMEZ';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_FREDERICK_CHOPIN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_JUVENTINO_ROSAS';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ANTONIN_DVORAK';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_LILIUOKALANI';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CLARA_SCHUMANN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MYKOLA_LEONTOVYCH';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_GAUHAR_JAAN';
+
+--- Prophets ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_CLASSICAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_BODHIDHARMA';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_CLASSICAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_IRENAEUS';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MEDIEVAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_HAJI_HUUD';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MEDIEVAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MADHVA_ACHARYA';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MEDIEVAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_THOMAS_AQUINAS';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MEDIEVAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_FRANCIS_OF_ASSISI';
+
+UPDATE GreatPersonIndividuals
+SET Gender = 'M'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ADI_SHANKARA';
+
+--- Scientists ---
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_CARL_SAGAN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_ATOMIC'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM';
+
+UPDATE GreatPersonIndividualActionModifiers
+SET ModifierId = 'GREATPERSON_SC_SPACE_RACE_PRODUCTION_RATE_MEDIUM'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK';
+
+-- Writers --
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_LEO_TOLSTOY';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_EMILY_DICKINSON';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_MARK_TWAIN';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_RABINDRANATH_TAGORE';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_INDUSTRIAL'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_HG_WELLS';
+
+UPDATE GreatPersonIndividuals
+SET EraType = 'ERA_MODERN'
+WHERE GreatPersonIndividualType = 'GREAT_PERSON_INDIVIDUAL_KAREL_CAPEK';

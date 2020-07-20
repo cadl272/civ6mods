@@ -1,0 +1,274 @@
+<GameData>
+	<LocalizedText>
+		<!--LEADER INFO-->
+		<Replace Tag="LOC_CVS_LEADER_ALP_ARSLAN_NAME" Language="en_US">
+			<Text>Alp Arslan</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_CVS_LEADER_ALP_ARSLAN" Language="en_US">
+			<Text>Alp Arslan, Khan of Khans and Sultan of Sultans, the Seljuq people look to you to forge a prosperous and secure future. Your legendary prowess on the battlefield will serve you in good stead as you secure your borders, and the wisdom you've shown in surrounding yourself with competent advisors ensures your treasury will always be full. Your place in the annals of history is all but assured, Heroic Lion. Immortality is yours to grasp.</Text>
+		</Replace>
+
+		<!--LEADER CIVILOPEDIA-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_TITLE" Language="en_US">
+			<Text>Alp Arslan</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_SUBTITLE" Language="en_US">
+			<Text>Diya ad-Dunya wa ad-Din Adud ad-Dawlah Abu Shuja Muhammad Alp Arslan ibn Dawud</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_QUOTE" Language="en_US">
+			<Text>I love war because there is victory at its end.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Alp Arslan, real name Muhammad bin Dawud Chaghri, was the second Sultan of the Seljuq Empire and great-grandson of Seljuq, the eponymous founder of the dynasty. As Sultan, Alp Arslan greatly expanded Seljuq territory and consolidated power, defeating rivals to his south and northwest. His victory over the Byzantines at Manzikert ushered in the Turkish settlement of Anatolia. For his military prowess and fighting skills he obtained the name Alp Arslan, which means "Heroic Lion" in Turkish.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Alp Arslan accompanied his uncle, Tughril Bey, on campaigns in the south against the Shia Fatimids while his father, Çağrı Bey, remained in Khorasan. Upon Alp Arslan's return to Khorasan, he began his work in administration at his father's suggestion. While there, his father introduced him to Nizam al-Mulk, one of the most eminent statesmen in early Muslim history and Alp Arslan's future vizier.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>After the death of his father, Alp Arslan succeeded him as governor of Khorasan in 1059. His uncle Tughril died in 1063 and was succeeded by Suleiman, Arslan's brother. Arslan and his uncle Kutalmish both contested this succession. Arslan defeated Kutalmish for the throne and succeeded on 27 April 1064 as sultan of Great Seljuq, thus becoming sole monarch of Persia from the river Oxus to the Tigris.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>In consolidating his empire and subduing contending factions, Arslan was ably assisted by Nizam al-Mulk, and the two are credited with helping to stabilize the empire after the death of Tughril. With peace and security established in his dominions, Arslan convoked an assembly of the states and in 1066, he declared his son Malik Shah I his heir and successor. With the hope of capturing Caesarea Mazaca, the capital of Cappadocia, he placed himself at the head of the Turkish cavalry, crossed the Euphrates, and entered and invaded the city. Along with Nizam al-Mulk, he then marched into Armenia and Georgia, which he conquered in 1064. After a siege of 25 days, the Seljuqs captured Ani, the capital city of Armenia, and slaughtered its population.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>En route to fight the Fatimids in Syria in 1068, Alp Arslan invaded the Byzantine Empire. The Emperor Romanos IV Diogenes, assuming command in person, met the invaders in Cilicia. In three arduous campaigns, the Turks were defeated in detail and driven across the Euphrates in 1070. The first two campaigns were conducted by the emperor himself, while the third was directed by Manuel Comnenos, great-uncle of Emperor Manuel Comnenos. During this time, Arslan gained the allegiance of Rashid al-Dawla Mahmud, the Mirdasid emir of Aleppo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>In 1071 Romanos again took the field and advanced into Armenia with possibly 30,000 men, including a contingent of Cuman Turks as well as contingents of Franks and Normans, under Ursel de Baieul. Alp Arslan, who had moved his troops south to fight the Fatimids, quickly reversed to meet the Byzantines. At Manzikert, on the Murat River, north of Lake Van, the two forces waged the Battle of Manzikert. The Cuman mercenaries among the Byzantine forces immediately defected to the Turkish side. Seeing this, "the Western mercenaries rode off and took no part in the battle." To be exact, Romanos was betrayed by general Andronikos Doukas, son of the Caesar (Romanos's stepson), who pronounced him dead and rode off with a large part of the Byzantine forces at a critical moment. The Byzantines were totally routed.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>Emperor Romanos IV was himself taken prisoner and conducted into the presence of Alp Arslan. After a ritual humiliation, Arslan treated him with generosity. After peace terms were agreed to, Arslan dismissed the Emperor, loaded with presents and respectfully attended by a military guard. The following conversation is said to have taken place after Romanos was brought as a prisoner before the Sultan:</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>Alp Arslan: "What would you do if I was brought before you as a prisoner?"[NEWLINE]Romanos: "Perhaps I'd kill you, or exhibit you in the streets of Constantinople."[NEWLINE]Alp Arslan: "My punishment is far heavier. I forgive you, and set you free."</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>Alp Arslan's victories changed the balance in near Asia completely in favour of the Seljuq Turks and Sunni Muslims. While the Byzantine Empire was to continue for nearly four more centuries, and the Crusades would contest the issue for some time, the victory at Manzikert signalled the beginning of Turkish ascendancy in Anatolia. Most historians, including Edward Gibbon, date the defeat at Manzikert as the beginning of the end of the Eastern Roman Empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>Alp Arslan's strength lay in the military realm. Domestic affairs were handled by his able vizier, Nizam al-Mulk, the founder of the administrative organization that characterized and strengthened the sultanate during the reigns of Alp Arslan and his son, Malik Shah. Military fiefs, governed by Seljuq princes, were established to provide support for the soldiery and to accommodate the nomadic Turks to the established Anatolian agricultural scene. This type of military fiefdom enabled the nomadic Turks to draw on the resources of the sedentary Persians, Turks, and other established cultures within the Seljuq realm, and allowed Alp Arslan to field a huge standing army without depending on tribute from conquest to pay his soldiers. He not only had enough food from his subjects to maintain his military, but the taxes collected from traders and merchants added to his coffers sufficiently to fund his continuous wars.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_11" Language="en_US">
+			<Text>After Manzikert, the dominion of Alp Arslan extended over much of western Asia. He soon prepared to march for the conquest of Turkestan, the original seat of his ancestors. With a powerful army he advanced to the banks of the Oxus. Before he could pass the river with safety, however, it was necessary to subdue certain fortresses, one of which was for several days vigorously defended by the governor, Yussuf al-Kharezmi, a Khwarezmian. He was obliged to surrender, however, and was carried as a prisoner before the sultan, who condemned him to death. Yussuf, in desperation, drew his dagger and rushed upon the sultan. Alp Arslan, who took great pride in his reputation as an archer, motioned to his guards not to interfere. He drew his bow, but his foot slipped, the arrow glanced aside, and he received the assassin's dagger in his breast. Alp Arslan died from this wound four days later, on 25 November 1072, in his 42nd year, and he was taken to Merv to be buried next to his father, Chaghri Beg.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_HISTORY_PARA_12" Language="en_US">
+			<Text>Alp Arslan is widely regarded as having begun Anatolianism, although unintentionally. His victory at Manzikert is often cited as the beginning of the end of Byzantine power in Anatolia, and the beginning of Turkish identity there. Alp Arslan's conquest of Anatolia from the Byzantines is also seen as one of the pivotal precursors to the launch of the crusades.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>While the Seljuq civilization abilities focus on [ICON_Gold] Gold and [ICON_Culture] Culture, Alp Arslan brings tremendous versatility with rapidly promoted military units and the Vizier unique unit which grants yield bonuses across the board to his cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_CVS_LEADER_ALP_ARSLAN_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>The Seljuqs have the unique ability to turn their [ICON_Gold] Gold income into [ICON_Culture], allowing them to focus on maximizing profits in order to speed through the Civics tree. This high income will also allow them to rapidly construct infrastructure in their cities and field large armies quickly. The Seljuqs should focus on maximizing their [ICON_Gold] Gold Per Turn, strategically building Caravanserais along [ICON_TradeRoute] Trade Routes to provide a steady stream of [ICON_Gold] Gold from domestic and foreign traders alike. Viziers should be trained as soon as they are available and stationed in their largest cities to provide increased yields, allowing Alp Arslan the flexibility to pursue any victory type.</Text>
+		</Replace>
+
+		<!--TRAITS/AGENDAS-->
+		<Replace Tag="LOC_CVS_TRAIT_LEADER_ORDER_OF_THE_REALM_NAME" Language="en_US">
+			<Text>Order of the Realm</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_TRAIT_LEADER_ORDER_OF_THE_REALM_DESCRIPTION" Language="en_US">
+			<Text>Units trained in a city with a [ICON_Governor] Governor gain a free [ICON_Promotion] Promotion. Gain access to the unique Vizier support unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_AGENDA_LION_OF_MANZIKERT_NAME" Language="en_US">
+			<Text>Lion of Manzikert</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_AGENDA_LION_OF_MANZIKERT_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations who have smaller armies. Dislikes civilizations who have a larger standing army, and hates civilizations who declare Holy Wars when following a different religion.</Text>
+		</Replace>
+		
+		<!--UNITS-->
+		<Replace Tag="LOC_CVS_UNIT_VIZIER_NAME" Language="en_US">
+			<Text>Vizier</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_UNIT_VIZIER_DESCRIPTION" Language="en_US">
+			<Text>When garrisoned in a city, the Vizier provides bonus [ICON_Gold] Gold, [ICON_Faith] Faith, [ICON_Production] Production, and [ICON_Food] Food for each specialty district. Additionally, the city has a chance to receive a random unique bonus every turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_ABILITY_VIZIER_NAME" Language="en_US">
+			<Text>Vizier</Text>
+		</Replace>
+		<Replace Tag="LOC_CVS_ABILITY_VIZIER_DESCRIPTION" Language="en_US">
+			<Text>When garrisoned in a city, the Vizier boosts its yields and provides a chance for random unique bonuses every turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_VIZIER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The random unique bonuses provided by the Vizier are:[NEWLINE][NEWLINE]Free Builder[NEWLINE]+1 [ICON_Citizen] Population[NEWLINE]Random [ICON_GreatPerson] Great Person point[NEWLINE][ICON_Culture] Culture boost equal to city [ICON_Citizen] Population[NEWLINE][ICON_Faith] Faith boost equal to double city [ICON_Citizen] Population[NEWLINE][ICON_Gold] Gold boost equal to double city [ICON_Citizen] Population[NEWLINE][ICON_Production] Production boost equal to city [ICON_Citizen] Population[NEWLINE][ICON_Science] Science boost equal to city [ICON_Citizen] Population</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_VIZIER_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>A vizier is a high-ranking political advisor or minister. The Muslim office of vizier, which spread from the Persians, Turks, Arabs and Mongols and neighboring peoples (regardless of the style of the ruler), arose under the first Abbasid caliphs. The vizier stood between sovereign and subjects, representing the former in all matters touching the latter.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_CVS_UNIT_VIZIER_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>The Seljuq viziers are best exemplified by Abu Ali Hasan ibn Ali Tusi (April 10, 1018 – October 14, 1092), better known by his honorific title of Nizam al-Mulk. He was a Persian scholar and the most well-known vizier of the Seljuq Empire. He held near absolute power for 20 years after the assassination of Alp Arslan in 1072. One of his most important legacies was founding schools in cities throughout the Seljuk Empire. These were called "nezamiyehs" after him. He wrote Siyasatnama ("Book of Government"), a political treatise that uses historical examples to discuss justice, effective rule, and the role of government in Islamic society.</Text>
+		</Replace>
+
+		<!--DIPLOMACY-->
+		<!--First Meet-->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>I am Alp Arslan, Sultan of the Great Seljuqs. Do not test me, and we may be friends.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Your traders are welcome in the Seljuq Empire, be sure to rest at our caravanserais and sample our hospitality.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Very well.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>If you come see fair Isfahan, seat of the Great Seljuqs, I will sample your capital's hospitality.</Text>
+		</Replace>
+		<!--Greetings-->
+		<Replace Tag="LOC_DIPLO_GREETING_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Yes?</Text>
+		</Replace>
+		<!--Delegation-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Your delegation has arrived safely. I thank you for your generosity.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>I do not accept a stranger's "gifts".</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Please accept this selection of our finest börek pastries. Be sure to accompany them with a cup of chilled ayran as it is quite refreshing.</Text>
+		</Replace>
+		<!--Open Borders-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Our roads are your roads, may they speed your caravans along their way.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>I will be blunt: I do not trust your intentions.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Will you allow our merchants free access through your lands?</Text>
+		</Replace>
+		<!--Declare Friendship-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>I am honored to stand as friends.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>No, I don't think so.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Our nations would benefit from mutual friendship, don't you agree?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Excellent.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>How regrettable.</Text>
+		</Replace>
+		<!--Alliance-->
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>There are many foes surrounding us both, an alliance would strengthen our peoples and make fools of them all.</Text>
+		</Replace>
+		<!--Kudos & Warnings-->
+		<Replace Tag="LOC_DIPLO_KUDO_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_KUDO_EXIT_CVS_LEADER_ALP_ARSLAN_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_WARNING_EXIT_CVS_LEADER_ALP_ARSLAN_ANY}</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>You are a leader who does not hide behind his men. I respect that.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>I believe it is the quality, not the quantity, of the soldier that matters. A shame you do not believe the same.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Do you think I'm blind to your armies gathering near my borders? Do not play games with me. Withdraw them or make your intentions clear.</Text>
+		</Replace>
+		<!--Trade-->
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>That is a reasonable offer - I accept.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>No, I cannot accept.</Text>
+		</Replace>
+		<!--Denounce-->
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>You play a dangerous game, rousing my anger.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>You pathetic coward - the world tires of your snivelling ways.</Text>
+		</Replace>
+		<!--Declare War-->
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Great are the foes the Seljuqs have overcome. You will soon be in illustrious company.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Soon your neck shall be in the mud beneath my feet as you beg for mercy.</Text>
+		</Replace>
+		<!--Make Peace-->
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Even the lion needs to rest. I accept.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>Do you take me for a fool?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>It has been an honorable fight, let us make an honorable peace.</Text>
+		</Replace>
+		<!--Defeat-->
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>My pride has gotten the better of me. To the victor goes the spoils.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_CVS_LEADER_ALP_ARSLAN_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_DEFEAT_FROM_AI_CVS_LEADER_ALP_ARSLAN_ANY}</Text>
+		</Replace>
+		<!--Agenda-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ALP_ARSLAN_AGENDA_LOW_STANDING_ARMY" Language="en_US">
+			<Text>I appreciate a leader who does not measure his worth by the number of men in his army, but rather their quality.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_ALP_ARSLAN_LOW_STANDING_ARMY" Language="en_US">
+			<Text>They are pleased to see that you have a small standing army</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ALP_ARSLAN_AGENDA_HIGH_STANDING_ARMY" Language="en_US">
+			<Text>Are you so weak you must hide behind a wall of men?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_ALP_ARSLAN_HIGH_STANDING_ARMY" Language="en_US">
+			<Text>They dislike civilizations with a large standing army</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ALP_ARSLAN_AGENDA_DECLARED_HOLY_WAR_DIFFERENT_RELIGION" Language="en_US">
+			<Text>(You have declared a holy war while following a different religion.)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_CVS_ALP_ARSLAN_DECLARED_HOLY_WAR_DIFFERENT_RELIGION" Language="en_US">
+			<Text>Alp Arslan hates those who declare holy wars while following a different religion</Text>
+		</Replace>
+	
+		<!--RWF SUPPORT-->
+		<Replace Tag="LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Şef</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Khan</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Beg</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Khakhan</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Emir</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Effendi</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_MERCHANT_REPUBLIC_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Pasha</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Sultan</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_NOBLE_REPUBLIC_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Beglerbegi</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>King</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_PEOPLES_REPUBLIC_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>General Secretary</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_MILITARY_GUARDIANSHIP_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Governor General</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNMENT_JFD_EMPIRE_LEADER_TITLE_CVS_ALP_ARSLAN" Language="en_US">
+			<Text>Padishah</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

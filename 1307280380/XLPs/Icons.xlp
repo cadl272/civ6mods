@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Improvements256"/>
+			<m_ObjectName text="CVS_Seljuq_Improvements256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Improvements38"/>
+			<m_ObjectName text="CVS_Seljuq_Improvements38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Improvements50"/>
+			<m_ObjectName text="CVS_Seljuq_Improvements50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Improvements80"/>
+			<m_ObjectName text="CVS_Seljuq_Improvements80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates22"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates256"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates30"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates36"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates44"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates48"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates50"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates64"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_CityStates80"/>
+			<m_ObjectName text="CVS_Seljuq_CityStates80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization22"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization256"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization30"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization36"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization44"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization48"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization50"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization64"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Civilization80"/>
+			<m_ObjectName text="CVS_Seljuq_Civilization80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_UnitPortraits200"/>
+			<m_ObjectName text="CVS_Seljuq_UnitPortraits200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_UnitPortraits256"/>
+			<m_ObjectName text="CVS_Seljuq_UnitPortraits256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_UnitPortraits38"/>
+			<m_ObjectName text="CVS_Seljuq_UnitPortraits38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_UnitPortraits50"/>
+			<m_ObjectName text="CVS_Seljuq_UnitPortraits50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_UnitPortraits70"/>
+			<m_ObjectName text="CVS_Seljuq_UnitPortraits70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_UnitPortraits95"/>
+			<m_ObjectName text="CVS_Seljuq_UnitPortraits95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Units22"/>
+			<m_ObjectName text="CVS_Seljuq_Units22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Units256"/>
+			<m_ObjectName text="CVS_Seljuq_Units256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Units32"/>
+			<m_ObjectName text="CVS_Seljuq_Units32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Units38"/>
+			<m_ObjectName text="CVS_Seljuq_Units38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Units50"/>
+			<m_ObjectName text="CVS_Seljuq_Units50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_Units80"/>
+			<m_ObjectName text="CVS_Seljuq_Units80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Seljuq_AlpArslan_Color45"/>
+			<m_ObjectName text="CVS_Seljuq_AlpArslan_Color45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_BACKGROUND"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_256"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_32"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_45"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_50"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_55"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_64"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_80"/>
+			<m_ObjectName text="CVS_LEADER_ALP_ARSLAN_PORTRAIT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_ALP_ARSLAN_1"/>
+			<m_ObjectName text="CVS_ALP_ARSLAN_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_ALP_ARSLAN_4"/>
+			<m_ObjectName text="CVS_ALP_ARSLAN_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CVS_ALP_ARSLAN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CVS_ALP_ARSLAN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Alamut_Resource_FontIcon"/>
+			<m_ObjectName text="CVS_Alamut_Resource_FontIcon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Alamut_Resource256"/>
+			<m_ObjectName text="CVS_Alamut_Resource256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Alamut_Resource38"/>
+			<m_ObjectName text="CVS_Alamut_Resource38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Alamut_Resource50"/>
+			<m_ObjectName text="CVS_Alamut_Resource50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CVS_Alamut_Resource64"/>
+			<m_ObjectName text="CVS_Alamut_Resource64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Vizier_HM"/>
+			<m_ObjectName text="Vizier_HM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravanserai_HM"/>
+			<m_ObjectName text="Caravanserai_HM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sarbaz_HM_2"/>
+			<m_ObjectName text="Sarbaz_HM_2"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

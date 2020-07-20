@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld_Gate"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld_Gate"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld_Palisade"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld_Palisade"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld_Palisade_Corner"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld_Palisade_Corner"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld_Tower"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld_Tower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld_Brazier"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld_Brazier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Base_01"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Bld_Tower_2"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Bld_Tower_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Base_02"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Base_03"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CVS_Akkad_UI_Base_04"/>
+			<m_ObjectName text="DIS_CVS_Akkad_UI_Base_04"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
