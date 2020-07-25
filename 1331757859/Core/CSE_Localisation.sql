@@ -21,6 +21,9 @@ VALUES
 	("en_US",	"LOC_CSE_WALLS_NAME",									"CSE - Free Walls for City-States"		),
 	("en_US",	"LOC_CSE_WALLS_DESC",									"When enabled, City-States will start with Walls in their city."		),
 
+	("en_US",	"LOC_CSE_ETHIOPIA_MODE_NAME",							"CSE - Alternate Envoy Bonuses"		),
+	("en_US",	"LOC_CSE_ETHIOPIA_MODE_DESC",							"When enabled, Envoy Bonuses will scale with building tier and will affect Diplomatic Quarter buildings, similar to the changes made in the New Frontier Ethiopia pack."		),
+
 -----------------------------------------------
 -- Scientific
 -----------------------------------------------

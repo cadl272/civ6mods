@@ -108,9 +108,10 @@ function Trait_ThaiAlphabet_CivicGold(iPlayer, iCivic, iCivicProgress, iSource)
 	local iReward = Trait_ThaiAlphabet_GetGold(iCivicCost)
 	pPlayer:GetTreasury():ChangeGoldBalance(iReward)
 
-	if iPlayer == Game.GetLocalPlayer() and ExposedMembers.Custom_StatusMessage then
-		local sCivic = Locale.Lookup(GameInfo.Civics[iCivic].Name)
-		ExposedMembers.Custom_StatusMessage(Locale.Lookup("LOC_TRAIT_LEADER_SUK_THE_THAI_ALPHABET_INSPIRATION", iReward, sCivic), iNotificationDuration, ReportingStatusTypes.DEFAULT)
+	if iPlayer == Game.GetLocalPlayer() then
+		local sCivic	= Locale.Lookup(GameInfo.Civics[iCivic].Name)
+		local sString	= Locale.Lookup("LOC_TRAIT_LEADER_SUK_THE_THAI_ALPHABET_INSPIRATION", iReward, sCivic)
+		Game.AddWorldViewText(ReportingStatusTypes.DEFAULT, sString, -1, -1, -1)
 	end
 end
 Events.CivicBoostTriggered.Add(Trait_ThaiAlphabet_CivicGold)
@@ -130,9 +131,10 @@ function Trait_ThaiAlphabet_TechGold(iPlayer, iTech, iTechProgress, iSource)
 	local iReward = Trait_ThaiAlphabet_GetGold(iTechCost)
 	pPlayer:GetTreasury():ChangeGoldBalance(iReward)
 
-	if iPlayer == Game.GetLocalPlayer() and ExposedMembers.SukEvents.StatusMessage then
+	if iPlayer == Game.GetLocalPlayer() then
 		local sTech = Locale.Lookup(GameInfo.Technologies[iTech].Name)
-		ExposedMembers.SukEvents.StatusMessage(Locale.Lookup("LOC_TRAIT_LEADER_SUK_THE_THAI_ALPHABET_EUREKA", iReward, sTech), iNotificationDuration, ReportingStatusTypes.DEFAULT)
+		local sString	= Locale.Lookup("LOC_TRAIT_LEADER_SUK_THE_THAI_ALPHABET_EUREKA", iReward, sTech)
+		Game.AddWorldViewText(ReportingStatusTypes.DEFAULT, sString, -1, -1, -1)
 	end
 end
 Events.TechBoostTriggered.Add(Trait_ThaiAlphabet_TechGold)

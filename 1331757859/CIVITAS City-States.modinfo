@@ -38,6 +38,30 @@
         <Value>1</Value>
       </ConfigurationValueMatches>
     </Criteria>
+    <Criteria id="Ethiopia">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="XP1_Ethiopia">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+      <GameCoreInUse inverse="1">Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="XP2_Ethiopia">
+      <GameCoreInUse>Expansion2</GameCoreInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CSE_ETHIOPIA_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
   </ActionCriteria>
   <FrontEndActions>
     <UpdateDatabase id="CSE_Config">
@@ -317,6 +341,76 @@
       <Criteria>XP2</Criteria>
       <File>Core/CSE_CityStates_XP2.sql</File>
     </UpdateDatabase>
+
+    <UpdateDatabase id="CSE_Types_Ethiopia_General">
+      <Properties>
+        <LoadOrder>80</LoadOrder>
+      </Properties>
+      <Criteria>Ethiopia</Criteria>
+      <File>Core/City-State Types/Ethiopia/CSE_Default_Ethiopia.sql</File>
+    </UpdateDatabase>
+
+    <UpdateDatabase id="CSE_Types_Ethiopia">
+      <Properties>
+        <LoadOrder>81</LoadOrder>
+      </Properties>
+      <Criteria>Ethiopia</Criteria>
+      <File>Core/City-State Types/Ethiopia/CSE_Agricultural_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Cultural_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Entertainment_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Industrial_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Maritime_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Militaristic_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Religious_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Scientific_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/CSE_Trade_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CSE_Text_Ethiopia">
+      <Properties>
+        <LoadOrder>81</LoadOrder>
+      </Properties>
+      <Criteria>Ethiopia</Criteria>
+      <File>Core/CSE_Localisation_Ethiopia.sql</File>
+      <File>Core/Localisation/CSE_Localisation_Ethiopia_PT_BR.sql</File>
+    </UpdateText>
+
+    <UpdateDatabase id="CSE_Types_Ethiopia_XP1">
+      <Properties>
+        <LoadOrder>82</LoadOrder>
+      </Properties>
+      <Criteria>XP1_Ethiopia</Criteria>
+      <File>Core/City-State Types/Ethiopia/XP1/CSE_Agricultural_XP1_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/XP1/CSE_Consular_XP1_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/XP1/CSE_Entertainment_XP1_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CSE_Text_Ethiopia_XP1">
+      <Properties>
+        <LoadOrder>82</LoadOrder>
+      </Properties>
+      <Criteria>XP1_Ethiopia</Criteria>
+      <File>Core/CSE_Localisation_XP1_Ethiopia.sql</File>
+      <File>Core/Localisation/CSE_Localisation_XP1_Ethiopia_PT_BR.sql</File>
+    </UpdateText>
+
+    <UpdateDatabase id="CSE_Types_Ethiopia_XP2">
+      <Properties>
+        <LoadOrder>82</LoadOrder>
+      </Properties>
+      <Criteria>XP2_Ethiopia</Criteria>
+      <File>Core/City-State Types/Ethiopia/XP1/CSE_Agricultural_XP1_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/XP1/CSE_Consular_XP1_Ethiopia.sql</File>
+      <File>Core/City-State Types/Ethiopia/XP1/CSE_Entertainment_XP1_Ethiopia.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CSE_Text_Ethiopia_XP2">
+      <Properties>
+        <LoadOrder>82</LoadOrder>
+      </Properties>
+      <Criteria>XP2_Ethiopia</Criteria>
+      <File>Core/CSE_Localisation_XP1_Ethiopia.sql</File>
+      <File>Core/Localisation/CSE_Localisation_XP1_Ethiopia_PT_BR.sql</File>
+    </UpdateText>
+
+
     <UpdateDatabase id="CSE_Favors">
       <Properties>
         <LoadOrder>1000</LoadOrder>
@@ -567,5 +661,22 @@
     <File>Core/Localisation/CSE_Localisation_XP1_PT_BR.sql</File>
     <File>Core/Config/CSE_Config.sql</File>
     <File>Core/Framework/CSE_WallToggle.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Agricultural_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Cultural_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Entertainment_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Industrial_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Maritime_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Militaristic_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Religious_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Scientific_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Trade_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/CSE_Default_Ethiopia.sql</File>
+    <File>Core/CSE_Localisation_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/XP1/CSE_Agricultural_XP1_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/XP1/CSE_Consular_XP1_Ethiopia.sql</File>
+    <File>Core/City-State Types/Ethiopia/XP1/CSE_Entertainment_XP1_Ethiopia.sql</File>
+    <File>Core/CSE_Localisation_XP1_Ethiopia.sql</File>
+    <File>Core/Localisation/CSE_Localisation_Ethiopia_PT_BR.sql</File>
+    <File>Core/Localisation/CSE_Localisation_XP1_Ethiopia_PT_BR.sql</File>
   </Files>
 </Mod>

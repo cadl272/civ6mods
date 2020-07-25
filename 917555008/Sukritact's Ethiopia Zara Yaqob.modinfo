@@ -4,7 +4,7 @@
     <Name>Sukritact's Zara Yaqob (Ethiopia)</Name>
     <Description>Adds Ethiopia as a Civ, with Zara Yaqob as its leader.</Description>
     <CustomProperties></CustomProperties>
-    <Created>1571229037</Created>
+    <Created>1595523142</Created>
     <Teaser>Adds Ethiopia as a Civ, with Zara Yaqob as its leader.</Teaser>
     <Authors>Sukritact</Authors>
     <SpecialThanks>DarthKyofu, DMS</SpecialThanks>
@@ -17,99 +17,174 @@
     <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="Moar Units" />
   </References>
   <ActionCriteria>
-    <Criteria id="Expansion1">
-      <GameCoreInUse>Expansion1</GameCoreInUse>
+    <Criteria id="Suk_Zara_Yaqob">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SUK_ZARAYAQOB,StandardPlayers::LEADER_SUK_ZARAYAQOB,Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB</LeaderPlayable>
     </Criteria>
-    <Criteria id="Expansion2">
-      <GameCoreInUse>Expansion2</GameCoreInUse>
+    <Criteria id="Suk_Zara_Yaqob_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_DLC">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SUK_ZARAYAQOB_DLC,StandardPlayers::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB_DLC</LeaderPlayable>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_Expansion1_DLC">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB_DLC</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_Expansion2_DLC">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB_DLC</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_DLC_Rework">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SUK_ZARAYAQOB_DLC,StandardPlayers::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB_DLC</LeaderPlayable>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_ETHIOPIAREWORK</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_Expansion_DLC_Rework">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB_DLC</LeaderPlayable>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_ETHIOPIAREWORK</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="Suk_Zara_Yaqob_Any">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SUK_ZARAYAQOB,StandardPlayers::LEADER_SUK_ZARAYAQOB,Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB,Players:StandardPlayers::LEADER_SUK_ZARAYAQOB_DLC,StandardPlayers::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion1_Players::LEADER_SUK_ZARAYAQOB_DLC,Players:Expansion2_Players::LEADER_SUK_ZARAYAQOB_DLC</LeaderPlayable>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
-    <UpdateArt id="UpdateArt">
+    <UpdateArt id="Suk_ZaraYaqob_ConfigArt">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
       <File>Sukritact's Ethiopia.dep</File>
     </UpdateArt>
-    <UpdateDatabase id="UpdateDatabase">
+    <UpdateDatabase id="Suk_ZaraYaqob_ConfigDatabase">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
-      <File>Core/Suk_ZaraYaqob_Config.sql</File>
+      <File>Core/Common/Suk_ZaraYaqob_Config.sql</File>
     </UpdateDatabase>
-    <UpdateText id="UpdateText">
+    <UpdateText id="Suk_ZaraYaqob_ConfigText">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
-      <File>Core/Suk_ZaraYaqob_Localisation.sql</File>
+      <File>Core/Localisation/Suk_ZaraYaqob_ConfigText.sql</File>
     </UpdateText>
-    <UpdateIcons id="UpdateIcons">
+    <UpdateIcons id="Suk_ZaraYaqob_ConfigIcons">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
-      <File>Core/Suk_ZaraYaqob_IconDefinitions.sql</File>
+      <File>Core/Common/Suk_ZaraYaqob_IconDefinitions.sql</File>
     </UpdateIcons>
-    <UpdateColors id="UpdateColors">
+    <UpdateColors id="Suk_ZaraYaqob_ConfigColors">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
-      <File>Core/Suk_ZaraYaqob_Colors.sql</File>
+      <File>Core/Common/Suk_ZaraYaqob_Colors.sql</File>
     </UpdateColors>
   </FrontEndActions>
   <InGameActions>
-    <UpdateArt id="UpdateArt">
+    <UpdateArt id="Suk_ZaraYaqob_Art">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
       <File>Sukritact's Ethiopia.dep</File>
     </UpdateArt>
-    <UpdateDatabase id="UpdateDatabase">
+    <UpdateColors id="Suk_ZaraYaqob_Colors">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
-      <File>Core/Suk_ZaraYaqob_Civilizations.sql</File>
-      <File>Core/Suk_ZaraYaqob_Leaders.sql</File>
-      <File>Core/Suk_ZaraYaqob_Buildings.sql</File>
-      <File>Core/Suk_ZaraYaqob_Units.sql</File>
-      <File>Core/Suk_ZaraYaqob_ModSupport.sql</File>
-    </UpdateDatabase>
-    <UpdateIcons id="UpdateIcons">
-      <Properties>
-        <LoadOrder>100</LoadOrder>
-      </Properties>
-      <File>Core/Suk_ZaraYaqob_IconDefinitions.sql</File>
-    </UpdateIcons>
-    <UpdateText id="UpdateText">
-      <Properties>
-        <LoadOrder>100</LoadOrder>
-      </Properties>
-      <File>Core/Suk_ZaraYaqob_Localisation.sql</File>
-    </UpdateText>
-    <UpdateDatabase id="UpdateDatabase_XP1">
-      <Properties>
-        <LoadOrder>101</LoadOrder>
-      </Properties>
-      <Criteria>Expansion1</Criteria>
-      <File>Core/Suk_ZaraYaqob_Expansion1.sql</File>
-    </UpdateDatabase>
-    <UpdateDatabase id="UpdateDatabase_XP2">
-      <Properties>
-        <LoadOrder>101</LoadOrder>
-      </Properties>
-      <Criteria>Expansion2</Criteria>
-      <File>Core/Suk_ZaraYaqob_Expansion1.sql</File>
-      <File>Core/Suk_ZaraYaqob_Expansion2.sql</File>
-    </UpdateDatabase>
-    <UpdateColors id="UpdateColors">
-      <Properties>
-        <LoadOrder>100</LoadOrder>
-      </Properties>
-      <File>Core/Suk_ZaraYaqob_Colors.sql</File>
+      <File>Core/Common/Suk_ZaraYaqob_Colors.sql</File>
     </UpdateColors>
-    <AddGameplayScripts id="AddGameplayScripts">
+    <UpdateIcons id="Suk_ZaraYaqob_Icons">
       <Properties>
         <LoadOrder>100</LoadOrder>
       </Properties>
+      <File>Core/Common/Suk_ZaraYaqob_IconDefinitions.sql</File>
+    </UpdateIcons>
+    <UpdateText id="Suk_ZaraYaqob_Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob</Criteria>
+      <File>Core/Localisation/Suk_ZaraYaqob_ConfigText.sql</File>
+      <File>Core/Localisation/Suk_ZaraYaqob_InGameText.sql</File>
+      <File>Core/Localisation/Suk_ZaraYaqob_LeaderText.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="Suk_ZaraYaqob_Base">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob</Criteria>
+      <File>Core/Base/Suk_ZaraYaqob_Buildings.sql</File>
+      <File>Core/Base/Suk_ZaraYaqob_Civilizations.sql</File>
+      <File>Core/Base/Suk_ZaraYaqob_Leaders.sql</File>
+      <File>Core/Base/Suk_ZaraYaqob_Units.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Suk_ZaraYaqob_XP1">
+      <Properties>
+        <LoadOrder>101</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_Expansion1</Criteria>
+      <File>Core/Base/Suk_ZaraYaqob_Expansion1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Suk_ZaraYaqob_XP2">
+      <Properties>
+        <LoadOrder>101</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_Expansion2</Criteria>
+      <File>Core/Base/Suk_ZaraYaqob_Expansion2.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="Suk_ZaraYaqob_Lua">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob</Criteria>
+      <File>Lua/Suk_ZaraYaqob_CoreFunctions.lua</File>
+    </AddGameplayScripts>
+    <UpdateDatabase id="Suk_ZaraYaqob_DLC">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_DLC</Criteria>
+      <File>Core/DLC/Suk_ZaraYaqob_Leaders_DLC.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="Suk_ZaraYaqob_Text_DLC">
+      <Properties>
+        <LoadOrder>101</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_DLC</Criteria>
+      <File>Core/Localisation/Suk_ZaraYaqob_ConfigText.sql</File>
+      <File>Core/Localisation/Suk_ZaraYaqob_LeaderText.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="Suk_ZaraYaqob_Rework">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_DLC_Rework</Criteria>
+      <File>Core/DLC/Suk_ZaraYaqob_EthiopiaRework.sql</File>
+      <File>Core/DLC/Suk_ZaraYaqob_Units_DLC.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Suk_ZaraYaqob_XP_Rework">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_Expansion_DLC_Rework</Criteria>
+      <File>Core/DLC/Suk_ZaraYaqob_Expansion1_DLC.sql</File>
+    </UpdateDatabase>
+    <AddGameplayScripts id="Suk_ZaraYaqob_Lua_Rework">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Suk_Zara_Yaqob_DLC_Rework</Criteria>
       <File>Lua/Suk_ZaraYaqob_CoreFunctions.lua</File>
     </AddGameplayScripts>
   </InGameActions>
@@ -122,18 +197,96 @@
     <File>ArtDefs/Leaders.artdef</File>
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/Units.artdef</File>
-    <File>Core/Suk_ZaraYaqob_Buildings.sql</File>
-    <File>Core/Suk_ZaraYaqob_Civilizations.sql</File>
-    <File>Core/Suk_ZaraYaqob_Colors.sql</File>
-    <File>Core/Suk_ZaraYaqob_Config.sql</File>
-    <File>Core/Suk_ZaraYaqob_Expansion1.sql</File>
-    <File>Core/Suk_ZaraYaqob_Expansion2.sql</File>
-    <File>Core/Suk_ZaraYaqob_IconDefinitions.sql</File>
-    <File>Core/Suk_ZaraYaqob_Leaders.sql</File>
-    <File>Core/Suk_ZaraYaqob_Localisation.sql</File>
+    <File>Core/Base/Suk_ZaraYaqob_Buildings.sql</File>
+    <File>Core/Base/Suk_ZaraYaqob_Civilizations.sql</File>
+    <File>Core/Base/Suk_ZaraYaqob_Expansion1.sql</File>
+    <File>Core/Base/Suk_ZaraYaqob_Expansion2.sql</File>
+    <File>Core/Base/Suk_ZaraYaqob_Leaders.sql</File>
+    <File>Core/Base/Suk_ZaraYaqob_Units.sql</File>
+    <File>Core/Common/Suk_ZaraYaqob_Colors.sql</File>
+    <File>Core/Common/Suk_ZaraYaqob_Config.sql</File>
+    <File>Core/Common/Suk_ZaraYaqob_IconDefinitions.sql</File>
+    <File>Core/DLC/Suk_ZaraYaqob_EthiopiaRework.sql</File>
+    <File>Core/DLC/Suk_ZaraYaqob_Expansion1_DLC.sql</File>
+    <File>Core/DLC/Suk_ZaraYaqob_Leaders_DLC.sql</File>
+    <File>Core/DLC/Suk_ZaraYaqob_Units_DLC.sql</File>
+    <File>Core/Localisation/Suk_ZaraYaqob_ConfigText.sql</File>
+    <File>Core/Localisation/Suk_ZaraYaqob_InGameText.sql</File>
+    <File>Core/Localisation/Suk_ZaraYaqob_LeaderText.sql</File>
     <File>Core/Suk_ZaraYaqob_ModSupport.sql</File>
-    <File>Core/Suk_ZaraYaqob_Units.sql</File>
     <File>Lua/Suk_ZaraYaqob_CoreFunctions.lua</File>
+    <File>Platforms/MacOS/BLPs/landmarks/hero_buildings.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/leaders/leader_suk_zarayaqob.blp</File>
+    <File>Platforms/MacOS/BLPs/leaders/light_rigs.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Berzerker_DeathFromHeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_EagleWarrior_Spawn</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Horseman_BipedalDeathMeleeA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Impr_HeroDeath</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Infantry_DeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Legion_CombatD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Legion_HeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Legion_RunCombat_SwordAndShield</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Legion_Run_SwordAndShield</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Pikeman_DeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Redcoat_HeroicA_Death</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Scout_DeathB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Slinger_DeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFlyBackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Spearman_DeathFromJumpStabFlipUnitInAir</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_AttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_DodgeA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_IdleD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedC</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_ReactRangedD</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Swordsman_SpawnA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Tank_MainGunDeathA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitHeavy_Death_HitToHeadA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_BreathingA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_CorkscrewDeathFromSwordsmanHeroA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_LegionHeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_Death_SamuraiHeroAttackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_ProjectileDeathFlyBackA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_RunStop_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeBack_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_UnitMedium_StrafeFwd_SwordAndShieldA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_Death</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_WarriorMonk_HeroDeath</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeA</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Warrior_DeathMeleeB</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_REL_Suk_RockHewnChurch_Bld_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_DIS_REL_Suk_RockHewnChurch_Props_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Suk_Shotelai_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Bld_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Bld_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Bld_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Bld_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Ethiopia_LoyaltyWarning</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Ethiopia_Pressure</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Shotelai_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Shotelai_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Shotelai_M</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Shotelai_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Suk_Shotelai_N1</File>
+    <File>Platforms/MacOS/BLPs/UILensAssets.blp</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/MacOS/BLPs/units/units.blp</File>
     <File>Platforms/Windows/BLPs/landmarks/hero_buildings.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/leaders/leader_suk_zarayaqob.blp</File>
@@ -195,6 +348,7 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_M</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_N0</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_REL_Suk_RockHewnChurch_Props_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_Ethiopia_LoyaltyWarning</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_Ethiopia_Pressure</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Suk_Shotelai_A</File>

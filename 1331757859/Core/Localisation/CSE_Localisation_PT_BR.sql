@@ -12,6 +12,18 @@ VALUES
 
 	("pt_BR",	"LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS",				"10 [ICON_ENVOY] Emissários:"		),
 
+	("pt_BR",	"LOC_CSE_FAVOR_SUZERAIN_NAME",							"CSE - Favor para Suzeranos"		),
+	("pt_BR",	"LOC_CSE_FAVOR_SUZERAIN_DESC",							"Quando habilitado, jogadores recebem +1 de Favor Diplomático por turno para cada cidade-estado que ele seja suzerano. Quando desabilitado, ser o suzerano de uma cidade-estado não concede Favor Diplomático."		),
+
+	("pt_BR",	"LOC_CSE_FAVOR_CONSULAR_NAME",							"CSE - Bônus de Cidades-Estado Consulares"		),
+	("pt_BR",	"LOC_CSE_FAVOR_CONSULAR_DESC",							"Quando habilitado, Cidades-Estado Consulares irão conceder Favor Diplomático como recompensa por Enviados. Quando desabilitado, elas fornecem Lealdade."		),
+
+	("pt_BR",	"LOC_CSE_WALLS_NAME",									"CSE - Muralhas Gratuitas para Cidades-Estado"		),
+	("pt_BR",	"LOC_CSE_WALLS_DESC",									"Quando habilitado, Citades-Estado irão começar o jogo com Muralhas em suas cidades."		),
+
+	("pt_BR",	"LOC_CSE_ETHIOPIA_MODE_NAME",							"CSE - Bônus de Emissários Alternativos."        ),
+    ("pt_BR",	"LOC_CSE_ETHIOPIA_MODE_DESC",							"Quando habilitado, os Bônus de Emissários irão escalar com o nível da edificação e afetarão as edificações da Área Diplomática, similar às mudanças feitas no pack Etiopia - New Frontier."        ),
+
 -----------------------------------------------
 -- Scientific
 -----------------------------------------------
@@ -1107,8 +1119,8 @@ VALUES
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SAMARQAND_NAME",				"Samarcanda"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SAMARQAND_ADJECTIVE",			"Samarcanda"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_SAMARQAND__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"		),
-	("pt_BR",	"LOC_CSE_SAMARQAND_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_SAMARQAND_DESCRIPTION",		"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"		),
+	("pt_BR",	"LOC_CSE_SAMARQAND_TRAIT_NAME",						"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"	),
 	("pt_BR",	"LOC_CSE_SAMARQAND_TRAIT_DESCRIPTION",				"Sua civilização ganha +2% de [ICON_SCIENCE] Ciência para cada [ICON_GREATPERSON] Grande Personalidade que tenha recebido, até um total de +30%."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SAMARQAND_NAME",			"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"	),
@@ -1125,8 +1137,8 @@ VALUES
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SANAA_NAME",				"Saná"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SANAA_ADJECTIVE",			"de Saná"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_SANAA__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_SANAA_NAME}"		),
-	("pt_BR",	"LOC_CSE_SANAA_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SANAA_NAME}"	),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_SANAA_DESCRIPTION",		"{LOC_CIVILIZATION_CSE_SANAA_NAME}"		),
+	("pt_BR",	"LOC_CSE_SANAA_TRAIT_NAME",						"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SANAA_NAME}"	),
 	("pt_BR",	"LOC_CSE_SANAA_TRAIT_DESCRIPTION",				"[ICON_TRADEROUTE] Rotas Comerciais fornecem +1 de [ICON_FOOD] Alimento para cada [ICON_TRADINGPOST] Posto Comercial doméstico que eles passam."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SANAA_NAME",			"{LOC_CIVILIZATION_CSE_SANAA_NAME}"	),
@@ -1143,7 +1155,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME",				"Seuthopolis"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SEUTHOPOLIS_ADJECTIVE",			"de Seuthopolis"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SEUTHOPOLIS_DESCRIPTION",			"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"		),
-	("pt_BR",	"LOC_CSE_SEUTHOPOLIS_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"	),
+	("pt_BR",	"LOC_CSE_SEUTHOPOLIS_TRAIT_NAME",						"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"	),
 	("pt_BR",	"LOC_CSE_SEUTHOPOLIS_TRAIT_DESCRIPTION",				"Eliminar uma unidade inimiga fornece [ICON_GOLD] Ouro igual a sua [ICON_STRENGTH] Força de Combate."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SEUTHOPOLIS_NAME",			"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"	),
@@ -1159,7 +1171,7 @@ VALUES
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME",				"Shahr-e Sukhté"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_ADJECTIVE",		"de Shahr-e Sukhté"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE__DESCRIPTION",		"{LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"		),
 	("pt_BR",	"LOC_CSE_SHAHR_E_SUKHTE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"	),
 	("pt_BR",	"LOC_CSE_SHAHR_E_SUKHTE_TRAIT_DESCRIPTION",				"Suas cidades ganham +15% de [ICON_CULTURE] Cultura enquanto você não está em guerra com nenhuma outra civilização."	),
 	
@@ -1177,7 +1189,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SIDON_ADJECTIVE",		"de Sidon"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SIDON_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_SIDON_NAME}"		),
 	("pt_BR",	"LOC_CSE_SIDON_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SIDON_NAME}"	),
-	("pt_BR",	"LOC_CSE_SIDON_TRAIT_DESCRIPTION",			"Queixas contra você deterioram duas vezes mais rápido."	),
+	("pt_BR",	"LOC_CSE_SIDON_TRAIT_DESCRIPTION",			"+1 de [ICON_MOVEMENT] Movimento para unidades civis."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SIDON_NAME",		"{LOC_CIVILIZATION_CSE_SIDON_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SIDON",						"{LOC_CIVILIZATION_CSE_SIDON_NAME}"	),
@@ -1185,8 +1197,8 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_SIDON_CHAPTER_HISTORY_PARA_1",	"Sídon, conhecida localmente como Sayda ou Saida, é habitada desde muito cedo na pré-história. O sítio arqueológico de Sídon II mostra uma assembléia lítica datada de Acheulean, enquanto que em Sídon III, há um conjunto de Neolítico Pesado, o que sugere hoje, um pouco antes da invenção da cerâmica. Foi uma das cidades fenícias mais importantes, e pode ter sido a mais antiga. De lá e de outros portos foi fundado um grande império comercial mediterrâneo. Homero elogiou a habilidade de seus artesãos em produzir vidros, tinturas roxas e a habilidade de suas mulheres na arte do bordado. Foi também a partir daqui que uma parte colonizadora foi fundar a cidade de Tiro. Tiro também se transformou em uma grande cidade, e nos anos subsequentes houve competição entre os dois, cada qual alegando ser a metrópole ('cidade mãe') da Fenícia. A fabricação de vidro, o empreendimento mais importante de Sídon na era fenícia, foi conduzida em grande escala, e a produção de tintura roxa foi quase tão importante quanto. A pequena concha do trunculus Murex foi quebrada para extrair o pigmento que era tão raro que se tornou a marca da realeza."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_SIDON_CHAPTER_HISTORY_PARA_2",	"Como outras cidades-estados fenícias, Sídon sofria de uma sucessão de conquistadores. No final da era persa, em 351 aC, foi invadida pelo imperador Artaxerxes III e depois por Alexandre, o Grande, em 333 aC, quando a era helenística de Sídon começou. Sob os sucessores de Alexandre, gozou de relativa autonomia e organizou jogos e competições em que participavam os maiores atletas da região."	),
 
-	("pt_BR",	"LOC_CSE_SIDON_SUZ_NAME",					"Bônus do Suserano de Sídon"	),
-	("pt_BR",	"LOC_CSE_SIDON_SUZ_DESC",					"+1 [ICON_MOVEMENT] para Civis (Sídon)"	),
+	("pt_BR",	"LOC_CSE_SIDON_SUZ_NAME",					"Bônus de Suserano de Sídon"	),
+	("pt_BR",	"LOC_CSE_SIDON_SUZ_DESC",					"+1 de [ICON_MOVEMENT] Movimento (Sídon)"	),
 
 -----------------------------------------------
 -- City-State | Singapore
@@ -1212,7 +1224,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME",			"Sri Ksetra"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SRI_KSETRA_ADJECTIVE",	"de Sri Ksetra"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SRI_KSETRA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"		),
-	("pt_BR",	"LOC_CSE_SRI_KSETRA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"	),
+	("pt_BR",	"LOC_CSE_SRI_KSETRA_TRAIT_NAME",				"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"	),
 	("pt_BR",	"LOC_CSE_SRI_KSETRA_TRAIT_DESCRIPTION",			"Lugares Sagrados fornecem [ICON_FOOD] Alimento igual ao seu bônus de [ICON_FAITH] Fé por adjacência."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SRI_KSETRA_NAME",		"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"	),
@@ -1228,7 +1240,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TANGIER_NAME",		"Tânger"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TANGIER_ADJECTIVE",	"de Tânger"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TANGIER_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_TANGIER_NAME}"		),
-	("pt_BR",	"LOC_CSE_TANGIER_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_TANGIER_NAME}"	),
+	("pt_BR",	"LOC_CSE_TANGIER_TRAIT_NAME",				"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_TANGIER_NAME}"	),
 	("pt_BR",	"LOC_CSE_TANGIER_TRAIT_DESCRIPTION",		"Receba 2 [ICON_CIVICBOOSTED] Inspirações ao entrar em uma nova era. Distritos de Teatro recebem +1 de [ICON_CULTURE] Cultura para cada 2 distritos adjacentes."	),
 	
 	("pt_BR",	"LOC_CSE_TANGIER_THEATER_ADJACENCY",		"+{1_num} de [ICON_CULTURE] Cultura dos distritos adjacentes. (Tangier)"		),
@@ -1288,7 +1300,7 @@ VALUES
 	("pt_BR",	"LOC_CSE_TISSAMAHARAMA_TRAIT_DESCRIPTION",			"Unidades Terrestres (Reconhecimento, Corpo-a-corpo, À Distância e Anti-Cavalaria) ganham +5 de [ICON_STRENGTH] Força de Combate."	),
 	
 
-	("en_US",	"LOC_CSE_TISSAMAHARAMA_STRENGTH",					"+{1_Amount} Bônus de Combate (Tissamaharama)"	),
+	("pt_BR",	"LOC_CSE_TISSAMAHARAMA_STRENGTH",					"+{1_Amount} Bônus de Combate (Tissamaharama)"	),
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_TISSAMAHARAMA_NAME",		"{LOC_CIVILIZATION_CSE_TISSAMAHARAMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_TISSAMAHARAMA",						"{LOC_CIVILIZATION_CSE_TISSAMAHARAMA_NAME}"	),
 

@@ -1,0 +1,302 @@
+<!--
+
+	Map Size reference
+
+			  Civ V       Civ VI 
+	 
+	Dual       40x24       44x26 
+	Tiny       55x36       60x36 
+	Small      66x42       74x46 
+	Standard   80x52       84x54 
+	Large     104x64       96x60
+	Huge      128x80      106x66  
+	Enormous              128x80
+	Giant     180x94      180x94
+	Ludicrous N/A        230x115 
+	
+
+-->
+
+<GameInfo>
+	
+	<Maps>
+		<Row File="LargestEarthCustom.lua" Name="LOC_LARGESTEARTHCUSTOM_NAME" Description="LOC_LARGESTEARTHCUSTOM_DESC" SortIndex="2"/>
+	</Maps>	
+
+	<Parameters>
+		<!--	LargestEarth Options
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="RealDeposits" Name="LOC_MAP_RESOURCES_PLACEMENT_RWDEPOSIT_NAME" Description="LOC_MAP_RESOURCES_PLACEMENT_RWDEPOSIT_DESCRIPTION" Domain="RealDeposits" DefaultValue="PLACEMENT_DEPOSIT" ConfigurationGroup="Map" ConfigurationId="RealDeposits" GroupId="MapOptions" SortIndex="277"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="ContinentsPlacement" Name="LOC_MAP_CONTINENT_PLACEMENT_NAME" Description="LOC_MAP_CONTINENT_PLACEMENT_DESCRIPTION" Domain="ContinentsPlacement" DefaultValue="PLACEMENT_IMPORT" ConfigurationGroup="Map" ConfigurationId="ContinentsPlacement" GroupId="MapOptions" SortIndex="232"/>
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="RiversPlacement" Name="LOC_MAP_RIVERS_PLACEMENT_NAME" Description="LOC_MAP_RIVERS_PLACEMENT_DESCRIPTION" Domain="RiversPlacement" DefaultValue="PLACEMENT_IMPORT" ConfigurationGroup="Map" ConfigurationId="RiversPlacement" GroupId="MapOptions" SortIndex="231"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="NaturalWondersPlacement" Name="LOC_MAP_NATURAL_WONDERS_PLACEMENT_NAME" Description="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DESCRIPTION" Domain="NaturalWondersPlacement" DefaultValue="PLACEMENT_IMPORT" ConfigurationGroup="Map" ConfigurationId="NaturalWondersPlacement" GroupId="MapOptions" Hash="0" SortIndex="244"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="FeaturesPlacement" Name="LOC_MAP_FEATURES_PLACEMENT_NAME" Description="LOC_MAP_FEATURES_PLACEMENT_DESCRIPTION" Domain="FeaturesPlacement" DefaultValue="PLACEMENT_IMPORT" ConfigurationGroup="Map" ConfigurationId="FeaturesPlacement" GroupId="MapOptions" Hash="0" SortIndex="245"/>		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomResourcesPlacement" Name="LOC_MAP_RESOURCES_PLACEMENT_NAME" Description="LOC_MAP_RESOURCES_PLACEMENT_DESCRIPTION" Domain="LargestEarthCustomResourcesPlacement" DefaultValue="PLACEMENT_DEFAULT" ConfigurationGroup="Map" ConfigurationId="ResourcesPlacement" GroupId="MapOptions" Hash="0" SortIndex="268"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="Resources" Name="LOC_MAP_RESOURCES_NAME" Description="LOC_MAP_RESOURCES_DESCRIPTION" Domain="Resources" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="resources" GroupId="MapOptions" Hash="0" SortIndex="270"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="ResourcesExclusion" Name="LOC_MAP_RESOURCES_PLACEMENT_EXCLUDE_NAME" Description="LOC_MAP_RESOURCES_PLACEMENT_EXCLUDE_DESCRIPTION" Domain="ResourcesExclusion" DefaultValue="PLACEMENT_EXCLUDE" ConfigurationGroup="Map" ConfigurationId="ResourcesExclusion" GroupId="MapOptions" SortIndex="275"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="CivilizationPlacement" Name="LOC_MAP_CIVILIZATION_PLACEMENT_NAME" Description="LOC_MAP_CIVILIZATION_PLACEMENT_DESCRIPTION" Domain="CivilizationPlacement" DefaultValue="PLACEMENT_TSL" ConfigurationGroup="Map" ConfigurationId="CivilizationPlacement" GroupId="MapOptions" Hash="0" SortIndex="280"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="ForceTSL" Name="LOC_MAP_FORCE_TSL_NAME" Description="LOC_MAP_FORCE_TSL_DESCRIPTION" Domain="ForceTSL" DefaultValue="FORCE_TSL_OFF" ConfigurationGroup="Map" ConfigurationId="ForceTSL" GroupId="MapOptions" Hash="0" SortIndex="281"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="StartPosition" Name="LOC_MAP_START_POSITION_NAME" Description="LOC_MAP_START_POSITION_DESCRIPTION" Domain="StartPosition" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="start" GroupId="MapOptions" Hash="0" SortIndex="285"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="RequestedResources" Name="LOC_MAP_RESOURCES_REQUESTED_NAME" Description="LOC_MAP_RESOURCES_REQUESTED_DESCRIPTION" Domain="RequestedResources" DefaultValue="PLACEMENT_REQUEST" ConfigurationGroup="Map" ConfigurationId="RequestedResources" GroupId="MapOptions" SortIndex="295"/>
+		
+		<!--	Auto City Naming -->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="AutoCityNaming" Name="LOC_MAP_AUTO_CITY_NAMING_NAME" Description="LOC_MAP_AUTO_CITY_NAMING_DESC" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="AutoCityNaming" GroupId="MapOptions" SortIndex="2000"/>
+
+		<!--	Special default MapSize (hidden)
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomSize" 	Name="LOC_MAP_SIZE" Description="" Domain="StandardMapSizes" DefaultValue="MAPSIZE_OVERSIZED" ConfigurationGroup="Map" ConfigurationId="MAP_SIZE" Hash="1" GroupId="MapOptions" Visible="0" SortIndex="225"/>
+		
+		<!--	Hidden parameter to hide normal mapsize for converted maps
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="HideSize" Name="HideSize" Description="" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="HideSize" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		
+		<!--	Hidden parameters to notify some YnAMP scripts to use relative placement for this map (you must also set ReferenceMapHeight, ReferenceMapWidth and give that map the same name as the reference map
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="UseRelativePlacement"	Name="UseRelativePlacement" 	Description="" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="UseRelativePlacement" 	GroupId="MapOptions" Visible="0" SortIndex="225"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="UseRelativeFixedTable"	Name="UseRelativeFixedTable" 	Description="" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="UseRelativeFixedTable" 	GroupId="MapOptions" Visible="0" SortIndex="225"/>
+		
+		<!--	Hidden parameters to pass the Height/Width of the reference map for TSL
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="ReferenceMapHeight" 	Name="ReferenceMapHeight" 	Description="" Domain="text" DefaultValue="94" ConfigurationGroup="Map" ConfigurationId="ReferenceMapHeight" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="ReferenceMapWidth" 	Name="ReferenceMapWidth" 	Description="" Domain="text" DefaultValue="180" ConfigurationGroup="Map" ConfigurationId="ReferenceMapWidth" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		
+		<!--	Hidden parameters to pass the RescaleSkipX/RescaleSkipY value tha were used when upscaling (used to create the correspondance tables between the coordinates of the current map and those of the reference map)
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="RescaleSkipX" 	Name="RescaleSkipX" 	Description="" Domain="text" DefaultValue="4" ConfigurationGroup="Map" ConfigurationId="RescaleSkipX" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="RescaleSkipY" 	Name="RescaleSkipY" 	Description="" Domain="text" DefaultValue="5" ConfigurationGroup="Map" ConfigurationId="RescaleSkipY" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		
+		<!--	Parameter to set the map name to the reference map that will be used to find the tables for TSL
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomName" 				Name="LOC_MAP_REFERENCE_DB_NAME" 		Description="" Domain="LargestEarthCustomDBName" DefaultValue="GiantEarth" 	ConfigurationGroup="Map" ConfigurationId="MapName" 		GroupId="MapOptions" SortIndex="230"/>
+
+		<!--	Parameters to use only direct script reference instead of the reference map for Natural Wonders and Extra Placement tables
+		-->	
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="MapScriptRefForNW" 	Name="LOC_MAP_SCRIPT_REF_FOR_NW_NAME" Description="LOC_MAP_SCRIPT_REF_FOR_NW_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Map" ConfigurationId="MapScriptRefForNW" 		GroupId="MapOptions" SortIndex="231"/>	
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="MapScriptRefForExtra" Name="LOC_MAP_SCRIPT_REF_FOR_XT_NAME" Description="LOC_MAP_SCRIPT_REF_FOR_XT_DESC" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="MapScriptRefForExtra" 	GroupId="MapOptions" SortIndex="231"/>	
+		
+		<!--	Hidden parameters to adjust features placement when they are not imported
+		-->		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomEquator" 	Name="EquatorAdjustment" Description="" Domain="text" DefaultValue="-22"	ConfigurationGroup="Map" ConfigurationId="EquatorAdjustment" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomJungle" 	Name="JunglePercent" Description="" Domain="text" DefaultValue="16" ConfigurationGroup="Map" ConfigurationId="JunglePercent" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomForest" 	Name="ForestPercent" Description="" Domain="text" DefaultValue="22" ConfigurationGroup="Map" ConfigurationId="ForestPercent" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomMarsh" 	Name="MarshPercent" Description="" Domain="text" DefaultValue="2" 	ConfigurationGroup="Map" ConfigurationId="MarshPercent" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomOasis" 	Name="OasisPercent" Description="" Domain="text" DefaultValue="1" 	ConfigurationGroup="Map" ConfigurationId="OasisPercent" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomIceNorth" 	Name="IceNorth" Description="" Domain="text" DefaultValue="5" ConfigurationGroup="Map" ConfigurationId="IceNorth" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthCustomIceSouth" 	Name="IceSouth" Description="" Domain="text" DefaultValue="4" ConfigurationGroup="Map" ConfigurationId="IceSouth" GroupId="MapOptions" Visible="0" SortIndex="2010"/>
+
+		<!--	Hidden parameters to specifiy the uncut map size
+		-->
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthUncutMapWidth"		Name="UncutMapWidth" 	Description="" Domain="text" DefaultValue="230" ConfigurationGroup="Map" ConfigurationId="UncutMapWidth" 	GroupId="MapOptions" Visible="0" SortIndex="2025"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" 	ParameterId="LargestEarthUncutMapHeight"	Name="UncutMapHeight" 	Description="" Domain="text" DefaultValue="116" ConfigurationGroup="Map" ConfigurationId="UncutMapHeight" 	GroupId="MapOptions" Visible="0" SortIndex="2025"/>
+
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomSection" 		Name="LOC_MAP_SECTION_NAME"	Description="LOC_MAP_SECTION_DESCRIPTION" 	Domain="GiantEarthSection" 	DefaultValue="SECTION_FULL" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	GroupId="MapOptions" SortIndex="221"/>
+
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomFullStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomFullStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomFullEndX" 		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="229" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomFullEndY" 		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="115" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="LargestEarthCustomLatitude" 	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="LargestEarthCustomLongitude" 	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomEndX" 		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="LargestEarthCustomLatitude" 	DefaultValue="229" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomEndY" 		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="LargestEarthCustomLongitude" 	DefaultValue="115" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomEuropeStartX" 		Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomEuropeStartY" 		Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="54" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomEuropeEndX"		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="64" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomEuropeEndY"		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="115" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMediterraneaStartX"Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="2" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMediterraneaStartY"Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="56" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMediterraneaEndX"	Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="62" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMediterraneaEndY"	Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="86" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMiddleEastStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="30" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMiddleEastStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="42" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMiddleEastEndX"	Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="74" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomMiddleEastEndY"	Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="80" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAmericasStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="152" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAmericasStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAmericasEndX"		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="229" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAmericasEndY"		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="115" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomColonizationStartX"Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="182" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomColonizationStartY"Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="28" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomColonizationEndX"	Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="56" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomColonizationEndY"	Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="110" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomOldWorldStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomOldWorldStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="0" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomOldWorldEndX"		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="154" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomOldWorldEndY"		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="115" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAfricaStartX" 		Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="4" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAfricaStartY" 		Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="6" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAfricaEndX"		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="56" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomAfricaEndY"		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="68" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomLargeAsiaStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="40" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomLargeAsiaStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="10" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomLargeAsiaEndX"		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="140" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomLargeAsiaEndY"		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="96" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomSouthEastAsiaStartX" Name="LOC_MAP_STARTX_NAME"Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="90" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomSouthEastAsiaStartY" Name="LOC_MAP_STARTY_NAME"Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="24" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomSouthEastAsiaEndX"	Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="140" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomSouthEastAsiaEndY"	Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="76" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomPacificStartX" 	Name="LOC_MAP_STARTX_NAME"	Description="LOC_MAP_STARTX_DESCRIPTION" 	Domain="text"	 Visible="0"	DefaultValue="108" 	ConfigurationGroup="Map" ConfigurationId="StartX" 	GroupId="MapOptions" SortIndex="222"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomPacificStartY" 	Name="LOC_MAP_STARTY_NAME"	Description="LOC_MAP_STARTY_DESCRIPTION" 	Domain="text" 	 Visible="0"	DefaultValue="6" 	ConfigurationGroup="Map" ConfigurationId="StartY" 	GroupId="MapOptions" SortIndex="223"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomPacificEndX"		Name="LOC_MAP_ENDX_NAME"	Description="LOC_MAP_ENDX_DESCRIPTION"		Domain="text"	 Visible="0"	DefaultValue="208" 	ConfigurationGroup="Map" ConfigurationId="EndX"		GroupId="MapOptions" SortIndex="224"/>
+		<Row Key1="Map" Key2="LargestEarthCustom.lua" ParameterId="LargestEarthCustomPacificEndY"		Name="LOC_MAP_ENDY_NAME"	Description="LOC_MAP_ENDY_DESCRIPTION" 		Domain="text" 	 Visible="0"	DefaultValue="104" 	ConfigurationGroup="Map" ConfigurationId="EndY"		GroupId="MapOptions" SortIndex="225"/>
+		
+	</Parameters>
+	
+	<DomainValues>
+	
+		<Replace Domain="LargestEarthCustomDBName" Value="GiantEarth" 			Name="LOC_MAP_GIANT_DB_NAME" 		Description="LOC_MAP_GIANT_DB_DESCRIPTION"			SortIndex="10"/>
+		<Replace Domain="LargestEarthCustomDBName" Value="LargestEarthCustom" 	Name="LOC_MAP_LARGESTEARTH_DB_NAME" Description="LOC_MAP_LARGESTEARTH_DB_DESCRIPTION"	SortIndex="30"/>
+		
+		<Replace Domain="LargestEarthCustomResourcesPlacement" Value="PLACEMENT_DEFAULT" 	Name="LOC_MAP_RESOURCES_PLACEMENT_DEFAULT_NAME" Description="LOC_MAP_RESOURCES_PLACEMENT_DEFAULT_DESCRIPTION" 	SortIndex="10"/>
+		<Replace Domain="LargestEarthCustomResourcesPlacement" Value="PLACEMENT_EMPTY" 		Name="LOC_MAP_PLACEMENT_EMPTY_NAME" 			Description="LOC_MAP_PLACEMENT_EMPTY_DESCRIPTION" 				SortIndex="30"/>
+
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_FULL" 			Name="LOC_MAP_SECTION_FULL_NAME"			Description="LOC_MAP_SECTION_FULL_DESCRIPTION"				SortIndex="0"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_CUSTOM" 		Name="LOC_MAP_SECTION_CUSTOM_NAME"			Description="LOC_MAP_SECTION_CUSTOM_DESCRIPTION"			SortIndex="1"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_EUROPE" 		Name="LOC_MAP_SECTION_EUROPE_NAME"			Description="LOC_MAP_SECTION_EUROPE_DESCRIPTION"			SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_MEDITERRANEA"	Name="LOC_MAP_SECTION_MEDITERRANEA_NAME"	Description="LOC_MAP_SECTION_MEDITERRANEA_DESCRIPTION"		SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_MIDDLE_EAST"	Name="LOC_MAP_SECTION_MIDDLE_EAST_NAME"		Description="LOC_MAP_SECTION_MIDDLE_EAST_DESCRIPTION"		SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_AMERICAS" 		Name="LOC_MAP_SECTION_AMERICAS_NAME"		Description="LOC_MAP_SECTION_AMERICAS_DESCRIPTION"			SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_COLONIZATION" 	Name="LOC_MAP_SECTION_COLONIZATION_NAME"	Description="LOC_MAP_SECTION_COLONIZATION_DESCRIPTION"		SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_OLD_WORLD" 	Name="LOC_MAP_SECTION_OLD_WORLD_NAME"		Description="LOC_MAP_SECTION_OLD_WORLD_DESCRIPTION"			SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_AFRICA" 		Name="LOC_MAP_SECTION_AFRICA_NAME"			Description="LOC_MAP_SECTION_AFRICA_DESCRIPTION"			SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_LARGE_ASIA" 	Name="LOC_MAP_SECTION_LARGE_ASIA_NAME"		Description="LOC_MAP_SECTION_LARGE_ASIA_DESCRIPTION"		SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_SOUTH_EAST_ASIA"Name="LOC_MAP_SECTION_SOUTH_EAST_ASIA_NAME"Description="LOC_MAP_SECTION_SOUTH_EAST_ASIA_DESCRIPTION"	SortIndex="100"/>
+		<Replace Domain="LargestEarthCustomSection" Value="SECTION_PACIFIC" 		Name="LOC_MAP_SECTION_PACIFIC_NAME"			Description="LOC_MAP_SECTION_PACIFIC_DESCRIPTION"			SortIndex="100"/>
+		
+		<Replace Domain="LargestEarthCustomLatitude" Value="0" 		Name="LOC_MAP_WEST_EUROPE_NAME" 			Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="0"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="20" 	Name="LOC_MAP_ALPS_NAME" 					Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="5"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="34" 	Name="LOC_MAP_MID_MEDITERRANEA_NAME" 		Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="7"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="44" 	Name="LOC_MAP_EAST_MEDITERRANEA_NAME" 		Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="10"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="50" 	Name="LOC_MAP_EAST_EUROPE_AFRICA_NAME" 		Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="20"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="74" 	Name="LOC_MAP_THE_URALS_WEST_INDIA_NAME" 	Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="30"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="88" 	Name="LOC_MAP_CENTRAL_ASIA_NAME" 			Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="40"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="108" 	Name="LOC_MAP_EAST_ASIA_WEST_AUSTRALIA_NAME"Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="50"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="153" 	Name="LOC_MAP_BERING_STRAIT_NAME" 			Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="60"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="170" 	Name="LOC_MAP_WEST_COAST_NAME" 				Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="70"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="184" 	Name="LOC_MAP_GULF_OF_MEXICO_NAME" 			Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="80"/>
+		<Replace Domain="LargestEarthCustomLatitude" Value="229" 	Name="LOC_MAP_EAST_AMERICA_NAME" 			Description="LOC_MAP_LATITUDE_NAME" 	SortIndex="100"/>
+		
+		<Replace Domain="LargestEarthCustomLongitude" Value="0" 	Name="LOC_MAP_SOUTH_POLE_NAME" 								Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="10"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="7" 	Name="LOC_MAP_SOUTH_AFRICA_AMERICA_NAME"					Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="20"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="22" 	Name="LOC_MAP_MADAGASCAR_NAME"								Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="30"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="44" 	Name="LOC_MAP_EQUATOR_NAME" 								Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="40"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="50" 	Name="LOC_MAP_NORTH_AFRICA_SOUTH_ASIA_CARIBBEAN_NAME" 		Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="50"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="62" 	Name="LOC_MAP_GIBRALTAR_SOUTH_JAPAN_CENTRAL_AMERICA_NAME" 	Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="60"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="82" 	Name="LOC_MAP_NORTH_MEDITERRANEA_ASIA_NAME" 				Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="70"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="100" 	Name="LOC_MAP_NORTH_AMERICA_EUROPE_NAME" 					Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="80"/>
+		<Replace Domain="LargestEarthCustomLongitude" Value="115" 	Name="LOC_MAP_NORTH_POLE_NAME" 								Description="LOC_MAP_LONGITUDE_NAME" 	SortIndex="100"/>
+		
+	</DomainValues>
+	
+
+	<ParameterDependencies>
+	
+		<Replace ParameterId="UseRelativePlacement"		ConfigurationGroup="Map" ConfigurationId="MapName" 		Operator="Equals" 		ConfigurationValue="GiantEarth"/>
+		<Replace ParameterId="UseRelativeFixedTable"	ConfigurationGroup="Map" ConfigurationId="MapName" 		Operator="Equals" 		ConfigurationValue="GiantEarth"/>
+	
+		<Replace ParameterId="ResourcesPlacement"		ConfigurationGroup="Map" ConfigurationId="MapName" 		Operator="NotEquals" 	ConfigurationValue="LargestEarth"/>	
+		
+		<Replace ParameterId="MapScriptRefForNW" 		ConfigurationGroup="Map" ConfigurationId="MapName" 		Operator="NotEquals" 	ConfigurationValue="LargestEarthCustom"/>
+		<Replace ParameterId="MapScriptRefForExtra" 	ConfigurationGroup="Map" ConfigurationId="MapName" 		Operator="NotEquals" 	ConfigurationValue="LargestEarthCustom"/>
+		
+		<Replace ParameterId="MapScriptRefForNW" 		ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" 	Operator="NotEquals" 	ConfigurationValue="LargestEarthCustom"/>
+		<Replace ParameterId="MapScriptRefForExtra" 	ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" 	Operator="NotEquals" 	ConfigurationValue="LargestEarthCustom"/>
+		
+
+	</ParameterDependencies>
+	
+	<ParameterDependencies>
+	
+		<Replace ParameterId="LargestEarthCustomStartX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_CUSTOM"/>
+		<Replace ParameterId="LargestEarthCustomStartY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_CUSTOM"/>
+		<Replace ParameterId="LargestEarthCustomEndX" 		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_CUSTOM"/>
+		<Replace ParameterId="LargestEarthCustomEndY" 		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_CUSTOM"/>
+		
+		<Replace ParameterId="LargestEarthCustomFullStartX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_FULL"/>
+		<Replace ParameterId="LargestEarthCustomFullStartY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_FULL"/>
+		<Replace ParameterId="LargestEarthCustomFullEndX" 		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_FULL"/>
+		<Replace ParameterId="LargestEarthCustomFullEndY" 		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_FULL"/>
+		
+		<Replace ParameterId="LargestEarthCustomEuropeStartX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_EUROPE"/>
+		<Replace ParameterId="LargestEarthCustomEuropeStartY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_EUROPE"/>
+		<Replace ParameterId="LargestEarthCustomEuropeEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_EUROPE"/>
+		<Replace ParameterId="LargestEarthCustomEuropeEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_EUROPE"/>
+		
+		<Replace ParameterId="LargestEarthCustomMediterraneaStartX" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MEDITERRANEA"/>
+		<Replace ParameterId="LargestEarthCustomMediterraneaStartY" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MEDITERRANEA"/>
+		<Replace ParameterId="LargestEarthCustomMediterraneaEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MEDITERRANEA"/>
+		<Replace ParameterId="LargestEarthCustomMediterraneaEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MEDITERRANEA"/>
+		
+		<Replace ParameterId="LargestEarthCustomMiddleEastStartX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MIDDLE_EAST"/>
+		<Replace ParameterId="LargestEarthCustomMiddleEastStartY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MIDDLE_EAST"/>
+		<Replace ParameterId="LargestEarthCustomMiddleEastEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MIDDLE_EAST"/>
+		<Replace ParameterId="LargestEarthCustomMiddleEastEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_MIDDLE_EAST"/>
+		
+		<Replace ParameterId="LargestEarthCustomAmericasStartX" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AMERICAS"/>
+		<Replace ParameterId="LargestEarthCustomAmericasStartY" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AMERICAS"/>
+		<Replace ParameterId="LargestEarthCustomAmericasEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AMERICAS"/>
+		<Replace ParameterId="LargestEarthCustomAmericasEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AMERICAS"/>
+		
+		<Replace ParameterId="LargestEarthCustomColonizationStartX" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_COLONIZATION"/>
+		<Replace ParameterId="LargestEarthCustomColonizationStartY" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_COLONIZATION"/>
+		<Replace ParameterId="LargestEarthCustomColonizationEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_COLONIZATION"/>
+		<Replace ParameterId="LargestEarthCustomColonizationEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_COLONIZATION"/>
+		
+		<Replace ParameterId="LargestEarthCustomOldWorldStartX" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_OLD_WORLD"/>
+		<Replace ParameterId="LargestEarthCustomOldWorldStartY" ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_OLD_WORLD"/>
+		<Replace ParameterId="LargestEarthCustomOldWorldEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_OLD_WORLD"/>
+		<Replace ParameterId="LargestEarthCustomOldWorldEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_OLD_WORLD"/>
+		
+		<Replace ParameterId="LargestEarthCustomAfricaStartX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AFRICA"/>
+		<Replace ParameterId="LargestEarthCustomAfricaStartY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AFRICA"/>
+		<Replace ParameterId="LargestEarthCustomAfricaEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AFRICA"/>
+		<Replace ParameterId="LargestEarthCustomAfricaEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_AFRICA"/>
+		
+		<Replace ParameterId="LargestEarthCustomLargeAsiaStartX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_LARGE_ASIA"/>
+		<Replace ParameterId="LargestEarthCustomLargeAsiaStartY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_LARGE_ASIA"/>
+		<Replace ParameterId="LargestEarthCustomLargeAsiaEndX" 		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_LARGE_ASIA"/>
+		<Replace ParameterId="LargestEarthCustomLargeAsiaEndY"		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_LARGE_ASIA"/>
+		
+		<Replace ParameterId="LargestEarthCustomSouthEastAsiaStartX"	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_SOUTH_EAST_ASIA"/>
+		<Replace ParameterId="LargestEarthCustomSouthEastAsiaStartY"	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_SOUTH_EAST_ASIA"/>
+		<Replace ParameterId="LargestEarthCustomSouthEastAsiaEndX"		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_SOUTH_EAST_ASIA"/>
+		<Replace ParameterId="LargestEarthCustomSouthEastAsiaEndY"		ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_SOUTH_EAST_ASIA"/>
+		
+		<Replace ParameterId="LargestEarthCustomPacificStartX"	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_PACIFIC"/>
+		<Replace ParameterId="LargestEarthCustomPacificStartY"	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_PACIFIC"/>
+		<Replace ParameterId="LargestEarthCustomPacificEndX" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_PACIFIC"/>
+		<Replace ParameterId="LargestEarthCustomPacificEndY" 	ConfigurationGroup="Map" ConfigurationId="MapSection" 	Operator="Equals" 	ConfigurationValue="SECTION_PACIFIC"/>
+		
+	</ParameterDependencies>
+	
+	<MapSupportedValues>
+		<!--
+		<Row Map="LargestEarthCustom.lua" Domain="ResourcesPlacement" Value="PLACEMENT_DEFAULT" />
+		<Row Map="LargestEarthCustom.lua" Domain="ResourcesPlacement" Value="PLACEMENT_EMPTY" />
+		 -->
+		<Row Map="LargestEarthCustom.lua" Domain="LowLandPlacement" Value="PLACEMENT_EMPTY" />
+		<Row Map="LargestEarthCustom.lua" Domain="LowLandPlacement" Value="PLACEMENT_DEFAULT" />
+		<Row Map="LargestEarthCustom.lua" Domain="LowLandPlacement" Value="PLACEMENT_DEEP" />
+		
+	</MapSupportedValues>
+	
+	
+	<MapUnSupportedValues>
+		<!--
+		<Row Map="PlayEuropeAgain.lua" Domain="StandardPlayers" Value="CIVILIZATION_AMERICA" />
+		 -->
+	</MapUnSupportedValues>
+	
+</GameInfo>

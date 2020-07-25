@@ -175,7 +175,7 @@ VALUES	(
 		'RULESET_EXPANSION_2'
 		),
 		(
-		'CSE_Favor_Suzerain',
+		'CSE_Favor_Consular',
 		'Game',
 		'WORLD_BUILDER',
 		'NotEquals',
@@ -205,3 +205,65 @@ VALUES	(
 		NULL,
 		10
 		);
+
+
+-- ETHIOPIA CITY STATE RULES
+
+INSERT OR REPLACE INTO Parameters
+		(ParameterId,
+		Name,
+		Description,
+		Domain,
+		DefaultValue,
+		ConfigurationGroup,
+		ConfigurationId,
+		NameArrayConfigurationId,
+		GroupId,
+		SortIndex)
+SELECT	'CSE_Ethiopia_Mode',
+		'LOC_CSE_ETHIOPIA_MODE_NAME',
+		'LOC_CSE_ETHIOPIA_MODE_DESC',
+		'bool',
+		1,
+		'Game',
+		'CSE_ETHIOPIA_OPTION',
+		'GAMEMODES_ENABLED_NAMES',
+		'GameModes',
+		153
+WHERE EXISTS (SELECT * FROM Parameters WHERE ParameterId = 'GameMode_SecretSocieties');
+
+INSERT OR REPLACE INTO ParameterDependencies
+		(ParameterId,
+		ConfigurationGroup,
+		ConfigurationId,
+		Operator,
+		ConfigurationValue)
+SELECT	'CSE_Ethiopia_Mode',
+		'Game',
+		'WORLD_BUILDER',
+		'NotEquals',
+		1
+WHERE EXISTS (SELECT * FROM Parameters WHERE ParameterId = 'GameMode_SecretSocieties');
+
+INSERT OR REPLACE INTO GameModeItems
+		(GameModeType,
+		Name,
+		Description,
+		Portrait,
+		Background,
+		Icon,
+		UnitIcon,
+		UnitDescription,
+		UnitName,
+		SortIndex)
+SELECT	'CSE_ETHIOPIA_OPTION',
+		'LOC_CSE_ETHIOPIA_MODE_NAME',
+		'LOC_CSE_ETHIOPIA_MODE_DESC',
+		'LEADER_HOJO_BACKGROUND',
+		'LEADER_HOJO_BACKGROUND',
+		'ICON_CSE_Ethiopia_Mode',
+		NULL,
+		NULL,
+		NULL,
+		10
+WHERE EXISTS (SELECT * FROM Parameters WHERE ParameterId = 'GameMode_SecretSocieties');
